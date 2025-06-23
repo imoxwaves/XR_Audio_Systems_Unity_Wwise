@@ -1,2 +1,45 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Archivos de Unity
+*.unity binary
+*.prefab binary
+*.asset binary
+*.mat binary
+*.controller binary
+*.anim binary
+*.meta text
+# Archivos de audio (Wwise)
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+# Archivos de Wwise
+*.wproj text
+*.bnk binary
+*.pck binary
+# Archivos de texto (scripts, configuraciones, etc.)
+*.cs text
+*.shader text
+*.json text
+*.txt text
+*.xml text
+*.md text
+# Archivos binarios (ignorar diferencias)
+*.dll binary
+*.exe binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj binary
+*.tga binary
+# Archivos de Git LFS (grandes)
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+# Ignorar cambios de fin de línea (evita conflictos en diferentes sistemas operativos)
+*.cs text eol=lf
+*.shader text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.unitypackage filter=lfs diff=lfs merge=lfs -text

@@ -37,6 +37,8 @@ TagManager:
   - UI
   - Environment
   - Player
+  - Player
+  - DynamicPose
   - 
   - 
   - 
@@ -47,10 +49,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Grabbable
+  - Hand
   - 
   - 
   - 

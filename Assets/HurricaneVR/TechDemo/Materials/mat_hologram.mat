@@ -42,5 +42,5 @@ Material:
     - __dirty: 0
     m_Colors:
     - <noninit>: {r: 1, g: 1, b: 1, a: 1}
-    - _Hologramcolor: {r: 0.8901961, g: 0, b: 0, a: 0}
+    - _Hologramcolor: {r: 0.035848916, g: 0.4034296, b: 1, a: 0}
   m_BuildTextureStacks: []

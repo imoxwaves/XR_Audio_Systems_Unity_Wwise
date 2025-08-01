@@ -205,6 +205,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: swinging_door
       objectReference: {fileID: 0}
+    - target: {fileID: 8801391103436243010, guid: a82b646b47d66a94da1fe1460ef53398,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.655
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801391103436243010, guid: a82b646b47d66a94da1fe1460ef53398,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.161
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

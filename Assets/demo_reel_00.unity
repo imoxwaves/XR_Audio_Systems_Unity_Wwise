@@ -16551,12 +16551,22 @@ PrefabInstance:
     - target: {fileID: 3164866306463935697, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e,
         type: 3}
       propertyPath: EyeHeight
-      value: 1.66
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164866306463935697, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e,
+        type: 3}
+      propertyPath: SitStanding
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3164866306463935697, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e,
         type: 3}
       propertyPath: CameraYOffset
-      value: -0.5
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164866306463935697, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e,
+        type: 3}
+      propertyPath: SaveCalibrationHeight
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5456306615283470788, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e,
         type: 3}

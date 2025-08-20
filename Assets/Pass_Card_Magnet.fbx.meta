@@ -13,17 +13,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MagnetCardAlbedo_Magnet
-    second: {fileID: 2800000, guid: 5ad7d82b191eeb243a6d6fad5f8a763c, type: 3}
+    second: {fileID: 2800000, guid: e53fc0afe9394ca4e96794ca2a358077, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MagnetCardMetal
-    second: {fileID: 2800000, guid: 2d3471d3341269d48991527041cfaeb9, type: 3}
+    second: {fileID: 2800000, guid: 1bf51540c50f3e7499e11c8a3cc46322, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MagnetCardRough
-    second: {fileID: 2800000, guid: 7d44344fa1905b545ae54d4155dc86f7, type: 3}
+    second: {fileID: 2800000, guid: 6dc9d3f3fb20e154cb1eb160658bb637, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

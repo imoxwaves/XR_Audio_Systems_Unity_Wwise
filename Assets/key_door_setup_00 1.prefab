@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2554666626693504928}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.70710677, z: 0.70710677, w: 0}
-  m_LocalPosition: {x: 0.9266, y: 0.924, z: -0.45}
+  m_LocalPosition: {x: 0.9266, y: 1.242, z: -0.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -99,12 +99,12 @@ MonoBehaviour:
   Interval: 0.2
   LastMove: 0
   Positions:
-  - {x: 0.9266, y: 0.924, z: -0.4}
-  - {x: 0.9266, y: 0.924, z: -0.3}
-  - {x: 0.9266, y: 0.924, z: -0.25}
-  - {x: 0.9266, y: 0.924, z: -0.2}
-  - {x: 0.9266, y: 0.924, z: -0.18}
-  - {x: 0.9266, y: 0.924, z: -0.15}
+  - {x: 0.9266, y: 1.242, z: -0.45}
+  - {x: 0.9266, y: 1.242, z: -0.35}
+  - {x: 0.9266, y: 1.242, z: -0.3}
+  - {x: 0.9266, y: 1.242, z: -0.25}
+  - {x: 0.9266, y: 1.242, z: -0.2}
+  - {x: 0.9266, y: 1.242, z: -0.15}
   Index: 0
   AddPosition: 
 --- !u!1 &5238062147064212117
@@ -158,12 +158,12 @@ PrefabInstance:
     - target: {fileID: 1314597443474706977, guid: c0b538d32be87ba4ba2cb7f26678a3ff,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9259999
+      value: 2.244
       objectReference: {fileID: 0}
     - target: {fileID: 1314597443474706977, guid: c0b538d32be87ba4ba2cb7f26678a3ff,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.3900002
+      value: -0.39
       objectReference: {fileID: 0}
     - target: {fileID: 1314597443474706977, guid: c0b538d32be87ba4ba2cb7f26678a3ff,
         type: 3}
@@ -462,7 +462,7 @@ PrefabInstance:
     - target: {fileID: 8694592658303115209, guid: 55dd4e3cff92c2a4cbdc8bc3897fa0ae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.921
+      value: 1.239
       objectReference: {fileID: 0}
     - target: {fileID: 8694592658303115209, guid: 55dd4e3cff92c2a4cbdc8bc3897fa0ae,
         type: 3}
@@ -642,6 +642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LLave
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834570079535237275, guid: c0b538d32be87ba4ba2cb7f26678a3ff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3076844694577967905, guid: c0b538d32be87ba4ba2cb7f26678a3ff, type: 3}

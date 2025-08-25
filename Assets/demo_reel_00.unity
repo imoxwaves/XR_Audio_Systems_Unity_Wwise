@@ -474,7 +474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Transparent: 7
   DyeColor: {r: 1, g: 1, b: 1, a: 1}
-  TurbidityColor: {r: 0.02745098, g: 0.25490198, b: 0.3137255, a: 1}
+  TurbidityColor: {r: 0.021409739, g: 0.29711208, b: 0.3660378, a: 1}
   UseGlobalWind: 0
   GlobalWindZone: {fileID: 0}
   GlobalWindZoneSpeedMultiplier: 1
@@ -486,12 +486,12 @@ MonoBehaviour:
   GlobalFftWavesCascades: 4
   GlobalWavesAreaScale: 1
   GlobalTimeScale: 1
-  LocalWindSpeed: 0.8
+  LocalWindSpeed: 0.6
   LocalWindRotation: 0
-  LocalWindTurbulence: 0.009
+  LocalWindTurbulence: 0.013
   LocalFftWavesQuality: 128
   LocalFftWavesCascades: 4
-  LocalWavesAreaScale: 1
+  LocalWavesAreaScale: 1.26
   LocalTimeScale: 1
   FoamProfile: 2
   UseOceanFoam: 0
@@ -524,12 +524,12 @@ MonoBehaviour:
   ReflectSun: 1
   ReflectedSunCloudinessStrength: 0.04
   ReflectedSunStrength: 1
-  RefractionProfile: 2
+  RefractionProfile: 0
   RefractionMode: 1
-  RefractionAproximatedDepth: 2
+  RefractionAproximatedDepth: 0.25
   RefractionSimpleStrength: 0.25
   UseRefractionDispersion: 1
-  RefractionDispersionStrength: 0.35
+  RefractionDispersionStrength: 0.25
   RefractionResolution: 50
   VolumetricLightProfile: 2
   UseVolumetricLight: 1
@@ -587,7 +587,7 @@ MonoBehaviour:
   UnderwaterTransparentOffset: 5
   MeshProfile: 0
   WaterMeshType: 1
-  UseAquariumMode: 1
+  UseAquariumMode: 0
   OceanDetailingFarDistance: 1000
   RiverSplineNormalOffset: 1
   RiverSplineVertexCountBetweenPoints: 20
@@ -42258,13 +42258,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408243213}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.006, y: -0.29, z: 0.07}
-  m_LocalScale: {x: 9.162768, y: 1.0468358, z: 4.35072}
+  m_LocalRotation: {x: -0, y: 0.00046006043, z: -0, w: -0.9999999}
+  m_LocalPosition: {x: 0.035, y: -0.22, z: -0.228}
+  m_LocalScale: {x: 8.228473, y: 0.25, z: 4.503712}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126648760}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.089, z: -14.139}
 --- !u!65 &1408243215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42282,10 +42282,10 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -2.5245109, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1408243216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42302,8 +42302,8 @@ MonoBehaviour:
   Settings: {fileID: 17235555}
   WaterRenderingActive: 1
   WorldSpaceBounds:
-    m_Center: {x: 4.884979, y: -0.5057147, z: -2.74}
-    m_Extent: {x: 12.996929, y: 0.5308242, z: 2.17536}
+    m_Center: {x: 5.2549996, y: -0.071353465, z: -2.988}
+    m_Extent: {x: 4.1163063, y: 0.13029307, z: 2.2556407}
   ShowColorSettings: 1
   ShowExpertColorSettings: 0
   ShowWaves: 1
@@ -42325,7 +42325,7 @@ MonoBehaviour:
   ShorelineInEditMode: 0
   ShowExpertShorelineSettings: 0
   ShowFoamSettings: 0
-  ShowCausticEffectSettings: 0
+  ShowCausticEffectSettings: 1
   ShowExpertCausticEffectSettings: 0
   CausticDepthScaleInEditMode: 0
   ShowUnderwaterEffectSettings: 1
@@ -66176,8 +66176,8 @@ Transform:
   m_GameObject: {fileID: 2126648759}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.902, y: 0.304, z: -2.81}
-  m_LocalScale: {x: 2.8369, y: 1, z: 1}
+  m_LocalPosition: {x: 5.22, y: 0.271, z: -2.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1408243214}

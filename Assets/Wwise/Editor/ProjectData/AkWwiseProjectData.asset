@@ -1,0 +1,760 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5bed18e1f8d54f4a8d55674c6a962bc, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: abca8ca5a684fe4c9c8cafb5adbddcd8
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: abca8ca5a684fe4c9c8cafb5adbddcd8
+    GuidInternal: 
+    m_lastTime: -8584591069788947353
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+    GuidInternal: 
+    m_lastTime: -8584567556305566384
+    List:
+    - name: Boxes
+      guid: d841daf08722db4e9132d2d10dad1f41
+      id: 2016903052
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Boxes
+        ObjectType: 2
+        guid: d841daf08722db4e9132d2d10dad1f41
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Boxes
+    - name: Footsteps
+      guid: ce95296810322c43a2f010e1dbe6ae95
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Footsteps
+        ObjectType: 2
+        guid: ce95296810322c43a2f010e1dbe6ae95
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Footsteps
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 0f3eb041039b2a48a2a8d47c3b9fe5d9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 0f3eb041039b2a48a2a8d47c3b9fe5d9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: Reverbs
+      guid: c1b5a9a107332a45b27e3620095465bc
+      id: 3545700988
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 2
+        guid: c1b5a9a107332a45b27e3620095465bc
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs
+    - name: Room1_Reverb
+      guid: 2aed7d35ba29f347811473614f55f044
+      id: 3284497960
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 2
+        guid: c1b5a9a107332a45b27e3620095465bc
+      - ElementName: Room1_Reverb
+        ObjectType: 1
+        guid: 2aed7d35ba29f347811473614f55f044
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Room1_Reverb
+    - name: Room2_Reverb
+      guid: bb8aa7a388fa28418e656ea3795f0cf5
+      id: 2010806857
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 2
+        guid: c1b5a9a107332a45b27e3620095465bc
+      - ElementName: Room2_Reverb
+        ObjectType: 1
+        guid: bb8aa7a388fa28418e656ea3795f0cf5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Room2_Reverb
+    - name: Snow_Field
+      guid: 3a99c1630abdc04d9d0c075161dcd25f
+      id: 2181731585
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Snow_Field
+        ObjectType: 2
+        guid: 3a99c1630abdc04d9d0c075161dcd25f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Snow_Field
+    - name: Tunnel_Reverb
+      guid: d2c45310d616f6428c14edea124a3b30
+      id: 3400062578
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 2
+        guid: c1b5a9a107332a45b27e3620095465bc
+      - ElementName: Tunnel_Reverb
+        ObjectType: 1
+        guid: d2c45310d616f6428c14edea124a3b30
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6b5dbf933771434abcf12f27678f0c86
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 6b5dbf933771434abcf12f27678f0c86
+    GuidInternal: 
+    m_lastTime: -8584567428239471306
+    List:
+    - name: Main
+      guid: 6eb0139db663c148bda88cab8fa270f7
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6b5dbf933771434abcf12f27678f0c86
+      - ElementName: Main
+        ObjectType: 7
+        guid: 6eb0139db663c148bda88cab8fa270f7
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c7babd41235969408cbcdd6a340808cb
+    ParentPath: Events\Default Work Unit
+    guid: c7babd41235969408cbcdd6a340808cb
+    GuidInternal: 
+    m_lastTime: -8584567428239577077
+    List:
+    - name: Box
+      guid: 4952eac9e8224347a490be7f6db3cfd1
+      id: 546945280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Box
+        ObjectType: 4
+        guid: 4952eac9e8224347a490be7f6db3cfd1
+      Path: Events\Default Work Unit\Box
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: 02b3eaaf17a4784b9b807f960644125a
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 02b3eaaf17a4784b9b807f960644125a
+      Path: Events\Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: landing
+      guid: a372152232fd374aa4501db59d439fa8
+      id: 2548270042
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: landing
+        ObjectType: 4
+        guid: a372152232fd374aa4501db59d439fa8
+      Path: Events\Default Work Unit\landing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 01129987f628c447846d29a126c3d336
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Music
+        ObjectType: 4
+        guid: 01129987f628c447846d29a126c3d336
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Digital_Horror___AMB___Pulsating_breathe
+      guid: 34d3e48b6f79844eb23eae22d9cc9c04
+      id: 1784581504
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Box
+        ObjectType: 4
+        guid: 4952eac9e8224347a490be7f6db3cfd1
+      - ElementName: Play_Digital_Horror___AMB___Pulsating_breathe
+        ObjectType: 3
+        guid: 34d3e48b6f79844eb23eae22d9cc9c04
+      Path: Events\Default Work Unit\Box\Play_Digital_Horror___AMB___Pulsating_breathe
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps
+      guid: 1f7566f58abef24faac894bf3feb5655
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 02b3eaaf17a4784b9b807f960644125a
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 1f7566f58abef24faac894bf3feb5655
+      Path: Events\Default Work Unit\Footsteps\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.697215
+      minDuration: 0.166482
+    - name: Play_Landing
+      guid: 1127c5347edf0b478dadf72b42c7e111
+      id: 2323405115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: landing
+        ObjectType: 4
+        guid: a372152232fd374aa4501db59d439fa8
+      - ElementName: Play_Landing
+        ObjectType: 3
+        guid: 1127c5347edf0b478dadf72b42c7e111
+      Path: Events\Default Work Unit\landing\Play_Landing
+      maxAttenuation: 0
+      maxDuration: 0.539682
+      minDuration: 0.343343
+    - name: Play_Magic_Cube
+      guid: 2cf20a17b1a3da44ba75468ea5e40129
+      id: 404396553
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Box
+        ObjectType: 4
+        guid: 4952eac9e8224347a490be7f6db3cfd1
+      - ElementName: Play_Magic_Cube
+        ObjectType: 3
+        guid: 2cf20a17b1a3da44ba75468ea5e40129
+      Path: Events\Default Work Unit\Box\Play_Magic_Cube
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Playground
+      guid: 89ffb4bdc8470240923f742cf4cfa625
+      id: 2393638833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Music
+        ObjectType: 4
+        guid: 01129987f628c447846d29a126c3d336
+      - ElementName: Play_Playground
+        ObjectType: 3
+        guid: 89ffb4bdc8470240923f742cf4cfa625
+      Path: Events\Default Work Unit\Music\Play_Playground
+      maxAttenuation: 0
+      maxDuration: 500
+      minDuration: 500
+    - name: Play_SnowField
+      guid: b4bb4d5843200f47bd4f9e4c63e5bfd0
+      id: 2611174673
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Snow_Field
+        ObjectType: 4
+        guid: 67136b231bd393448fb0fe34139a711c
+      - ElementName: Play_SnowField
+        ObjectType: 3
+        guid: b4bb4d5843200f47bd4f9e4c63e5bfd0
+      Path: Events\Default Work Unit\Snow_Field\Play_SnowField
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Top_Floor
+      guid: a43a9a6c5298b6409f4add82e1e20508
+      id: 3801441452
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Music
+        ObjectType: 4
+        guid: 01129987f628c447846d29a126c3d336
+      - ElementName: Play_Top_Floor
+        ObjectType: 3
+        guid: a43a9a6c5298b6409f4add82e1e20508
+      Path: Events\Default Work Unit\Music\Play_Top_Floor
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Snow_Field
+      guid: 67136b231bd393448fb0fe34139a711c
+      id: 2181731585
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Snow_Field
+        ObjectType: 4
+        guid: 67136b231bd393448fb0fe34139a711c
+      Path: Events\Default Work Unit\Snow_Field
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Digital_Horror___AMB___Pulsating_breathe
+      guid: c898c3cb18434d40a46736a613e98435
+      id: 3109981814
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Box
+        ObjectType: 4
+        guid: 4952eac9e8224347a490be7f6db3cfd1
+      - ElementName: Stop_Digital_Horror___AMB___Pulsating_breathe
+        ObjectType: 3
+        guid: c898c3cb18434d40a46736a613e98435
+      Path: Events\Default Work Unit\Box\Stop_Digital_Horror___AMB___Pulsating_breathe
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4a65c3494adcc2489909266aaf8d1d72
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 4a65c3494adcc2489909266aaf8d1d72
+    GuidInternal: 
+    m_lastTime: -8584572909680855453
+    List:
+    - name: Speed
+      guid: 0e7a972dd012024fbf048aa9eabc94e0
+      id: 640949982
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a65c3494adcc2489909266aaf8d1d72
+      - ElementName: Speed
+        ObjectType: 13
+        guid: 0e7a972dd012024fbf048aa9eabc94e0
+      Path: Game Parameters\Default Work Unit\Speed
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 38cc4e38c88a5d45840595ac1092e577
+    ParentPath: States\Default Work Unit
+    guid: 38cc4e38c88a5d45840595ac1092e577
+    GuidInternal: 
+    m_lastTime: -8584571891984736877
+    List:
+    - name: OnSnowField
+      guid: 697848c026585547a1868b7214fc3a6e
+      id: 2477392413
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 38cc4e38c88a5d45840595ac1092e577
+      - ElementName: OnSnowField
+        ObjectType: 9
+        guid: 697848c026585547a1868b7214fc3a6e
+      Path: States\Default Work Unit\OnSnowField
+      values:
+      - name: None
+        guid: 8f8b90a8f347c64b81192f00897980dc
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38cc4e38c88a5d45840595ac1092e577
+        - ElementName: OnSnowField
+          ObjectType: 9
+          guid: 697848c026585547a1868b7214fc3a6e
+        - ElementName: None
+          ObjectType: 8
+          guid: 8f8b90a8f347c64b81192f00897980dc
+      - name: Off
+        guid: a063c1ee491a4b4b941249ac6acf96be
+        id: 930712164
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38cc4e38c88a5d45840595ac1092e577
+        - ElementName: OnSnowField
+          ObjectType: 9
+          guid: 697848c026585547a1868b7214fc3a6e
+        - ElementName: Off
+          ObjectType: 8
+          guid: a063c1ee491a4b4b941249ac6acf96be
+      - name: On
+        guid: 4c9f219f9e685545b8e067b0c6eedb2e
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38cc4e38c88a5d45840595ac1092e577
+        - ElementName: OnSnowField
+          ObjectType: 9
+          guid: 697848c026585547a1868b7214fc3a6e
+        - ElementName: On
+          ObjectType: 8
+          guid: 4c9f219f9e685545b8e067b0c6eedb2e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Tunnel_Revervb
+      guid: a9cf104cc57c54448245b98cc49b88f1
+      id: 1841922800
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 38cc4e38c88a5d45840595ac1092e577
+      - ElementName: Tunnel_Revervb
+        ObjectType: 9
+        guid: a9cf104cc57c54448245b98cc49b88f1
+      Path: States\Default Work Unit\Tunnel_Revervb
+      values:
+      - name: None
+        guid: bf2716c77bbbec43b400107793f7fe33
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38cc4e38c88a5d45840595ac1092e577
+        - ElementName: Tunnel_Revervb
+          ObjectType: 9
+          guid: a9cf104cc57c54448245b98cc49b88f1
+        - ElementName: None
+          ObjectType: 8
+          guid: bf2716c77bbbec43b400107793f7fe33
+      - name: Off
+        guid: 2dfe1f71c0c1134dab5e04aeaf68e27d
+        id: 930712164
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38cc4e38c88a5d45840595ac1092e577
+        - ElementName: Tunnel_Revervb
+          ObjectType: 9
+          guid: a9cf104cc57c54448245b98cc49b88f1
+        - ElementName: Off
+          ObjectType: 8
+          guid: 2dfe1f71c0c1134dab5e04aeaf68e27d
+      - name: On
+        guid: b5a7614c61f1884bb84b4e5e87dd3a8c
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38cc4e38c88a5d45840595ac1092e577
+        - ElementName: Tunnel_Revervb
+          ObjectType: 9
+          guid: a9cf104cc57c54448245b98cc49b88f1
+        - ElementName: On
+          ObjectType: 8
+          guid: b5a7614c61f1884bb84b4e5e87dd3a8c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: edf2bf221edaed498de21564f94ba42b
+    ParentPath: Switches\Default Work Unit
+    guid: edf2bf221edaed498de21564f94ba42b
+    GuidInternal: 
+    m_lastTime: -8584577181654944748
+    List:
+    - name: Footsteps
+      guid: 06a030be2ab9264292a8a889ba1c3278
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: edf2bf221edaed498de21564f94ba42b
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: 06a030be2ab9264292a8a889ba1c3278
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Dirt
+        guid: 6a2a1e2bec9aec4a834bd6be9fb32726
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: edf2bf221edaed498de21564f94ba42b
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 06a030be2ab9264292a8a889ba1c3278
+        - ElementName: Dirt
+          ObjectType: 10
+          guid: 6a2a1e2bec9aec4a834bd6be9fb32726
+      - name: Snow
+        guid: a96ea1bd906d7246a7320623b6151fa3
+        id: 787898836
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: edf2bf221edaed498de21564f94ba42b
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 06a030be2ab9264292a8a889ba1c3278
+        - ElementName: Snow
+          ObjectType: 10
+          guid: a96ea1bd906d7246a7320623b6151fa3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0b968e8c9f004242b7591a7042713c47
+    ParentPath: Triggers\Default Work Unit
+    guid: 0b968e8c9f004242b7591a7042713c47
+    GuidInternal: 
+    m_lastTime: -8584567428239323020
+    List:
+    - name: Top_Floor
+      guid: de114a87991e7f45a118253e4799bd16
+      id: 282632421
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b968e8c9f004242b7591a7042713c47
+      - ElementName: Top_Floor
+        ObjectType: 14
+        guid: de114a87991e7f45a118253e4799bd16
+      Path: Triggers\Default Work Unit\Top_Floor
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 06000000070000001200000014000000150000001600000017000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

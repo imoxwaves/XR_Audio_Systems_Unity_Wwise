@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F51E2DBF-F470-45E5-A302-052D6BAD2156}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F51E2DBF-F470-45E5-A302-052D6BAD2156}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main_Souncaster_Session" ID="{B4DAC90A-0F03-4E46-85BC-09D001806847}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Footsteps" ID="{F566751F-BE8A-4FF2-AAC8-94BF3FEB5655}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Top_Floor" ID="{6C9A3AA4-9852-40B6-9F4A-DD82E1E20508}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Playground" ID="{BDB4FF89-47C8-4002-923F-742CF4CFA625}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_Cube" ID="{170AF22C-A3B1-44DA-BA75-468EA5E40129}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{2D977A0E-12D0-4F02-BF04-8AA9EABC94E0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Off" ID="{711FFE2D-C1C0-4D13-AB5E-04AEAF68E27D}"/>
+						<CurrentStateRef Name="Off" ID="{EEC163A0-1A49-4B4B-9412-49AC6ACF96BE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

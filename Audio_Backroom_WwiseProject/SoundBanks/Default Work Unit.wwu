@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93BF5D6B-7137-4A43-BCF1-2F27678F0C86}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{93BF5D6B-7137-4A43-BCF1-2F27678F0C86}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{9D13B06E-63B6-48C1-BDA8-8CAB8FA270F7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Playground" ID="{BDB4FF89-47C8-4002-923F-742CF4CFA625}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Digital_Horror___AMB___Pulsating_breathe" ID="{CBC398C8-4318-404D-A467-36A613E98435}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Top_Floor" ID="{6C9A3AA4-9852-40B6-9F4A-DD82E1E20508}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Magic_Cube" ID="{170AF22C-A3B1-44DA-BA75-468EA5E40129}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Landing" ID="{34C52711-DF7E-470B-8DAD-F72B42C7E111}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Digital_Horror___AMB___Pulsating_breathe" ID="{8BE4D334-796F-4E84-B23E-AE22D9CC9C04}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{F566751F-BE8A-4FF2-AAC8-94BF3FEB5655}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,38 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1841922800	Tunnel_Revervb			\Default Work Unit\Tunnel_Revervb	
+	2477392413	OnSnowField			\Default Work Unit\OnSnowField	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Tunnel_Revervb			
+	930712164	Off	Tunnel_Revervb			
+	1651971902	On	Tunnel_Revervb			
+	748895195	None	OnSnowField			
+	930712164	Off	OnSnowField			
+	1651971902	On	OnSnowField			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	687722193	On	Tunnel_Revervb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb		
+	975524009	Off	Tunnel_Revervb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2016903052	Boxes			\Default Work Unit\Master Audio Bus\Boxes	
+	2181731585	Snow_Field			\Default Work Unit\Master Audio Bus\Snow_Field	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Footsteps	
+	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2010806857	Room2_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Room2_Reverb	
+	3284497960	Room1_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Room1_Reverb	
+	3400062578	Tunnel_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	1904434771	Medium_Room1	Wwise Matrix Reverb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

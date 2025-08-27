@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{384ECC38-8AC8-455D-8405-95AC1092E577}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{384ECC38-8AC8-455D-8405-95AC1092E577}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="OnSnowField" ID="{C0487869-5826-4755-A186-8B7214FC3A6E}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A8908B8F-47F3-4BC6-8119-2F00897980DC}"/>
+						<State Name="On" ID="{9F219F4C-689E-4555-B8E0-67B0C6EEDB2E}"/>
+						<State Name="Off" ID="{EEC163A0-1A49-4B4B-9412-49AC6ACF96BE}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Tunnel_Revervb" ID="{4C10CFA9-7CC5-4454-8245-B98CC49B88F1}">
+					<ChildrenList>
+						<State Name="None" ID="{C71627BF-BB7B-43EC-B400-107793F7FE33}"/>
+						<State Name="On" ID="{4C61A7B5-F161-4B88-B84B-4E5E87DD3A8C}"/>
+						<State Name="Off" ID="{711FFE2D-C1C0-4D13-AB5E-04AEAF68E27D}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

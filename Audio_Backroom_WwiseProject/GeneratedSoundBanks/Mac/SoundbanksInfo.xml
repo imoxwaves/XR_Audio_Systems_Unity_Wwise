@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3727428987">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2010806857" Name="Room2_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Room2_Reverb"/>
+				<AuxBus Id="3284497960" Name="Room1_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Room1_Reverb"/>
+				<AuxBus Id="3400062578" Name="Tunnel_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="1841922800" Name="Tunnel_Revervb" ObjectPath="\States\Default Work Unit\Tunnel_Revervb">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Tunnel_Revervb\None"/>
+						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Tunnel_Revervb\On"/>
+						<State Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Tunnel_Revervb\Off"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1048692865">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1784581504" Name="Play_Digital_Horror___AMB___Pulsating_breathe" ObjectPath="\Events\Default Work Unit\Box\Play_Digital_Horror___AMB___Pulsating_breathe" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="842447794" Language="SFX">
+							<ShortName>Horror\Digital-Horror - AMB - Pulsating breathe.wav</ShortName>
+							<Path>SFX\Horror\Digital-Horror - AMB - Pulsating breathe_A5938E4F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Play_Footsteps" DurationType="OneShot" DurationMin="0.166482" DurationMax="0.697215">
+					<IncludedMemoryFiles>
+						<File Id="20512023" Language="SFX">
+							<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A873980B.wem</Path>
+						</File>
+						<File Id="47659952" Language="SFX">
+							<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
+							<Path>SFX\Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_013_97BBE5D9.wem</Path>
+						</File>
+						<File Id="494355556" Language="SFX">
+							<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _DF541BB2.wem</Path>
+						</File>
+						<File Id="583148062" Language="SFX">
+							<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_deep_008.wav</ShortName>
+							<Path>SFX\Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_deep_008_FA0D4367.wem</Path>
+						</File>
+						<File Id="641101631" Language="SFX">
+							<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_light_008.wav</ShortName>
+							<Path>SFX\Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_light_008_F4CC1B87.wem</Path>
+						</File>
+						<File Id="712764308" Language="SFX">
+							<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem</Path>
+						</File>
+						<File Id="1028316391" Language="SFX">
+							<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_run_004.wav</ShortName>
+							<Path>SFX\Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_run_004_DD76B241.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{BDA16EA9-6D90-4672-A732-0623B6151FA3}">
+							<Media>
+								<File Id="47659952"/>
+								<File Id="583148062"/>
+								<File Id="641101631"/>
+								<File Id="1028316391"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}">
+							<Media>
+								<File Id="20512023"/>
+								<File Id="494355556"/>
+								<File Id="712764308"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\landing\Play_Landing" DurationType="OneShot" DurationMin="0.343343" DurationMax="0.539682">
+					<IncludedMemoryFiles>
+						<File Id="28676384" Language="SFX">
+							<ShortName>Landing\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\Landing\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _6D5125CE.wem</Path>
+						</File>
+						<File Id="447417723" Language="SFX">
+							<ShortName>Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
+							<Path>SFX\Bluezone_BC0264_snow_footsteps_walk_013_C59B9111.wem</Path>
+						</File>
+						<File Id="488660192" Language="SFX">
+							<ShortName>Bluezone_BC0264_snow_footsteps_walk_light_008.wav</ShortName>
+							<Path>SFX\Bluezone_BC0264_snow_footsteps_walk_light_008_440A147D.wem</Path>
+						</File>
+						<File Id="1018939908" Language="SFX">
+							<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _E259FDD6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}">
+							<Media>
+								<File Id="28676384"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BDA16EA9-6D90-4672-A732-0623B6151FA3}">
+							<Media>
+								<File Id="447417723"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}">
+							<Media>
+								<File Id="1018939908"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BDA16EA9-6D90-4672-A732-0623B6151FA3}">
+							<Media>
+								<File Id="488660192"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="404396553" Name="Play_Magic_Cube" ObjectPath="\Events\Default Work Unit\Box\Play_Magic_Cube" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="263330251" Language="SFX">
+							<ShortName>Magic_Cube\Digital-Horror - RISE - Crushed time 02.wav</ShortName>
+							<Path>SFX\Magic_Cube\Digital-Horror - RISE - Crushed time 02_9F7D6C2C.wem</Path>
+						</File>
+						<File Id="318193735" Language="SFX">
+							<ShortName>Magic_Cube\Digital-Horror - AMB - Pulsating breathe.wav</ShortName>
+							<Path>SFX\Magic_Cube\Digital-Horror - AMB - Pulsating breathe_7C212A8C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2393638833" Name="Play_Playground" ObjectPath="\Events\Default Work Unit\Music\Play_Playground" DurationType="OneShot" DurationMin="500.000000" DurationMax="500.000000">
+					<IncludedMemoryFiles>
+						<File Id="548883417" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Keys_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ Keys_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="594111042" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Bass_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ Bass_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="688274401" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="721677386" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_Drum-Loop__120bpm4-4_L8M-P1M.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_Drum-Loop__120bpm4-4_L8M-P1M_D79FB2B7.wem</Path>
+						</File>
+						<File Id="740558997" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Pad_1_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ Pad_1_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="757977814" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Pad_3_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ Pad_3_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="817101515" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ KIck_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ KIck_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="870113467" Language="SFX">
+							<ShortName>Stingers\IMPACT DARK Epic Punch_01.wav</ShortName>
+							<Path>SFX\Stingers\IMPACT DARK Epic Punch_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="886946489" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Pad_2_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ Pad_2_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="913917299" Language="SFX">
+							<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Synth_120bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\Music_Interactive\Exported files\Game_Audio_101_ Synth_120bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2611174673" Name="Play_SnowField" ObjectPath="\Events\Default Work Unit\Snow_Field\Play_SnowField" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="307544817" Language="SFX">
+							<ShortName>Snow_Field\Bluezone_BC0270_heaven_synth_chord_phrase_002_01.wav</ShortName>
+							<Path>SFX\Snow_Field\Bluezone_BC0270_heaven_synth_chord_phrase_002_01_725CD36A.wem</Path>
+						</File>
+						<File Id="341862758" Language="SFX">
+							<ShortName>Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004.wav</ShortName>
+							<Path>SFX\Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004_22FDC662.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3801441452" Name="Play_Top_Floor" ObjectPath="\Events\Default Work Unit\Music\Play_Top_Floor" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="282632421" Name="Top_Floor" ObjectPath="\Triggers\Default Work Unit\Top_Floor"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3109981814" Name="Stop_Digital_Horror___AMB___Pulsating_breathe" ObjectPath="\Events\Default Work Unit\Box\Stop_Digital_Horror___AMB___Pulsating_breathe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps">
+					<Switches>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footsteps\Dirt"/>
+						<Switch Id="787898836" Name="Snow" ObjectPath="\Switches\Default Work Unit\Footsteps\Snow"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="282632421" Name="Top_Floor" ObjectPath="\Triggers\Default Work Unit\Top_Floor"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

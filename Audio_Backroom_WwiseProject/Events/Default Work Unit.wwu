@@ -134,6 +134,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Lamp" ID="{90421B56-64A7-4D5B-ACFD-D38EA5DC8D74}" ShortID="476381027">
+					<ChildrenList>
+						<Event Name="Play_Buzz_Lamp" ID="{F7730C85-DE4B-4544-ABC5-9B1643557126}">
+							<ChildrenList>
+								<Action Name="" ID="{7949479E-7812-476F-AEF8-8BC36692CBFC}" ShortID="492958488">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz_Lamp" ID="{5D213714-D7FF-4D35-9558-3C866930A2E9}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

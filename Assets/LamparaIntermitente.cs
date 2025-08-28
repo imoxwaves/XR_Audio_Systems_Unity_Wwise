@@ -14,6 +14,9 @@ public class LamparaIntermitente : MonoBehaviour
     private Material instanciaMaterial;
     private int emissionColorID;
 
+    // Referencia al componente AkEvent en el mismo GameObject
+    private AkEvent eventoDeZumbido;
+
     // Almacenamos el color inicial del material
     private Color colorDeEmisionInicial;
     private Dictionary<Light, float> intensidadInicialDeLuces;
@@ -27,6 +30,9 @@ public class LamparaIntermitente : MonoBehaviour
         {
             intensidadInicialDeLuces.Add(luz, luz.intensity);
         }
+
+        // Obtenemos el componente AkEvent del objeto
+        eventoDeZumbido = GetComponent<AkEvent>();
 
         // 2. Obtiene el renderer y su material en el objeto principal
         lamparaRenderer = GetComponent<Renderer>();
@@ -60,15 +66,21 @@ public class LamparaIntermitente : MonoBehaviour
     {
         while (true)
         {
-            // Encender todas las luces y el material
+            // Encender todas las luces a su intensidad inicial
             foreach (Light luz in lucesDeLampara)
             {
                 luz.enabled = true;
-                luz.intensity = intensidadInicialDeLuces[luz];
+                luz.intensity = intensidadInicialDeLuces[luz]; // Volvemos a la intensidad original
             }
             if (instanciaMaterial != null)
             {
                 instanciaMaterial.SetColor(emissionColorID, colorDeEmisionInicial);
+            }
+
+            // Reproducir el sonido del zumbido al encenderse
+            if (eventoDeZumbido != null)
+            {
+                eventoDeZumbido.HandleEvent(null);
             }
 
             yield return new WaitForSeconds(tiempoDeParpadeo);
@@ -109,6 +121,12 @@ public class LamparaIntermitente : MonoBehaviour
         if (instanciaMaterial != null)
         {
             instanciaMaterial.SetColor(emissionColorID, Color.black);
+        }
+
+        // Detener el sonido del zumbido
+        if (eventoDeZumbido != null)
+        {
+            eventoDeZumbido.Stop(0);
         }
     }
 }

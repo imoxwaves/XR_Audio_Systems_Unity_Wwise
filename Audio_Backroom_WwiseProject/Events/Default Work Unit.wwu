@@ -147,6 +147,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Buzz_Lamp" ID="{B35624D3-E086-4721-B032-F08B38654985}">
+							<ChildrenList>
+								<Action Name="" ID="{F109DCA6-F1DE-4144-B688-C749A1BED7E0}" ShortID="711835169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz_Lamp" ID="{5D213714-D7FF-4D35-9558-3C866930A2E9}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

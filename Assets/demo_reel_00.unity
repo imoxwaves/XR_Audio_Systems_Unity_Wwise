@@ -62623,8 +62623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6223848d28c6541bd2aa5a0c2861a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoDeParpadeo: 0.5
-  tiempoDeDesvanecimiento: 0.2
+  tiempoDeParpadeo: 0.001
+  tiempoDeDesvanecimiento: 4
 --- !u!1001 &2024311643
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584452771860783467
+    m_lastTime: -8584452503566168083
     List:
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
@@ -343,7 +343,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 850c73f74bde4445abc59b1643557126
       Path: Events\Default Work Unit\Lamp\Play_Buzz_Lamp
-      maxAttenuation: 16
+      maxAttenuation: 6
       maxDuration: -1
       minDuration: -1
     - name: Play_Digital_Horror___AMB___Pulsating_breathe
@@ -500,6 +500,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 67136b231bd393448fb0fe34139a711c
       Path: Events\Default Work Unit\Snow_Field
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Buzz_Lamp
+      guid: d32456b386e02147b032f08b38654985
+      id: 1352708956
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Lamp
+        ObjectType: 4
+        guid: 561b4290a7645b4dacfdd38ea5dc8d74
+      - ElementName: Stop_Buzz_Lamp
+        ObjectType: 3
+        guid: d32456b386e02147b032f08b38654985
+      Path: Events\Default Work Unit\Lamp\Stop_Buzz_Lamp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

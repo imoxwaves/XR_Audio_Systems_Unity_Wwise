@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584452738549371747
+    m_lastTime: -8584451921880447918
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584452503566168083
+    m_lastTime: -8584451922761529713
     List:
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
@@ -343,7 +343,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 850c73f74bde4445abc59b1643557126
       Path: Events\Default Work Unit\Lamp\Play_Buzz_Lamp
-      maxAttenuation: 6
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Play_Digital_Horror___AMB___Pulsating_breathe
@@ -486,6 +486,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Tv_Sound
+      guid: e13bf17d8f9f8d43b767ba23ea7a16ea
+      id: 587876244
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Tv
+        ObjectType: 4
+        guid: 84d34132e146b3429a1d1e6e0fb59e1f
+      - ElementName: Play_Tv_Sound
+        ObjectType: 3
+        guid: e13bf17d8f9f8d43b767ba23ea7a16ea
+      Path: Events\Default Work Unit\Tv\Play_Tv_Sound
+      maxAttenuation: 3
+      maxDuration: 66.75737
+      minDuration: 66.75737
     - name: Snow_Field
       guid: 67136b231bd393448fb0fe34139a711c
       id: 2181731585
@@ -543,6 +563,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Tv_Sound
+      guid: ab4ca18416a9d949ac9bb1c173b6a05e
+      id: 278480718
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Tv
+        ObjectType: 4
+        guid: 84d34132e146b3429a1d1e6e0fb59e1f
+      - ElementName: Stop_Tv_Sound
+        ObjectType: 3
+        guid: ab4ca18416a9d949ac9bb1c173b6a05e
+      Path: Events\Default Work Unit\Tv\Stop_Tv_Sound
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Tv
+      guid: 84d34132e146b3429a1d1e6e0fb59e1f
+      id: 1568083719
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Tv
+        ObjectType: 4
+        guid: 84d34132e146b3429a1d1e6e0fb59e1f
+      Path: Events\Default Work Unit\Tv
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -810,7 +867,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000001000000011000000120000001400000015000000160000001700000062e31a00
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000e000000100000001100000012000000140000001500000016000000170000006b0000006c0000007300000062e31a00
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

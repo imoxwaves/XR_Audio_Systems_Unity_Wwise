@@ -30,12 +30,12 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4264117147">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1823313886">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2602566986" Name="Play_Buzz_Lamp" ObjectPath="\Events\Default Work Unit\Lamp\Play_Buzz_Lamp" MaxAttenuation="6.000000" DurationType="Infinite">
+				<Event Id="2602566986" Name="Play_Buzz_Lamp" ObjectPath="\Events\Default Work Unit\Lamp\Play_Buzz_Lamp" MaxAttenuation="5.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="515776116" Language="SFX">
 							<ShortName>Buzz_Lamps\537470__hyperchromatics__electrical-hum.wav</ShortName>
@@ -217,7 +217,16 @@
 						<ActionTriggerEntry Id="282632421" Name="Top_Floor" ObjectPath="\Triggers\Default Work Unit\Top_Floor"/>
 					</ActionTrigger>
 				</Event>
+				<Event Id="587876244" Name="Play_Tv_Sound" ObjectPath="\Events\Default Work Unit\Tv\Play_Tv_Sound" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="66.757370" DurationMax="66.757370">
+					<IncludedMemoryFiles>
+						<File Id="230218985" Language="SFX">
+							<ShortName>Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</ShortName>
+							<Path>SFX\Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3109981814" Name="Stop_Digital_Horror___AMB___Pulsating_breathe" ObjectPath="\Events\Default Work Unit\Box\Stop_Digital_Horror___AMB___Pulsating_breathe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="278480718" Name="Stop_Tv_Sound" ObjectPath="\Events\Default Work Unit\Tv\Stop_Tv_Sound" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F124EFE7-5EA4-472D-9218-A12DB92540AA}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F124EFE7-5EA4-472D-9218-A12DB92540AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main_Session" ID="{E7C9871A-AC42-4AE3-940A-A8092E28684D}">
+					<ObjectList>
+						<ObjectRef Name="Music" ID="{41B03E0F-9B03-482A-A2A8-D47C3B9FE5D9}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+						<ObjectRef Name="Tunnel_Reverb" ID="{1053C4D2-16D6-42F6-8C14-EDEA124A3B30}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+						<ObjectRef Name="Magic_Cube" ID="{1191ADD3-9189-43B5-BE9E-93C41ACC9A3E}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+						<ObjectRef Name="Footsteps" ID="{682995CE-3210-432C-A2F0-10E1DBE6AE95}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+						<ObjectRef Name="Boxes" ID="{F0DA41D8-2287-4EDB-9132-D2D10DAD1F41}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+						<ObjectRef Name="Snow_Field" ID="{63C1993A-BD0A-4DC0-9D0C-075161DCD25F}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

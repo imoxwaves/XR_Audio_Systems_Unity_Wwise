@@ -1,9 +1,20 @@
-﻿#if UNITY_EDITOR
-//////////////////////////////////////////////////////////////////////
-//
-// Copyright (c) 2014 Audiokinetic Inc. / All Rights Reserved
-//
-//////////////////////////////////////////////////////////////////////
+#if UNITY_EDITOR
+/*******************************************************************************
+The content of this file includes portions of the proprietary AUDIOKINETIC Wwise
+Technology released in source code form as part of the game integration package.
+The content of this file may not be used without valid licenses to the
+AUDIOKINETIC Wwise Technology.
+Note that the use of the game engine is subject to the Unity(R) Terms of
+Service at https://unity3d.com/legal/terms-of-service
+ 
+License Usage
+ 
+Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
+this file in accordance with the end user license agreement provided with the
+software or, alternatively, in accordance with the terms contained
+in a written agreement between you and Audiokinetic Inc.
+Copyright (c) 2025 Audiokinetic Inc.
+*******************************************************************************/
 
 public class DefaultHandles
 {
@@ -27,7 +38,7 @@ public class DefaultHandles
 }
 
 [UnityEditor.CanEditMultipleObjects]
-[UnityEditor.CustomEditor(typeof(AkGameObj))]
+[UnityEditor.CustomEditor(typeof(AkGameObj), true)]
 public class AkGameObjectInspector : UnityEditor.Editor
 {
 	private bool hideDefaultHandle;
@@ -54,7 +65,9 @@ public class AkGameObjectInspector : UnityEditor.Editor
 		if (m_AkGameObject.m_positionOffsetData != null)
 		{
 			if (!m_AkGameObject.m_positionOffsetData.KeepMe)
+			{
 				m_AkGameObject.m_positionOffsetData = null;
+			}
 		}
 
 		var positionOffsetData = m_AkGameObject.m_positionOffsetData;
@@ -67,7 +80,9 @@ public class AkGameObjectInspector : UnityEditor.Editor
 			var applyPosOffset = UnityEditor.EditorGUILayout.Toggle("Apply Position Offset:", positionOffsetData != null);
 
 			if (applyPosOffset != (positionOffsetData != null))
+			{
 				positionOffsetData = applyPosOffset ? new AkGameObjPositionOffsetData(true) : null;
+			}
 
 			if (positionOffsetData != null)
 			{
@@ -121,15 +136,41 @@ public class AkGameObjectInspector : UnityEditor.Editor
 
 			m_AkGameObject.m_positionOffsetData = positionOffsetData;
 
+			var posOffsetDataProperty = serializedObject.FindProperty("m_positionOffsetData");
+			var KeepMeProperty = posOffsetDataProperty.FindPropertyRelative("KeepMe");
+			KeepMeProperty.boolValue = (positionOffsetData != null);
 			if (positionOffsetData != null)
-				m_AkGameObject.m_positionOffsetData.positionOffset = positionOffset;
+			{
+				var posOffsetProperty = posOffsetDataProperty.FindPropertyRelative("positionOffset");
+				posOffsetProperty.vector3Value = positionOffset;
+			}
+			
+			var isEnvironmentAwareProperty = serializedObject.FindProperty("isEnvironmentAware");
+			isEnvironmentAwareProperty.boolValue = isEnvironmentAware;
 
-			m_AkGameObject.isEnvironmentAware = isEnvironmentAware;
+			serializedObject.ApplyModifiedProperties();
 		}
 
 		if (isEnvironmentAware)
+		{
 			RigidbodyCheck(m_AkGameObject.gameObject);
+		}
 
+		UnityEngine.GUILayout.Space(UnityEditor.EditorGUIUtility.standardVerticalSpacing);
+
+		UnityEditor.EditorGUI.BeginChangeCheck();
+		m_AkGameObject.ScalingFactor = UnityEditor.EditorGUILayout.FloatField("Attenuation Scaling Factor", m_AkGameObject.ScalingFactor);
+		if (UnityEditor.EditorGUI.EndChangeCheck())
+		{
+			if (m_AkGameObject.ScalingFactor <= 0)
+			{
+				m_AkGameObject.ScalingFactor = 0;
+			}
+			else
+			{
+				AkSoundEngine.SetScalingFactor(m_AkGameObject.gameObject, m_AkGameObject.ScalingFactor);
+			}
+		}
 		UnityEngine.GUILayout.Space(UnityEditor.EditorGUIUtility.standardVerticalSpacing);
 
 		using (new UnityEditor.EditorGUILayout.VerticalScope("box"))
@@ -137,13 +178,15 @@ public class AkGameObjectInspector : UnityEditor.Editor
 			UnityEditor.EditorGUI.BeginChangeCheck();
 			UnityEditor.EditorGUILayout.PropertyField(listeners);
 			if (UnityEditor.EditorGUI.EndChangeCheck())
+			{
 				serializedObject.ApplyModifiedProperties();
+			}
 		}
 	}
 
 	public static void RigidbodyCheck(UnityEngine.GameObject gameObject)
 	{
-		if (AkWwiseEditorSettings.Instance.ShowMissingRigidBodyWarning && gameObject.GetComponent<UnityEngine.Rigidbody>() == null)
+		if (AkWwiseEditorSettings.Instance.ShowSpatialAudioWarningMsg && gameObject.GetComponent<UnityEngine.Rigidbody>() == null)
 		{
 			UnityEngine.GUILayout.Space(UnityEditor.EditorGUIUtility.standardVerticalSpacing);
 
@@ -166,7 +209,9 @@ public class AkGameObjectInspector : UnityEditor.Editor
 	private void OnSceneGUI()
 	{
 		if (m_AkGameObject.m_positionOffsetData == null)
+		{
 			return;
+		}
 
 		UnityEditor.EditorGUI.BeginChangeCheck();
 

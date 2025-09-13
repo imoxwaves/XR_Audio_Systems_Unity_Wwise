@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="Audio_Backroom_WwiseProject" Platform="Mac" BasePlatform="Mac">
-	<Plugins>
-		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
-		<Plugin Name="System" ID="11403271"/>
-		<Plugin Name="No Output" ID="11862023"/>
-	</Plugins>
+<PluginInfo Platform="Mac" BasePlatform="Mac">
+	<PluginLibs>
+		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{BE431AD8-CBE6-1E93-8F25-7B03B4FD327B}</FileHash>
 </PluginInfo>

@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}" SchemaVersion="110">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{13A55EDF-C694-4F69-8775-55FCE7CE2DA7}" WorkUnitID="{2E0D4111-CA48-487C-974D-5E50D8642596}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Boxes" ID="{F0DA41D8-2287-4EDB-9132-D2D10DAD1F41}">
-							<ObjectLists/>
-						</Bus>
+						<Bus Name="Boxes" ID="{F0DA41D8-2287-4EDB-9132-D2D10DAD1F41}"/>
 						<Bus Name="Footsteps" ID="{682995CE-3210-432C-A2F0-10E1DBE6AE95}">
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
 									<ObjectRef Name="Tunnel_Reverb" ID="{1053C4D2-16D6-42F6-8C14-EDEA124A3B30}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
 								</Reference>
 							</ReferenceList>
-							<ObjectLists/>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Snow_Field" ID="{63C1993A-BD0A-4DC0-9D0C-075161DCD25F}"/>
@@ -32,9 +29,7 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
-						<Bus Name="Snow_Field" ID="{63C1993A-BD0A-4DC0-9D0C-075161DCD25F}">
-							<ObjectLists/>
-						</Bus>
+						<Bus Name="Snow_Field" ID="{63C1993A-BD0A-4DC0-9D0C-075161DCD25F}"/>
 						<Bus Name="Reverbs" ID="{A1A9B5C1-3307-452A-B27E-3620095465BC}">
 							<ChildrenList>
 								<AuxBus Name="Tunnel_Reverb" ID="{1053C4D2-16D6-42F6-8C14-EDEA124A3B30}">
@@ -68,7 +63,6 @@
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
-									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Room1_Reverb" ID="{357DED2A-29BA-47F3-8114-73614F55F044}">
 									<ReferenceList>
@@ -76,7 +70,6 @@
 											<ObjectRef Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
-									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Room2_Reverb" ID="{A3A78ABB-FA88-4128-8E65-6EA3795F0CF5}">
 									<ReferenceList>
@@ -84,10 +77,8 @@
 											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
-									<ObjectLists/>
 								</AuxBus>
 							</ChildrenList>
-							<ObjectLists/>
 						</Bus>
 						<Bus Name="Music" ID="{41B03E0F-9B03-482A-A2A8-D47C3B9FE5D9}">
 							<PropertyList>
@@ -102,10 +93,8 @@
 									<ObjectRef Name="Tunnel_Reverb" ID="{1053C4D2-16D6-42F6-8C14-EDEA124A3B30}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
 								</Reference>
 							</ReferenceList>
-							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
-					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

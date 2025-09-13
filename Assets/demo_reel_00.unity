@@ -17027,6 +17027,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1222121933}
+    - targetCorrespondingSourceObject: {fileID: 2923976313507361695, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1222121940}
   m_SourcePrefab: {fileID: 100100000, guid: c43ac1b5fbd2fc24ea40fb28bae6be3e, type: 3}
 --- !u!1001 &582501268
 PrefabInstance:
@@ -19952,10 +19956,14 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 88b5810967745da49bcf64be0b476db7,
+    WwiseObjectReference: {fileID: 11400000, guid: d7d944295c9348349a8fa17cc30c14c7,
       type: 2}
-  useCallbacks: 0
-  Callbacks: []
+  useCallbacks: 1
+  Callbacks:
+  - Flags:
+      value: 128
+    FunctionName: Video_Activado
+    GameObject: {fileID: 1944003706}
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
@@ -19987,6 +19995,7 @@ MonoBehaviour:
   m_positionOffsetData:
     KeepMe: 0
     positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
 --- !u!4 &691887669
@@ -20072,10 +20081,14 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 793b4273316c58147aeaeb3423fd256b,
+    WwiseObjectReference: {fileID: 11400000, guid: 64cc773200b88924cab03b59cdd77888,
       type: 2}
-  useCallbacks: 0
-  Callbacks: []
+  useCallbacks: 1
+  Callbacks:
+  - Flags:
+      value: 1
+    FunctionName: StopVideoCallback
+    GameObject: {fileID: 1944003706}
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
@@ -34011,6 +34024,7 @@ MonoBehaviour:
   m_positionOffsetData:
     KeepMe: 0
     positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
 --- !u!54 &1144740401
@@ -36472,6 +36486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDefaultListener: 1
+  bOverrideScalingFactor: 0
+  scalingFactor: -1
   listenerId: 0
 --- !u!114 &1222121934
 MonoBehaviour:
@@ -36488,13 +36504,41 @@ MonoBehaviour:
   m_listeners:
     initialListenerList: []
     useDefaultListeners: 1
-  isEnvironmentAware: 0
+  isEnvironmentAware: 1
   isStaticObject: 0
   m_positionOffsetData:
     KeepMe: 0
     positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!54 &1222121940
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222121924}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1224702568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59256,6 +59300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944003707}
   - component: {fileID: 1944003708}
+  - component: {fileID: 1944003709}
   m_Layer: 0
   m_Name: Screen
   m_TagString: Untagged
@@ -59314,6 +59359,18 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &1944003709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944003706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7d812cc0bb9684f9e08ab7a25c1ecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1946368793
 GameObject:
   m_ObjectHideFlags: 0
@@ -62990,6 +63047,7 @@ MonoBehaviour:
   m_positionOffsetData:
     KeepMe: 0
     positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
 --- !u!1001 &2024311643

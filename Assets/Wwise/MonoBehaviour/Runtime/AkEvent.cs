@@ -1,9 +1,20 @@
 #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
-//////////////////////////////////////////////////////////////////////
-//
-// Copyright (c) 2014 Audiokinetic Inc. / All Rights Reserved
-//
-//////////////////////////////////////////////////////////////////////
+/*******************************************************************************
+The content of this file includes portions of the proprietary AUDIOKINETIC Wwise
+Technology released in source code form as part of the game integration package.
+The content of this file may not be used without valid licenses to the
+AUDIOKINETIC Wwise Technology.
+Note that the use of the game engine is subject to the Unity(R) Terms of
+Service at https://unity3d.com/legal/terms-of-service
+ 
+License Usage
+ 
+Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
+this file in accordance with the end user license agreement provided with the
+software or, alternatively, in accordance with the terms contained
+in a written agreement between you and Audiokinetic Inc.
+Copyright (c) 2025 Audiokinetic Inc.
+*******************************************************************************/
 
 /// <summary>
 ///     Event callback information.
@@ -68,7 +79,7 @@ public class AkEvent : AkDragDropTriggerHandler
 	/// Game object onto which the Event will be posted.  By default, when empty, it is posted on the same object on which the component was added.
 	public UnityEngine.GameObject soundEmitterObject;
 
-	/// Duration of the fade.  See AK::SoundEngine::ExecuteEventOnAction()
+	/// Duration of the fade, in milliseconds. See <a href="https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_ac55e3d6ac464b0579a8487c88a755d8c.html" target="_blank">AK::SoundEngine::ExecuteEventOnAction()</a>.
 	public float transitionDuration = 0.0f;
 
 	private AkEventCallbackMsg EventCallbackMsg = null;
@@ -82,6 +93,8 @@ public class AkEvent : AkDragDropTriggerHandler
 
 		if (useCallbacks)
 			EventCallbackMsg = new AkEventCallbackMsg { sender = gameObject };
+
+		soundEmitterObject = gameObject;
 
 		base.Start();
 	}
@@ -111,8 +124,10 @@ public class AkEvent : AkDragDropTriggerHandler
 			uint flags = 0;
 			for (var i = 0; i < Callbacks.Count; ++i)
 			{
-				if (Callbacks[i].GameObject && !string.IsNullOrEmpty(Callbacks[i].FunctionName))
+				if (Callbacks[i].GameObject)
+				{
 					flags |= Callbacks[i].Flags.value;
+				}
 			}
 
 			if (flags != 0)
@@ -132,7 +147,7 @@ public class AkEvent : AkDragDropTriggerHandler
 
 	public void Stop(int _transitionDuration, AkCurveInterpolation _curveInterpolation)
 	{
-		data.Stop(soundEmitterObject, _transitionDuration, _curveInterpolation);
+		data.Stop(soundEmitterObject ? soundEmitterObject : gameObject, _transitionDuration, _curveInterpolation);
 	}
 
 	#region Obsolete

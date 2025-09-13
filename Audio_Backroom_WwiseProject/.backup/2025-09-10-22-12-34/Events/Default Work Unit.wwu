@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Box" ID="{C9EA5249-22E8-4743-A490-BE7F6DB3CFD1}" ShortID="1048659270">
+					<ChildrenList>
+						<Event Name="Stop_Digital_Horror___AMB___Pulsating_breathe" ID="{CBC398C8-4318-404D-A467-36A613E98435}">
+							<ChildrenList>
+								<Action Name="" ID="{44DF085C-94F5-4230-AF12-F69BE9F85939}" ShortID="457648396">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Digital-Horror - AMB - Pulsating breathe" ID="{889E31B1-C9AF-4F77-A5D6-5632C5F3BFA5}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Digital_Horror___AMB___Pulsating_breathe" ID="{8BE4D334-796F-4E84-B23E-AE22D9CC9C04}">
+							<ChildrenList>
+								<Action Name="" ID="{7381C827-7C74-4ECA-B59C-6FEFA4494831}" ShortID="77595720">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Digital-Horror - AMB - Pulsating breathe" ID="{889E31B1-C9AF-4F77-A5D6-5632C5F3BFA5}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Magic_Cube" ID="{170AF22C-A3B1-44DA-BA75-468EA5E40129}">
+							<ChildrenList>
+								<Action Name="" ID="{CECC6590-CB45-4AAE-B5E0-7685A865F7DB}" ShortID="122433670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Cube" ID="{1191ADD3-9189-43B5-BE9E-93C41ACC9A3E}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Footsteps" ID="{AFEAB302-A417-4B78-9B80-7F960644125A}" ShortID="849359606">
+					<ChildrenList>
+						<Event Name="Play_Footsteps" ID="{F566751F-BE8A-4FF2-AAC8-94BF3FEB5655}">
+							<ChildrenList>
+								<Action Name="" ID="{F547403D-D165-4478-9846-359A0BBE4F0C}" ShortID="763529848">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{0DA53AB1-BE5E-4375-A77E-18FB469A8CBB}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="landing" ID="{221572A3-FD32-4A37-A450-1DB59D439FA8}" ShortID="633208238">
+					<ChildrenList>
+						<Event Name="Play_Landing" ID="{34C52711-DF7E-470B-8DAD-F72B42C7E111}">
+							<ChildrenList>
+								<Action Name="" ID="{FE9266B0-68FD-4CE2-A745-C16BA56EF856}" ShortID="1018469626">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Step_1" ID="{A6A38C4D-88FF-4971-84FD-F880E45F3472}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{21E60C8D-A62A-4144-9985-3C9964B5082D}" ShortID="752603582">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.12"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Step_2" ID="{965CE41C-06E4-4AB6-935A-5D6AC761024C}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Snow_Field" ID="{236B1367-D31B-4493-8FB0-FE34139A711C}" ShortID="173635117">
+					<ChildrenList>
+						<Event Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}">
+							<ChildrenList>
+								<Action Name="" ID="{19C7CFC7-CEC3-40A9-BB65-6B06FF2B10EB}" ShortID="413483937">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bluezone_BC0270_heaven_synth_atmosphere_004" ID="{3DE1ED0A-F342-4979-BE94-9AEB385BEF08}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{225EA6E3-A1FD-45DE-9771-36846E990919}" ShortID="15142007">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bluezone_BC0270_heaven_synth_chord_phrase_002_01" ID="{AAD19939-D3A4-4840-8BC9-3643F109747D}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{87991201-28F6-47C4-846D-29A126C3D336}" ShortID="830086286">
+					<ChildrenList>
+						<Event Name="Play_Playground" ID="{BDB4FF89-47C8-4002-923F-742CF4CFA625}">
+							<ChildrenList>
+								<Action Name="" ID="{50908E39-2AD0-456C-8810-451CD48267EE}" ShortID="994436390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Playground" ID="{8E6DBB70-1145-4A77-829F-8310058D54A4}" WorkUnitID="{D5F8E27E-A2F4-486C-BC36-50F59CE26450}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Top_Floor" ID="{6C9A3AA4-9852-40B6-9F4A-DD82E1E20508}">
+							<ChildrenList>
+								<Action Name="" ID="{EAC8EEB8-F1E2-481F-930B-2572526C1C45}" ShortID="664962038">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Top_Floor" ID="{874A11DE-1E99-457F-A118-253E4799BD16}" WorkUnitID="{8C8E960B-009F-4242-B759-1A7042713C47}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lamp" ID="{90421B56-64A7-4D5B-ACFD-D38EA5DC8D74}" ShortID="476381027">
+					<ChildrenList>
+						<Event Name="Play_Buzz_Lamp" ID="{F7730C85-DE4B-4544-ABC5-9B1643557126}">
+							<ChildrenList>
+								<Action Name="" ID="{7949479E-7812-476F-AEF8-8BC36692CBFC}" ShortID="492958488">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz_Lamp" ID="{5D213714-D7FF-4D35-9558-3C866930A2E9}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Buzz_Lamp" ID="{B35624D3-E086-4721-B032-F08B38654985}">
+							<ChildrenList>
+								<Action Name="" ID="{F109DCA6-F1DE-4144-B688-C749A1BED7E0}" ShortID="711835169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buzz_Lamp" ID="{5D213714-D7FF-4D35-9558-3C866930A2E9}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tv" ID="{3241D384-46E1-42B3-9A1D-1E6E0FB59E1F}" ShortID="454864053">
+					<ChildrenList>
+						<Event Name="Play_Tv_Sound" ID="{7DF13BE1-9F8F-438D-B767-BA23EA7A16EA}">
+							<ChildrenList>
+								<Action Name="" ID="{9EAC5756-91B6-4999-85AF-0FEEBAD70549}" ShortID="98751252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tv_Sound" ID="{E6F035B7-C462-4F93-835A-552E9005F9B4}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Tv_Sound" ID="{84A14CAB-A916-49D9-AC9B-B1C173B6A05E}">
+							<ChildrenList>
+								<Action Name="" ID="{B33466DA-4D51-47B0-A8E6-33EEFAD5FECC}" ShortID="767976602">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tv_Sound" ID="{E6F035B7-C462-4F93-835A-552E9005F9B4}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

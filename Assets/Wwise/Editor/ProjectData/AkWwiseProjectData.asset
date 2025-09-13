@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: abca8ca5a684fe4c9c8cafb5adbddcd8
     GuidInternal: 
-    m_lastTime: -8584591069788947353
+    m_lastTime: -8584440393297285403
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2cb2f8c99acdf24f9093c2af04f3aaf8
     GuidInternal: 
-    m_lastTime: -8584567556305566384
+    m_lastTime: -8584440393297695545
     List:
     - name: Boxes
       guid: d841daf08722db4e9132d2d10dad1f41
@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584451921880447918
+    m_lastTime: -8584438820084826736
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584451922761529713
+    m_lastTime: -8584438820084720705
     List:
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
@@ -384,8 +384,8 @@ MonoBehaviour:
         guid: 1f7566f58abef24faac894bf3feb5655
       Path: Events\Default Work Unit\Footsteps\Play_Footsteps
       maxAttenuation: 0
-      maxDuration: 0.697215
-      minDuration: 0.166482
+      maxDuration: 0.6972147
+      minDuration: 0.16648227
     - name: Play_Landing
       guid: 1127c5347edf0b478dadf72b42c7e111
       id: 2323405115
@@ -404,8 +404,8 @@ MonoBehaviour:
         guid: 1127c5347edf0b478dadf72b42c7e111
       Path: Events\Default Work Unit\landing\Play_Landing
       maxAttenuation: 0
-      maxDuration: 0.539682
-      minDuration: 0.343343
+      maxDuration: 0.53968155
+      minDuration: 0.34334293
     - name: Play_Magic_Cube
       guid: 2cf20a17b1a3da44ba75468ea5e40129
       id: 404396553
@@ -486,6 +486,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Tv_On
+      guid: a8d2f02e6d3aaf439445397d4491e32d
+      id: 1865976120
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Music
+        ObjectType: 4
+        guid: 01129987f628c447846d29a126c3d336
+      - ElementName: Play_Tv_On
+        ObjectType: 3
+        guid: a8d2f02e6d3aaf439445397d4491e32d
+      Path: Events\Default Work Unit\Music\Play_Tv_On
+      maxAttenuation: 3
+      maxDuration: 63.38237
+      minDuration: 63.38237
     - name: Play_Tv_Sound
       guid: e13bf17d8f9f8d43b767ba23ea7a16ea
       id: 587876244
@@ -563,6 +583,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Tv_Off
+      guid: d15ab2c1bb13914580c809102828b506
+      id: 1130015464
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Music
+        ObjectType: 4
+        guid: 01129987f628c447846d29a126c3d336
+      - ElementName: Stop_Tv_Off
+        ObjectType: 3
+        guid: d15ab2c1bb13914580c809102828b506
+      Path: Events\Default Work Unit\Music\Stop_Tv_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Tv_Sound
       guid: ab4ca18416a9d949ac9bb1c173b6a05e
       id: 278480718
@@ -581,8 +621,8 @@ MonoBehaviour:
         guid: ab4ca18416a9d949ac9bb1c173b6a05e
       Path: Events\Default Work Unit\Tv\Stop_Tv_Sound
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Tv
       guid: 84d34132e146b3429a1d1e6e0fb59e1f
       id: 1568083719
@@ -612,7 +652,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4a65c3494adcc2489909266aaf8d1d72
     GuidInternal: 
-    m_lastTime: -8584572909680855453
+    m_lastTime: -8584440393298333194
     List:
     - name: Speed
       guid: 0e7a972dd012024fbf048aa9eabc94e0
@@ -640,7 +680,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 38cc4e38c88a5d45840595ac1092e577
     GuidInternal: 
-    m_lastTime: -8584571891984736877
+    m_lastTime: -8584440393298636555
     List:
     - name: OnSnowField
       guid: 697848c026585547a1868b7214fc3a6e
@@ -786,7 +826,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: edf2bf221edaed498de21564f94ba42b
     GuidInternal: 
-    m_lastTime: -8584577181654944748
+    m_lastTime: -8584440393298393742
     List:
     - name: Footsteps
       guid: 06a030be2ab9264292a8a889ba1c3278
@@ -850,7 +890,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 0b968e8c9f004242b7591a7042713c47
     GuidInternal: 
-    m_lastTime: -8584567428239323020
+    m_lastTime: -8584440393297057334
     List:
     - name: Top_Floor
       guid: de114a87991e7f45a118253e4799bd16
@@ -867,7 +907,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000e000000100000001100000012000000140000001500000016000000170000006b0000006c0000007300000062e31a00
+  ExpandedWaapiItemIds: 040000000500000006000000070000000b0000000c0000000e0000000f000000120000001500000017000000180000001a0000001d0000001e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

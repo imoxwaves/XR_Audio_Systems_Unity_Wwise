@@ -1,9 +1,20 @@
 #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
-//////////////////////////////////////////////////////////////////////
-//
-// Copyright (c) 2014 Audiokinetic Inc. / All Rights Reserved
-//
-//////////////////////////////////////////////////////////////////////
+/*******************************************************************************
+The content of this file includes portions of the proprietary AUDIOKINETIC Wwise
+Technology released in source code form as part of the game integration package.
+The content of this file may not be used without valid licenses to the
+AUDIOKINETIC Wwise Technology.
+Note that the use of the game engine is subject to the Unity(R) Terms of
+Service at https://unity3d.com/legal/terms-of-service
+ 
+License Usage
+ 
+Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
+this file in accordance with the end user license agreement provided with the
+software or, alternatively, in accordance with the terms contained
+in a written agreement between you and Audiokinetic Inc.
+Copyright (c) 2025 Audiokinetic Inc.
+*******************************************************************************/
 
 /// @brief Maintains the list of loaded SoundBanks loaded. This is currently used only with AkAmbient objects.
 public static class AkBankManager
@@ -25,7 +36,11 @@ public static class AkBankManager
 
 	internal static void Reset()
 	{
-		m_BankHandles.Clear();
+		lock (m_BankHandles)
+		{
+			m_BankHandles.Clear();
+		}
+
 		BanksToUnload.Clear();
 	}
 
@@ -87,12 +102,9 @@ public static class AkBankManager
 				return;
 			}
 
-#if UNITY_SWITCH
-			// No bank decoding on Nintendo switch
-			handle = new BankHandle(name);
-#else
-			handle = decodeBank ? new DecodableBankHandle(name, saveDecodedBank) : new BankHandle(name);
-#endif
+			handle = decodeBank && AkSoundEngine.PlatformSupportsDecodeBank() ? 
+				new DecodableBankHandle(name, saveDecodedBank) : new BankHandle(name);
+
 			m_BankHandles.Add(name, handle);
 		}
 		handle.LoadBank();
@@ -243,7 +255,8 @@ public static class AkBankManager
 
 			// test language-specific decoded file path
 			var language = AkSoundEngine.GetCurrentLanguage();
-			var decodedBankFullPath = AkBasePathGetter.DecodedBankFullPath;
+			var akBasePathGetterInstance =  AkBasePathGetter.Get();
+			var decodedBankFullPath = akBasePathGetterInstance.DecodedBankFullPath;
 			decodedBankPath = System.IO.Path.Combine(decodedBankFullPath, language);
 			var decodedBankFilePath = System.IO.Path.Combine(decodedBankPath, bankFileName);
 
@@ -261,7 +274,7 @@ public static class AkBankManager
 				try
 				{
 					var decodedFileTime = System.IO.File.GetLastWriteTime(decodedBankFilePath);
-					var encodedBankFilePath = System.IO.Path.Combine(AkBasePathGetter.SoundBankBasePath, bankFileName);
+					var encodedBankFilePath = System.IO.Path.Combine(akBasePathGetterInstance.SoundBankBasePath, bankFileName);
 					var encodedFileTime = System.IO.File.GetLastWriteTime(encodedBankFilePath);
 
 					decodeBank = decodedFileTime <= encodedFileTime;
@@ -286,7 +299,7 @@ public static class AkBankManager
 			if (res == AKRESULT.AK_Success)
 			{
 				res = AkSoundEngine.LoadBank(bankName, out m_BankID);
-				AkSoundEngine.SetBasePath(AkBasePathGetter.SoundBankBasePath);
+				AkSoundEngine.SetBasePath(AkBasePathGetter.Get().SoundBankBasePath);
 			}
 			return res;
 		}

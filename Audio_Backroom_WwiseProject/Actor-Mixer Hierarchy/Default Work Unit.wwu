@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" PersistMode="Standalone">
 			<ChildrenList>
@@ -42,7 +42,6 @@
 							<PositioningInfo>
 								<Position Name="" ID="{132E720E-7D9F-440E-B54C-70DFACD15753}"/>
 							</PositioningInfo>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Digital-Horror - AMB - Pulsating breathe" ID="{D1AE79ED-75F3-4686-AFD4-D82289011BEB}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -64,34 +63,6 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<RTPCList>
-												<RTPC Name="" ID="{5B49C8FD-5A5E-4B80-B5B7-D1ADF9597C65}" ShortID="206557951">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Speed" ID="{2D977A0E-12D0-4F02-BF04-8AA9EABC94E0}" WorkUnitID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{8B518262-E211-4D58-86DA-1DB0F13C35C9}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>1631</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>5</Value>
@@ -123,7 +94,45 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{5B49C8FD-5A5E-4B80-B5B7-D1ADF9597C65}" ShortID="206557951">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Speed" ID="{2D977A0E-12D0-4F02-BF04-8AA9EABC94E0}" WorkUnitID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{8B518262-E211-4D58-86DA-1DB0F13C35C9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1631</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 									<ActiveSourceList>
 										<ActiveSource Name="Digital-Horror - AMB - Pulsating breathe" ID="{13E0DA5E-543D-409E-B4C4-B78468D558B6}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -163,13 +172,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Digital-Horror - RISE - Crushed time 02" ID="{9D2BF668-7230-4D76-81E9-928C31D57AE9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 							<BlendTrackList>
 								<BlendTrack Name="SpeedSound" ID="{FF99B256-266C-4E7A-B809-AC397CDFAFD6}" ShortID="951507936">
 									<PropertyList>
@@ -256,7 +263,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{52EA65BA-7FDB-4F4F-9B41-0AC231C80561}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -293,13 +299,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Bluezone_BC0264_snow_footsteps_walk_013" ID="{6A0B953F-C2B8-4D82-88FB-C4243EF46E9B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -381,7 +385,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{7D615DC5-820F-4E14-91B0-AD23F24498A4}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -418,13 +421,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Bluezone_BC0264_snow_footsteps_walk_light_008" ID="{A07D7C0A-1D5B-439F-843D-5A0188F2E442}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -524,7 +525,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Bluezone_BC0264_snow_footsteps_run_004" ID="{63655946-A222-4A53-924F-D2FF947D974F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -554,7 +554,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Bluezone_BC0264_snow_footsteps_walk_013" ID="{241238F0-9750-4A91-A7C7-A84B7ED8208C}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -584,7 +583,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Bluezone_BC0264_snow_footsteps_walk_deep_008" ID="{209365E9-C0C5-47E0-B848-9FE49A84178D}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -614,13 +612,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Bluezone_BC0264_snow_footsteps_walk_light_008" ID="{D90F3408-0ADE-4FEC-B4B5-196AE82A695D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Footsteps_Dirt" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}" ShortID="1073481590">
 							<PropertyList>
@@ -682,7 +678,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{E9BE849A-F9DE-49A2-90A8-4F77A1D6B2FB}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -730,7 +725,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{F0232D97-E297-461F-91C5-31EDAD1B4EF3}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -753,16 +747,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow" ID="{768AE0A0-E3C8-4071-9FFE-4D773718290E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
@@ -846,7 +837,6 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Bluezone_BC0270_heaven_synth_atmosphere_004" ID="{0C20E72A-AD74-43AA-8590-7F7720B241A2}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -908,7 +898,6 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Bluezone_BC0270_heaven_synth_chord_phrase_002_01" ID="{4A5EF1CB-15BC-4F61-9778-A543C4A65869}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -960,7 +949,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="537470__hyperchromatics__electrical-hum" ID="{0D2C5565-4B84-4865-9DC4-066DBBE53504}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -986,6 +974,7 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{F8EA391E-636D-4CEA-9B74-B4B1675075F1}">
+									<ReferenceList/>
 									<Language>SFX</Language>
 									<AudioFile>Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</AudioFile>
 									<MediaIDList>
@@ -993,7 +982,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{F8EA391E-636D-4CEA-9B74-B4B1675075F1}" Platform="Linked"/>
 							</ActiveSourceList>

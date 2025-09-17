@@ -217,6 +217,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Door" ID="{541608B6-9D19-497D-B1C6-24B1F66CF37B}" ShortID="826545391">
+					<ChildrenList>
+						<Event Name="Play_Squeak_Door" ID="{58B83312-8DF9-4E13-8C6B-A442DCEE7574}">
+							<ChildrenList>
+								<Action Name="" ID="{6B32E8BC-199A-4C0A-BA34-A7F1983D9F0D}" ShortID="871210607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Squeak_Door" ID="{68C0EF14-DA02-4689-8484-67E1DFA2A15D}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,6 +9,7 @@
 						<Switch Name="Snow" ID="{BDA16EA9-6D90-4672-A732-0623B6151FA3}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Doors" ID="{2174CB87-A0B7-4CC7-A8D1-D2D23B00AC01}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

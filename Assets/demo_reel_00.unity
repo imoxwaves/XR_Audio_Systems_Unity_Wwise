@@ -15368,6 +15368,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 524048075}
+    - targetCorrespondingSourceObject: {fileID: 2523917784469585752, guid: b1385243becf7df458580761a8097e6e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 524048081}
   m_SourcePrefab: {fileID: 100100000, guid: b1385243becf7df458580761a8097e6e, type: 3}
 --- !u!4 &524048073 stripped
 Transform:
@@ -15447,6 +15451,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &524048081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524048074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265c4d86217336f468c9ca89812f8726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _doorHinge: {fileID: 524048075}
+  creakEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a30f62f9d4ba5e4f9fa49826b0d8ef8,
+      type: 2}
+  creakThreshold: 0.5
+  pitchFactor: 0.1
 --- !u!1 &528239902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2523917784469585752, guid: b1385243becf7df458580761a8097e6e,

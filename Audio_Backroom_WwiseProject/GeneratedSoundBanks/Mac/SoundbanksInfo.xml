@@ -93,10 +93,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9377F519-E031-3838-1FE1-35A2B8E2A6F6}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB14D62C-F535-BE2D-1C27-57665FFC3842}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="2069756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Squeak\Door_Squeak_01.wav</ShortName>
+					<CachePath>SFX/Door_Squeak/Door_Squeak_01_068FAB5B.wem</CachePath>
+				</File>
 				<File Id="20512023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
 					<CachePath>SFX/Footsteps/PMSFX - STEPS Dry Grass &amp; Shrubs/PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A873980B.wem</CachePath>
@@ -109,13 +113,9 @@
 					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
 					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_walk_013_97BBE5D9.wem</CachePath>
 				</File>
-				<File Id="88691741" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Door_Squeak\Door_Creeking_01.wav</ShortName>
-					<CachePath>SFX/Door_Squeak/Door_Creeking_01_1822A298.wem</CachePath>
-				</File>
-				<File Id="155929602" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Door_Squeak\Door_Creeking_00.wav</ShortName>
-					<CachePath>SFX/Door_Squeak/Door_Creeking_00_88F30089.wem</CachePath>
+				<File Id="153189501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Squeak\Door_Squeak_00.wav</ShortName>
+					<CachePath>SFX/Door_Squeak/Door_Squeak_00_157014E2.wem</CachePath>
 				</File>
 				<File Id="230218985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</ShortName>
@@ -136,10 +136,6 @@
 				<File Id="341862758" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004.wav</ShortName>
 					<CachePath>SFX/Snow_Field/Bluezone_BC0270_heaven_synth_atmosphere_004_22FDC662.wem</CachePath>
-				</File>
-				<File Id="367316069" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Door_Squeak\Door_Creeking_03.wav</ShortName>
-					<CachePath>SFX/Door_Squeak/Door_Creeking_03_529FCE6F.wem</CachePath>
 				</File>
 				<File Id="447417723" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
@@ -175,7 +171,7 @@
 				</File>
 				<File Id="640303633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Creeking_02.wav</ShortName>
-					<CachePath>SFX/Door_Squeak/Door_Creeking_02_6E9756DC.wem</CachePath>
+					<CachePath>SFX/Door_Squeak/Door_Creeking_02_5BE7021F.wem</CachePath>
 				</File>
 				<File Id="641101631" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_light_008.wav</ShortName>
@@ -188,6 +184,10 @@
 				<File Id="712764308" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
 					<CachePath>SFX/Footsteps/PMSFX - STEPS Dry Grass &amp; Shrubs/PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem</CachePath>
+				</File>
+				<File Id="719238246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Squeak\Door_Squeak_07.wav</ShortName>
+					<CachePath>SFX/Door_Squeak/Door_Squeak_07_9E3B4393.wem</CachePath>
 				</File>
 				<File Id="721677386" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_Drum-Loop__120bpm4-4_L8M-P1M.wav</ShortName>
@@ -220,6 +220,10 @@
 				<File Id="913917299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Synth_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ Synth_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="933713091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Squeak\Door_Squeak_04.wav</ShortName>
+					<CachePath>SFX/Door_Squeak/Door_Squeak_04_86FF8DC2.wem</CachePath>
 				</File>
 				<File Id="1018939908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -316,12 +320,13 @@
 						<MediaRef Id="341862758"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="134364507" Name="Play_Squeak_Door" DurationType="OneShot" DurationMin="0.45358613" DurationMax="1.515522">
+				<Event Id="134364507" Name="Play_Squeak_Door" DurationType="OneShot" DurationMin="1.2474966" DurationMax="1.815065">
 					<MediaRefs>
-						<MediaRef Id="88691741"/>
-						<MediaRef Id="155929602"/>
-						<MediaRef Id="367316069"/>
+						<MediaRef Id="2069756"/>
+						<MediaRef Id="153189501"/>
 						<MediaRef Id="640303633"/>
+						<MediaRef Id="719238246"/>
+						<MediaRef Id="933713091"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3801441452" Name="Play_Top_Floor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
@@ -361,5 +366,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{55A63E21-68F1-26A7-5C53-6FF587B5336A}</FileHash>
+	<FileHash>{ACF6DBE3-8D55-E2F7-697E-46EFF0F6DC1E}</FileHash>
 </SoundBanksInfo>

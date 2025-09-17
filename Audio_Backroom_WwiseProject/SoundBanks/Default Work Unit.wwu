@@ -15,6 +15,7 @@
 						<ObjectRef Name="Stop_Tv_Off" ID="{C1B25AD1-13BB-4591-80C8-09102828B506}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Landing" ID="{34C52711-DF7E-470B-8DAD-F72B42C7E111}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Squeak_Door" ID="{58B83312-8DF9-4E13-8C6B-A442DCEE7574}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Digital_Horror___AMB___Pulsating_breathe" ID="{8BE4D334-796F-4E84-B23E-AE22D9CC9C04}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{F566751F-BE8A-4FF2-AAC8-94BF3FEB5655}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

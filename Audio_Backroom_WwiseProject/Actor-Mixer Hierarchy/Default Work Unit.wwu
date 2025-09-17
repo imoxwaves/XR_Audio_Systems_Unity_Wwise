@@ -1101,67 +1101,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Door_Creeking_00" ID="{1C100B06-7C55-407C-B610-D40FE73D2D4C}" ShortID="798881068">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_Creeking_00" ID="{72A8867A-A2B8-4344-8C02-F2D62FEFA164}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0807225112267129"/>
-												<Property Name="FadeInShape" Type="int16" Value="0"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0230635746362047"/>
-												<Property Name="FadeOutShape" Type="int16" Value="9"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.626560444283533"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.21468159750673"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Door_Squeak\Door_Creeking_00.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="155929602"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_Creeking_00" ID="{72A8867A-A2B8-4344-8C02-F2D62FEFA164}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Door_Creeking_01" ID="{4BFB803E-DABD-4139-A7E1-F220CCD80363}" ShortID="972992085">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_Creeking_01" ID="{7F08547F-D6FD-4F7B-8446-C155665CE3CF}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0369979102752211"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0184989551376107"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.991015453800568"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.14587879596283"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Door_Squeak\Door_Creeking_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="88691741"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_Creeking_01" ID="{7F08547F-D6FD-4F7B-8446-C155665CE3CF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Door_Creeking_02" ID="{3CF22724-5813-4D55-A220-C29FBAB6A6E8}" ShortID="662973127">
+								<Sound Name="Door_Squeak_03" ID="{3CF22724-5813-4D55-A220-C29FBAB6A6E8}" ShortID="662973127">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
@@ -1177,7 +1124,7 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0479216448484157"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.037937968838329"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.55345998716947"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.54891601500413"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Door_Squeak\Door_Creeking_02.wav</AudioFile>
@@ -1190,7 +1137,14 @@
 										<ActiveSource Name="Door_Creeking_02" ID="{DEB55E98-FDD1-48BF-8D26-D7B3824BDF57}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Door_Creeking_03" ID="{16392B46-1097-4DF2-B349-5261172EADAE}" ShortID="272321687">
+								<Sound Name="Door_Squeak_01" ID="{E865FF0C-6583-46D9-B506-A82D9979D1F2}" ShortID="714453674">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
@@ -1200,22 +1154,135 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Door_Creeking_03" ID="{6CEC7A49-576A-41FD-9E76-9D17455D9D01}">
+										<AudioFileSource Name="Door_Squeak_01" ID="{E7E3546A-DA91-4BB2-879D-B8F5E1CEDCA1}">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0634251795956478"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0266053786000381"/>
+												<Property Name="FadeInShape" Type="int16" Value="0"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0251273020111471"/>
+												<Property Name="FadeOutShape" Type="int16" Value="9"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.684223149577291"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.13780928244314"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0561669103778583"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.48546697183546"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Door_Squeak\Door_Creeking_03.wav</AudioFile>
+											<AudioFile>Door_Squeak\Door_Squeak_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="367316069"/>
+												<MediaID ID="2069756"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Door_Creeking_03" ID="{6CEC7A49-576A-41FD-9E76-9D17455D9D01}" Platform="Linked"/>
+										<ActiveSource Name="Door_Squeak_01" ID="{E7E3546A-DA91-4BB2-879D-B8F5E1CEDCA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Squeak_00" ID="{50A4F290-4251-4321-80B7-740E788DD9F1}" ShortID="156488099">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Squeak_00" ID="{1FA5C982-6A4E-4494-BBE0-FC278A77217D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00800623052959502"/>
+												<Property Name="FadeInShape" Type="int16" Value="0"/>
+												<Property Name="FadeOutShape" Type="int16" Value="9"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.120093457943925"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.55801246105919"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door_Squeak\Door_Squeak_00.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="153189501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Squeak_00" ID="{1FA5C982-6A4E-4494-BBE0-FC278A77217D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Squeak_07" ID="{CB62ED75-984A-448D-B3A1-1B304742334D}" ShortID="1014276659">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Squeak_07" ID="{FB50B7B6-2569-482D-98B0-FC661A47049B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0335028291690508"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0413858477970628"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0472981117680717"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.86236315086782"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door_Squeak\Door_Squeak_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719238246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Squeak_07" ID="{FB50B7B6-2569-482D-98B0-FC661A47049B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Squeak_04" ID="{ACC218DD-E577-48D5-B767-DE1DD0C8DDDD}" ShortID="678593321">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Squeak_04" ID="{0B11268A-0F6A-4CAA-9A8F-B6FFF4A1F1E6}">
+											<PropertyList>
+												<Property Name="FadeInShape" Type="int16" Value="0"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0428642210778392"/>
+												<Property Name="FadeOutShape" Type="int16" Value="9"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.119724203700172"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36722084472418"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door_Squeak\Door_Squeak_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="933713091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Squeak_04" ID="{0B11268A-0F6A-4CAA-9A8F-B6FFF4A1F1E6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

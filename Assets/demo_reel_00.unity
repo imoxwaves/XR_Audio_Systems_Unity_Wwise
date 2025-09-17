@@ -10730,7 +10730,7 @@ PrefabInstance:
     - target: {fileID: 5733200468405550188, guid: b1385243becf7df458580761a8097e6e,
         type: 3}
       propertyPath: m_Name
-      value: wall_door (6)
+      value: wall_door Water
       objectReference: {fileID: 0}
     - target: {fileID: 5733200468405550188, guid: b1385243becf7df458580761a8097e6e,
         type: 3}
@@ -10799,6 +10799,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 528239907}
+    - targetCorrespondingSourceObject: {fileID: 2523917784469585752, guid: b1385243becf7df458580761a8097e6e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 528239913}
   m_SourcePrefab: {fileID: 100100000, guid: b1385243becf7df458580761a8097e6e, type: 3}
 --- !u!4 &339580263 stripped
 Transform:
@@ -15543,6 +15547,26 @@ Rigidbody:
   m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &528239913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528239902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265c4d86217336f468c9ca89812f8726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _doorHinge: {fileID: 528239907}
+  creakEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a30f62f9d4ba5e4f9fa49826b0d8ef8,
+      type: 2}
+  creakThreshold: 0.2
+  pitchFactor: 0.1
 --- !u!1001 &531921805
 PrefabInstance:
   m_ObjectHideFlags: 0

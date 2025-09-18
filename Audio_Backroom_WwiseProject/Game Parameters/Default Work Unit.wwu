@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Speed" ID="{2D977A0E-12D0-4F02-BF04-8AA9EABC94E0}"/>
+				<GameParameter Name="Door_Speed" ID="{13551E65-D0A5-4AD5-B015-FBACD34F3FCF}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

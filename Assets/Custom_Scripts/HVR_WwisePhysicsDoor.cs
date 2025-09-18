@@ -23,16 +23,11 @@ public class HVR_WwisePhysicsDoor : HVRPhysicsDoor
 
     private HVRRotationTracker rotationTracker;
     private bool isSqueakPlaying = false;
+    private float lastClampedAngle;
 
-    // ELIMINAR 'override'. Usar el método Awake() normal.
+    // Se elimina la llamada a base.Awake() para evitar el error.
     protected void Awake()
     {
-        // Llamada a la clase base no es necesaria aquí porque Awake() no es virtual,
-        // pero por convención y para evitar problemas con futuras actualizaciones
-        // de HurricaneVR, se puede mantener.
-
-        // base.Awake(); 
-
         rotationTracker = GetComponent<HVRRotationTracker>();
 
         if (rotationTracker == null)
@@ -47,11 +42,11 @@ public class HVR_WwisePhysicsDoor : HVRPhysicsDoor
 
         if (rotationTracker == null) return;
 
-        // CORRECCIÓN: Usar 'rotationTracker.Angle' que es la variable pública.
-        float angularVelocity = rotationTracker.Angle / Time.deltaTime;
+        float currentClampedAngle = rotationTracker.ClampedAngle;
+        float angleDelta = Mathf.Abs(currentClampedAngle - lastClampedAngle);
+        float angularVelocity = angleDelta / Time.deltaTime;
 
-        // Si la puerta se está moviendo lo suficientemente rápido y el sonido no está activo, actívalo.
-        if (Mathf.Abs(angularVelocity) > squeakSpeedThreshold && !isSqueakPlaying)
+        if (angularVelocity > squeakSpeedThreshold && !isSqueakPlaying)
         {
             if (doorSqueakWwiseEvent != null)
             {
@@ -59,8 +54,7 @@ public class HVR_WwisePhysicsDoor : HVRPhysicsDoor
                 isSqueakPlaying = true;
             }
         }
-        // Si la puerta se está moviendo muy lento o se detuvo y el sonido está activo, deténlo.
-        else if (Mathf.Abs(angularVelocity) <= squeakSpeedThreshold && isSqueakPlaying)
+        else if (angularVelocity <= squeakSpeedThreshold && isSqueakPlaying)
         {
             if (doorSqueakStopWwiseEvent != null)
             {
@@ -68,6 +62,8 @@ public class HVR_WwisePhysicsDoor : HVRPhysicsDoor
                 isSqueakPlaying = false;
             }
         }
+
+        lastClampedAngle = currentClampedAngle;
     }
 
     protected override void OnDoorOpened()

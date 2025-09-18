@@ -2,8 +2,10 @@
 <PluginInfo Platform="Mac" BasePlatform="Mac">
 	<PluginLibs>
 		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<PluginLib LibName="Wwise Pitch Shifter" LibId="8912899" Type="Effect" DLL="AkPitchShifter" StaticLib="AkPitchShifterFX"/>
+		<PluginLib LibName="Wwise Gain" LibId="9109507" Type="Effect" DLL="AkGain" StaticLib="AkGainFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{BE431AD8-CBE6-1E93-8F25-7B03B4FD327B}</FileHash>
+	<FileHash>{D40D42C6-29D8-E6E1-2B75-E1C55E9A40A4}</FileHash>
 </PluginInfo>

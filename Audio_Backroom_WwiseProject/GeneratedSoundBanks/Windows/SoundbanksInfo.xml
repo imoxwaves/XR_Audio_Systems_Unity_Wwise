@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1D135725-88EB-C61D-2927-092CD93006B6}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9E423EE6-1B27-49C9-FC5C-C07035C99EA0}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -64,6 +64,7 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed"/>
+				<GameParameter Id="3584521057" Name="Door_Speed"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1841922800" Name="Tunnel_Revervb">
@@ -93,7 +94,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5C4CB158-192F-1AF7-9576-A7BB939821E2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3C4508D8-5AE0-78A2-F5A5-B1BE725BE034}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -115,7 +116,7 @@
 				</File>
 				<File Id="146169763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_02.wav</ShortName>
-					<CachePath>SFX/Door_Close/Door_Close_02_80730344.wem</CachePath>
+					<CachePath>SFX/Door_Close/Door_Close_02_1D491C59.wem</CachePath>
 				</File>
 				<File Id="153189501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_00.wav</ShortName>
@@ -223,7 +224,7 @@
 				</File>
 				<File Id="810706578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_00.wav</ShortName>
-					<CachePath>SFX/Door_Close/Door_Close_00_DF93745B.wem</CachePath>
+					<CachePath>SFX/Door_Close/Door_Close_00_7152207F.wem</CachePath>
 				</File>
 				<File Id="817101515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ KIck_120bpm4-4_L4M-P0.wav</ShortName>
@@ -243,7 +244,7 @@
 				</File>
 				<File Id="898374430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_03.wav</ShortName>
-					<CachePath>SFX/Door_Close/Door_Close_03_A95B941B.wem</CachePath>
+					<CachePath>SFX/Door_Close/Door_Close_03_8E8CFDAA.wem</CachePath>
 				</File>
 				<File Id="913917299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Synth_120bpm4-4_L4M-P0.wav</ShortName>
@@ -262,6 +263,12 @@
 					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_run_004_DD76B241.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="22117453" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="510623063" Name="Pitch Shifter (Custom)" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="2602566986" Name="Play_Buzz_Lamp" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
@@ -371,6 +378,12 @@
 						<MediaRef Id="719238246"/>
 						<MediaRef Id="933713091"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="22117453"/>
+							<PluginRef Id="510623063"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3801441452" Name="Play_Top_Floor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionTrigger>
@@ -393,6 +406,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed"/>
+				<GameParameter Id="3584521057" Name="Door_Speed"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2150196036" Name="Doors">
@@ -410,5 +424,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{570C0C01-F0C4-CE20-8ABA-022F3A447179}</FileHash>
+	<FileHash>{9545E093-97BE-EEE8-ADF7-A3B3AA02046D}</FileHash>
 </SoundBanksInfo>

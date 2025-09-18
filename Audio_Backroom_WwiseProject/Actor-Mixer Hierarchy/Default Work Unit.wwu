@@ -1147,9 +1147,22 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Squeak_Door" ID="{68C0EF14-DA02-4689-8484-67E1DFA2A15D}" ShortID="334324005">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Gain (Custom)" ID="{0CD905BB-C80B-4731-BFFA-0EE68892EE19}" ShortID="22117453" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Pitch Shifter (Custom)" ID="{45BC08C1-D597-461F-AE82-42EAECD4A841}" ShortID="510623063" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
@@ -1341,6 +1354,80 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{31A44861-C596-499D-83BF-B78A872F4D26}" ShortID="1005094591">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Door_Speed" ID="{13551E65-D0A5-4AD5-B015-FBACD34F3FCF}" WorkUnitID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{F49C8A6C-BD51-4DFB-9A27-77E5F2F8D74F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-7.84599</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>17.81919</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{D8E09997-251A-424F-9C97-4359894AEBB0}" ShortID="912101840">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Door_Speed" ID="{13551E65-D0A5-4AD5-B015-FBACD34F3FCF}" WorkUnitID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{81377C2B-2BE5-4E07-B3CC-232E5315A051}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-3042</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>3179</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Close_Door" ID="{33B004D0-3358-4B9A-B8A3-637F61A12EB8}" ShortID="858959467">
 							<ReferenceList>

@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584435333167304365
+    m_lastTime: -8584434536894714180
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -481,8 +481,8 @@ MonoBehaviour:
         guid: 9cc94cfd18729d41995987340a458990
       Path: Events\Default Work Unit\Door\Play_Open_Door
       maxAttenuation: 0
-      maxDuration: 1.8011338
-      minDuration: 0.09609939
+      maxDuration: 0.9065978
+      minDuration: 0.13057092
     - name: Play_Playground
       guid: 89ffb4bdc8470240923f742cf4cfa625
       id: 2393638833

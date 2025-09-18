@@ -2,30 +2,26 @@ using UnityEngine;
 using AK.Wwise;
 using HurricaneVR.Framework.Components;
 
-// Este script hereda directamente de HVRPhysicsDoor.
-// Esto nos permite sobrescribir (override) sus métodos protegidos.
 public class HVR_WwisePhysicsDoor : HVRPhysicsDoor
 {
-    [Header("Eventos de Wwise para la Puerta")]
+    [Header("Wwise Events")]
     public AK.Wwise.Event doorOpenedWwiseEvent;
     public AK.Wwise.Event doorClosedWwiseEvent;
+    public AK.Wwise.Event doorLockedWwiseEvent;
+    public AK.Wwise.Event doorUnlockedWwiseEvent;
 
-    // Sobrescribimos el método OnDoorOpened para añadir nuestra funcionalidad de audio.
-    // 'protected virtual void OnDoorOpened()' es la firma del método en la clase base.
+    // Override the OnDoorOpened method to add Wwise functionality
     protected override void OnDoorOpened()
     {
-        // Primero, llamamos a la implementación original del método en la clase base.
-        // Esto asegura que la lógica original de HVR (como los Debug.Log) siga funcionando.
-        base.OnDoorOpened();
+        base.OnDoorOpened(); // This calls the original HVR logic first.
 
-        // Luego, disparamos nuestro evento de Wwise.
         if (doorOpenedWwiseEvent != null)
         {
             doorOpenedWwiseEvent.Post(gameObject);
         }
     }
 
-    // Sobrescribimos el método OnDoorClosed de la misma manera.
+    // Override the OnDoorClosed method
     protected override void OnDoorClosed()
     {
         base.OnDoorClosed();
@@ -33,6 +29,28 @@ public class HVR_WwisePhysicsDoor : HVRPhysicsDoor
         if (doorClosedWwiseEvent != null)
         {
             doorClosedWwiseEvent.Post(gameObject);
+        }
+    }
+
+    // Override the public Lock method to add a Wwise event
+    public override void Lock()
+    {
+        base.Lock(); // Call the original HVR lock logic.
+
+        if (doorLockedWwiseEvent != null)
+        {
+            doorLockedWwiseEvent.Post(gameObject);
+        }
+    }
+
+    // Override the public Unlock method to add a Wwise event
+    public override void Unlock()
+    {
+        base.Unlock(); // Call the original HVR unlock logic.
+
+        if (doorUnlockedWwiseEvent != null)
+        {
+            doorUnlockedWwiseEvent.Post(gameObject);
         }
     }
 }

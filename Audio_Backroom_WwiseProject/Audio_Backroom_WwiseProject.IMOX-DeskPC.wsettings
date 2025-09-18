@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{6C7A475C-F284-4A87-A067-3DE6CA39DF25}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\IMOX WIN\Desktop\Footsteps\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\IMOX WIN\Desktop\Footsteps\PUERTA\Open\"/>
 				<Property Name="Event Action List\{170AF22C-A3B1-44DA-BA75-468EA5E40129}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1AB12885-EB3B-41EE-856A-0B295378A317}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2EF0D2A8-3A6D-43AF-9445-397D4491E32D}\x64_Expand States" Type="string" Value=""/>
@@ -24,6 +24,7 @@
 				<Property Name="Event Action List\{CBC398C8-4318-404D-A467-36A613E98435}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F566751F-BE8A-4FF2-AAC8-94BF3FEB5655}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F7730C85-DE4B-4544-ABC5-9B1643557126}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FD4CC99C-7218-419D-9959-87340A458990}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584434536894714180
+    m_lastTime: -8584434318330868448
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584434653559552902
+    m_lastTime: -8584434318330984622
     List:
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
@@ -381,8 +381,8 @@ MonoBehaviour:
         guid: 4bc532a38b3ce44cbe459cb71736ae00
       Path: Events\Default Work Unit\Door\Play_Close_Door
       maxAttenuation: 0
-      maxDuration: 0.7635058
-      minDuration: 0.4562283
+      maxDuration: 0.47102398
+      minDuration: 0.18165843
     - name: Play_Digital_Horror___AMB___Pulsating_breathe
       guid: 34d3e48b6f79844eb23eae22d9cc9c04
       id: 1784581504
@@ -657,6 +657,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: c898c3cb18434d40a46736a613e98435
       Path: Events\Default Work Unit\Box\Stop_Digital_Horror___AMB___Pulsating_breathe
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Open_Door
+      guid: 83d86cae35e9ba4c8a844af87f956e0b
+      id: 3281358779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Door
+        ObjectType: 4
+        guid: b6081654199d7d49b1c624b1f66cf37b
+      - ElementName: Stop_Open_Door
+        ObjectType: 3
+        guid: 83d86cae35e9ba4c8a844af87f956e0b
+      Path: Events\Default Work Unit\Door\Stop_Open_Door
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

@@ -1352,7 +1352,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Door_Closing_00" ID="{7CBDC318-8774-40D6-8838-9589DECAE0B0}" ShortID="888511454">
+								<Sound Name="Door_Close_00" ID="{2CD29A39-9F32-49FB-86E4-9B8269595CB4}" ShortID="206657520">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
@@ -1362,26 +1362,26 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Door_Closing_00" ID="{F1F15CCB-7EF2-433B-943C-2614C79148AB}">
+										<AudioFileSource Name="Door_Close_00" ID="{63712733-54E1-474A-B184-141F001371E2}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0108110969255427"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.011892206618097"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00713672684539984"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00908310689414521"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.129733163106512"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.585961453364415"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.146627297005488"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.617651268801877"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Door_Close\Door_Closing_00.wav</AudioFile>
+											<AudioFile>Door_Close\Door_Close_00.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="509090857"/>
+												<MediaID ID="810706578"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Door_Closing_00" ID="{F1F15CCB-7EF2-433B-943C-2614C79148AB}" Platform="Linked"/>
+										<ActiveSource Name="Door_Close_00" ID="{63712733-54E1-474A-B184-141F001371E2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Door_Closing_01" ID="{5453A7CC-3DBC-44BE-AAEB-7628A1E19027}" ShortID="244486877">
+								<Sound Name="Door_Close_02" ID="{9A9BF426-58DF-4015-9695-85AECAF077B1}" ShortID="253639600">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
@@ -1391,23 +1391,50 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Door_Closing_01" ID="{663C81E0-C7CE-4A61-9094-1FB35A206A53}">
+										<AudioFileSource Name="Door_Close_02" ID="{9B1073CA-7676-427A-8020-415CD98A82EB}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0100903853604934"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0168173089341557"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.533108693212735"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.2966145188234"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0495956337009391"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.231254059466007"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Door_Close\Door_Closing_01.wav</AudioFile>
+											<AudioFile>Door_Close\Door_Close_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="421173036"/>
+												<MediaID ID="146169763"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Door_Closing_01" ID="{663C81E0-C7CE-4A61-9094-1FB35A206A53}" Platform="Linked"/>
+										<ActiveSource Name="Door_Close_02" ID="{9B1073CA-7676-427A-8020-415CD98A82EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Close_03" ID="{B849A1AD-25B8-45DB-9611-9A46C0B5E1FD}" ShortID="498310178">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Close_03" ID="{69EFFF96-19AC-4D83-A96F-D012BCA39108}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00757590220372527"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0121214435259605"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.313642351234226"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.697740592963097"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door_Close\Door_Close_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="898374430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Close_03" ID="{69EFFF96-19AC-4D83-A96F-D012BCA39108}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -24061,7 +24061,7 @@ MonoBehaviour:
   MinAngle: 0
   MaxAngle: -150
   Damper: 10
-  Spring: 5
+  Spring: 0
   TargetAngularVelocity: 0
   DoorLatched: 0
   DoorClosed: 0
@@ -24074,8 +24074,7 @@ MonoBehaviour:
   doorOpenedWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4a30f62f9d4ba5e4f9fa49826b0d8ef8,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   doorClosedWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -24089,6 +24088,16 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  doorSqueakWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a30f62f9d4ba5e4f9fa49826b0d8ef8,
+      type: 2}
+  doorSqueakStopWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  squeakSpeedThreshold: 5
 --- !u!1001 &868004367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38099,7 +38108,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d0e7c08943d1d524385d7786c450778d,
       type: 2}
-  angleThreshold: 1
+  angleThreshold: 3
 --- !u!1001 &1274578345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64920,7 +64929,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d0e7c08943d1d524385d7786c450778d,
       type: 2}
-  angleThreshold: 0.1
+  angleThreshold: 3
 --- !u!1 &2070024031
 GameObject:
   m_ObjectHideFlags: 0

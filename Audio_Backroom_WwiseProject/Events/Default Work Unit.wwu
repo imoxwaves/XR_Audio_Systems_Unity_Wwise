@@ -252,6 +252,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Open_Door" ID="{AE6CD883-E935-4CBA-8A84-4AF87F956E0B}">
+							<ChildrenList>
+								<Action Name="" ID="{42028EC2-CE45-48CA-8B4F-245A0F55D370}" ShortID="851590092">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Open_Door" ID="{1B32ADDA-6628-4298-B7E3-A9FF728189D2}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

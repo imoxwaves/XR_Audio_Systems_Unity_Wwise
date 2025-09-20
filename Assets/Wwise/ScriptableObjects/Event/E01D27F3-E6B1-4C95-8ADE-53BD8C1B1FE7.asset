@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2865a14cdbd1db845968a236e359ac0a, type: 3}
+  m_Name: E01D27F3-E6B1-4C95-8ADE-53BD8C1B1FE7
+  m_EditorClassIdentifier: 
+  objectName: Play_Key_Insert
+  id: 643666237
+  guid: E01D27F3-E6B1-4C95-8ADE-53BD8C1B1FE7

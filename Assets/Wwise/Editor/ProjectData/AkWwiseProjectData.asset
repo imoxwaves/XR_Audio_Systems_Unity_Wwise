@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584434318330868448
+    m_lastTime: -8584432793823994093
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584434318330984622
+    m_lastTime: -8584432798086662802
     List:
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
@@ -423,6 +423,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6972147
       minDuration: 0.16648227
+    - name: Play_Key_Insert
+      guid: f3271de0b1e6954c8ade53bd8c1b1fe7
+      id: 643666237
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Door
+        ObjectType: 4
+        guid: b6081654199d7d49b1c624b1f66cf37b
+      - ElementName: Play_Key_Insert
+        ObjectType: 3
+        guid: f3271de0b1e6954c8ade53bd8c1b1fe7
+      Path: Events\Default Work Unit\Door\Play_Key_Insert
+      maxAttenuation: 0
+      maxDuration: 0.6104082
+      minDuration: 0.3286848
     - name: Play_Landing
       guid: 1127c5347edf0b478dadf72b42c7e111
       id: 2323405115
@@ -749,8 +769,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4a65c3494adcc2489909266aaf8d1d72
     GuidInternal: 
-    m_lastTime: -8584440393298333194
+    m_lastTime: -8584433696122172470
     List:
+    - name: Door_Speed
+      guid: 651e5513a5d0d54ab015fbacd34f3fcf
+      id: 3584521057
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a65c3494adcc2489909266aaf8d1d72
+      - ElementName: Door_Speed
+        ObjectType: 13
+        guid: 651e5513a5d0d54ab015fbacd34f3fcf
+      Path: Game Parameters\Default Work Unit\Door_Speed
     - name: Speed
       guid: 0e7a972dd012024fbf048aa9eabc94e0
       id: 640949982

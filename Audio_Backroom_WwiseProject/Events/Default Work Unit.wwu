@@ -266,6 +266,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Key_Insert" ID="{E01D27F3-E6B1-4C95-8ADE-53BD8C1B1FE7}">
+							<ChildrenList>
+								<Action Name="" ID="{C984728B-B0C2-4384-B4B4-A7F828FA2DB6}" ShortID="762708904">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Key_Insert" ID="{643C279E-121F-47D9-A1C8-E6A5B9C82005}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

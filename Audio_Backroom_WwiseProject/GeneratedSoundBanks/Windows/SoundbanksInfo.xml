@@ -94,7 +94,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3C4508D8-5AE0-78A2-F5A5-B1BE725BE034}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{22788F68-6305-E4E9-0452-2661632302FD}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -110,13 +110,21 @@
 					<ShortName>Landing\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
 					<CachePath>SFX/Landing/PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _6D5125CE.wem</CachePath>
 				</File>
+				<File Id="34050057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Key_Insert\Key_inserted_02.wav</ShortName>
+					<CachePath>SFX/Door_Key_Insert/Key_inserted_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="47659952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
 					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_walk_013_97BBE5D9.wem</CachePath>
 				</File>
+				<File Id="135160214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Key_Insert\Key_inserted_01.wav</ShortName>
+					<CachePath>SFX/Door_Key_Insert/Key_inserted_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="146169763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_02.wav</ShortName>
-					<CachePath>SFX/Door_Close/Door_Close_02_1D491C59.wem</CachePath>
+					<CachePath>SFX/Door_Close/Door_Close_02_80730344.wem</CachePath>
 				</File>
 				<File Id="153189501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_00.wav</ShortName>
@@ -224,7 +232,7 @@
 				</File>
 				<File Id="810706578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_00.wav</ShortName>
-					<CachePath>SFX/Door_Close/Door_Close_00_7152207F.wem</CachePath>
+					<CachePath>SFX/Door_Close/Door_Close_00_DF93745B.wem</CachePath>
 				</File>
 				<File Id="817101515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ KIck_120bpm4-4_L4M-P0.wav</ShortName>
@@ -244,7 +252,7 @@
 				</File>
 				<File Id="898374430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_03.wav</ShortName>
-					<CachePath>SFX/Door_Close/Door_Close_03_8E8CFDAA.wem</CachePath>
+					<CachePath>SFX/Door_Close/Door_Close_03_A95B941B.wem</CachePath>
 				</File>
 				<File Id="913917299" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Synth_120bpm4-4_L4M-P0.wav</ShortName>
@@ -253,6 +261,10 @@
 				<File Id="933713091" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_04.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Squeak_04_86FF8DC2.wem</CachePath>
+				</File>
+				<File Id="946095187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Key_Insert\Key_inserted_00.wav</ShortName>
+					<CachePath>SFX/Door_Key_Insert/Key_inserted_00_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1018939908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -307,6 +319,13 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="643666237" Name="Play_Key_Insert" DurationType="OneShot" DurationMin="0.3286848" DurationMax="0.6104082">
+					<MediaRefs>
+						<MediaRef Id="34050057"/>
+						<MediaRef Id="135160214"/>
+						<MediaRef Id="946095187"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2323405115" Name="Play_Landing" DurationType="OneShot" DurationMin="0.34334293" DurationMax="0.53968155">
 					<SwitchContainers>
@@ -424,5 +443,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9545E093-97BE-EEE8-ADF7-A3B3AA02046D}</FileHash>
+	<FileHash>{2F9547D4-8B88-BD14-4684-EC97E5F9BD1A}</FileHash>
 </SoundBanksInfo>

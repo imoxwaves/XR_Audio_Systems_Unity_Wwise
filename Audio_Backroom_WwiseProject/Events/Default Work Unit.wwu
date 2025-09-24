@@ -279,6 +279,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Keys" ID="{88BB9CCD-F9DF-4FEF-9CA5-83BC58FE5F0F}">
+					<ChildrenList>
+						<Action Name="" ID="{B2EF43EB-7912-4599-B76C-75280CE3A618}" ShortID="421364687">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Keys" ID="{FDD004AA-7909-4E7D-B89E-DB1630EC2506}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

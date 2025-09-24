@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584432798086662802
+    m_lastTime: -8584428554168423966
     List:
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
@@ -443,6 +443,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6104082
       minDuration: 0.3286848
+    - name: Play_Keys
+      guid: cd9cbb88dff9ef4f9ca583bc58fe5f0f
+      id: 1011724990
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Play_Keys
+        ObjectType: 3
+        guid: cd9cbb88dff9ef4f9ca583bc58fe5f0f
+      Path: Events\Default Work Unit\Play_Keys
+      maxAttenuation: 0
+      maxDuration: 1.0368254
+      minDuration: 0.48931974
     - name: Play_Landing
       guid: 1127c5347edf0b478dadf72b42c7e111
       id: 2323405115
@@ -1038,7 +1055,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0400000005000000060000000700000008000000090000000a0000000e0000000f00000012000000150000001600000017000000180000001a0000001d0000001e000000
+  ExpandedWaapiItemIds: 040000000500000006000000080000000a0000000c0000000e0000000f00000012000000150000001600000017000000180000001a0000001d0000001e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

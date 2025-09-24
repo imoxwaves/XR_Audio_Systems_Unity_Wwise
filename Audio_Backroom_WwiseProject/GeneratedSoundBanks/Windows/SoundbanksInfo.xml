@@ -94,7 +94,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{22788F68-6305-E4E9-0452-2661632302FD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{112649B6-75DB-346C-2C79-3CC1B7B20422}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -117,6 +117,14 @@
 				<File Id="47659952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
 					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_walk_013_97BBE5D9.wem</CachePath>
+				</File>
+				<File Id="111196393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Key_Grab\Key_Grab_02.wav</ShortName>
+					<CachePath>SFX/Door_Key_Grab/Key_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="124079519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Key_Grab\Key_Grab_00.wav</ShortName>
+					<CachePath>SFX/Door_Key_Grab/Key_Grab_00_10C4C929.wem</CachePath>
 				</File>
 				<File Id="135160214" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Key_Insert\Key_inserted_01.wav</ShortName>
@@ -242,6 +250,10 @@
 					<ShortName>Horror\Digital-Horror - AMB - Pulsating breathe.wav</ShortName>
 					<CachePath>SFX/Horror/Digital-Horror - AMB - Pulsating breathe_A5938E4F.wem</CachePath>
 				</File>
+				<File Id="856983006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Key_Grab\Key_Grab_01.wav</ShortName>
+					<CachePath>SFX/Door_Key_Grab/Key_Grab_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="870113467" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\IMPACT DARK Epic Punch_01.wav</ShortName>
 					<CachePath>SFX/Stingers/IMPACT DARK Epic Punch_01_D79FB2B7.wem</CachePath>
@@ -325,6 +337,13 @@
 						<MediaRef Id="34050057"/>
 						<MediaRef Id="135160214"/>
 						<MediaRef Id="946095187"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1011724990" Name="Play_Keys" DurationType="OneShot" DurationMin="0.48931974" DurationMax="1.0368254">
+					<MediaRefs>
+						<MediaRef Id="111196393"/>
+						<MediaRef Id="124079519"/>
+						<MediaRef Id="856983006"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2323405115" Name="Play_Landing" DurationType="OneShot" DurationMin="0.34334293" DurationMax="0.53968155">
@@ -443,5 +462,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2F9547D4-8B88-BD14-4684-EC97E5F9BD1A}</FileHash>
+	<FileHash>{D2D6345F-3AEA-46AA-C7A2-B65BFAE63320}</FileHash>
 </SoundBanksInfo>

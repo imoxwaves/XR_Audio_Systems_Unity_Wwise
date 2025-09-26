@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584432793823994093
+    m_lastTime: -8584427589653230816
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,8 +239,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584428554168423966
+    m_lastTime: -8584427589653312129
     List:
+    - name: Bottle
+      guid: 85a4390d65176443b0385853f69c0f9b
+      id: 3848582449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Bottle
+        ObjectType: 4
+        guid: 85a4390d65176443b0385853f69c0f9b
+      Path: Events\Default Work Unit\Bottle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Box
       guid: 4952eac9e8224347a490be7f6db3cfd1
       id: 546945280
@@ -289,6 +306,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: 02b3eaaf17a4784b9b807f960644125a
       Path: Events\Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Gun
+      guid: dc2a890485912c40ac248c325c377d31
+      id: 915214409
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      Path: Events\Default Work Unit\Gun
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -343,6 +377,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Bottle_Floor
+      guid: 7eab34beaed0fd4486c4a4ffe3aa1b79
+      id: 2172171349
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Bottle
+        ObjectType: 4
+        guid: 85a4390d65176443b0385853f69c0f9b
+      - ElementName: Play_Bottle_Floor
+        ObjectType: 3
+        guid: 7eab34beaed0fd4486c4a4ffe3aa1b79
+      Path: Events\Default Work Unit\Bottle\Play_Bottle_Floor
+      maxAttenuation: 0
+      maxDuration: 0.6571655
+      minDuration: 0.54387754
+    - name: Play_Bottle_Grab
+      guid: 6dac65db9d83b84fac6a1188a10f434a
+      id: 135783587
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Bottle
+        ObjectType: 4
+        guid: 85a4390d65176443b0385853f69c0f9b
+      - ElementName: Play_Bottle_Grab
+        ObjectType: 3
+        guid: 6dac65db9d83b84fac6a1188a10f434a
+      Path: Events\Default Work Unit\Bottle\Play_Bottle_Grab
+      maxAttenuation: 0
+      maxDuration: 0.337676
+      minDuration: 0.18420643
     - name: Play_Buzz_Lamp
       guid: 850c73f74bde4445abc59b1643557126
       id: 2602566986
@@ -421,8 +495,8 @@ MonoBehaviour:
         guid: 1f7566f58abef24faac894bf3feb5655
       Path: Events\Default Work Unit\Footsteps\Play_Footsteps
       maxAttenuation: 0
-      maxDuration: 0.6972147
-      minDuration: 0.16648227
+      maxDuration: 1.1333736
+      minDuration: 0.21538253
     - name: Play_Key_Insert
       guid: f3271de0b1e6954c8ade53bd8c1b1fe7
       id: 643666237
@@ -453,10 +527,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Door
+        ObjectType: 4
+        guid: b6081654199d7d49b1c624b1f66cf37b
       - ElementName: Play_Keys
         ObjectType: 3
         guid: cd9cbb88dff9ef4f9ca583bc58fe5f0f
-      Path: Events\Default Work Unit\Play_Keys
+      Path: Events\Default Work Unit\Door\Play_Keys
       maxAttenuation: 0
       maxDuration: 1.0368254
       minDuration: 0.48931974
@@ -480,6 +557,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.53968155
       minDuration: 0.34334293
+    - name: Play_Magazine
+      guid: 1183f5b8793c814986346e9416895e30
+      id: 3837714376
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Magazine
+        ObjectType: 3
+        guid: 1183f5b8793c814986346e9416895e30
+      Path: Events\Default Work Unit\Gun\Play_Magazine
+      maxAttenuation: 0
+      maxDuration: 0.3493651
+      minDuration: 0.3493651
     - name: Play_Magic_Cube
       guid: 2cf20a17b1a3da44ba75468ea5e40129
       id: 404396553
@@ -974,7 +1071,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: edf2bf221edaed498de21564f94ba42b
     GuidInternal: 
-    m_lastTime: -8584435372838948481
+    m_lastTime: -8584427521347834046
     List:
     - name: Footsteps
       guid: 06a030be2ab9264292a8a889ba1c3278
@@ -1023,6 +1120,22 @@ MonoBehaviour:
         - ElementName: Snow
           ObjectType: 10
           guid: a96ea1bd906d7246a7320623b6151fa3
+      - name: Wood
+        guid: 576ad523a84c0647b2a58d1b470143cb
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: edf2bf221edaed498de21564f94ba42b
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 06a030be2ab9264292a8a889ba1c3278
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 576ad523a84c0647b2a58d1b470143cb
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -1055,7 +1168,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 040000000500000006000000080000000a0000000c0000000e0000000f00000012000000150000001600000017000000180000001a0000001d0000001e000000
+  ExpandedWaapiItemIds: 040000000500000006000000070000000a0000001500000016000000180000001a0000001e00000000cc0a00ebb01200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -12,6 +12,9 @@ public class HVRWwiseGrabbable : MonoBehaviour
     [Tooltip("Wwise Event to post when the object is grabbed by a hand.")]
     public AK.Wwise.Event handGrabbedWwiseEvent;
 
+    [Tooltip("Wwise Event to post when the object hits a surface.")]
+    public AK.Wwise.Event collisionWwiseEvent;
+
     private HVRGrabbable _grabbable;
 
     private void Start()
@@ -44,6 +47,17 @@ public class HVRWwiseGrabbable : MonoBehaviour
         if (handGrabbedWwiseEvent != null)
         {
             handGrabbedWwiseEvent.Post(gameObject);
+        }
+    }
+
+    // Este método se activa cuando el objeto colisiona con otro.
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Evita que el sonido se active constantemente por pequeños rebotes.
+        // La magnitud de la velocidad del objeto es una buena medida.
+        if (collisionWwiseEvent != null && collision.relativeVelocity.magnitude > 0.5f)
+        {
+            collisionWwiseEvent.Post(gameObject);
         }
     }
 }

@@ -277,19 +277,60 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Keys" ID="{88BB9CCD-F9DF-4FEF-9CA5-83BC58FE5F0F}">
+							<ChildrenList>
+								<Action Name="" ID="{B2EF43EB-7912-4599-B76C-75280CE3A618}" ShortID="421364687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Keys" ID="{FDD004AA-7909-4E7D-B89E-DB1630EC2506}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Keys" ID="{88BB9CCD-F9DF-4FEF-9CA5-83BC58FE5F0F}">
+				<Folder Name="Gun" ID="{04892ADC-9185-402C-AC24-8C325C377D31}" ShortID="1046264813">
 					<ChildrenList>
-						<Action Name="" ID="{B2EF43EB-7912-4599-B76C-75280CE3A618}" ShortID="421364687">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Keys" ID="{FDD004AA-7909-4E7D-B89E-DB1630EC2506}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Magazine" ID="{B8F58311-3C79-4981-8634-6E9416895E30}">
+							<ChildrenList>
+								<Action Name="" ID="{DDCA19C8-0A2D-419D-B92A-E5F7B58FAAB5}" ShortID="767609533">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magazine" ID="{586E6541-FFB3-4DEC-9C49-DA0D05EB6A7A}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Bottle" ID="{0D39A485-1765-4364-B038-5853F69C0F9B}" ShortID="931716075">
+					<ChildrenList>
+						<Event Name="Play_Bottle_Floor" ID="{BE34AB7E-D0AE-44FD-86C4-A4FFE3AA1B79}">
+							<ChildrenList>
+								<Action Name="" ID="{0090D95E-334E-4DF2-83AA-F8B43E4C3B95}" ShortID="216107148">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bottle_Floor" ID="{2976C1D2-0664-4CDC-82DA-C7F5187F0071}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bottle_Grab" ID="{DB65AC6D-839D-4FB8-AC6A-1188A10F434A}">
+							<ChildrenList>
+								<Action Name="" ID="{C55C5782-2EF2-41F1-B66C-1DCACBC9D0D4}" ShortID="786664943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bottle_Grab" ID="{223441FB-B14E-415E-9E68-417DC2964486}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

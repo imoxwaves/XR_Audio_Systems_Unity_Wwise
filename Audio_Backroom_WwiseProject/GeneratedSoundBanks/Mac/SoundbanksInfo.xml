@@ -89,22 +89,19 @@
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
 						<Switch Id="787898836" Name="Snow"/>
+						<Switch Id="2058049674" Name="Wood"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{112649B6-75DB-346C-2C79-3CC1B7B20422}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A3D2B220-7335-6EFB-9126-20C8426E3C38}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="2069756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_01.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Squeak_01_068FAB5B.wem</CachePath>
-				</File>
-				<File Id="20512023" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
-					<CachePath>SFX/Footsteps/PMSFX - STEPS Dry Grass &amp; Shrubs/PM_SDGS_14 Footstep Step Dry Grass Shrubs Pine Needles Meadow _A873980B.wem</CachePath>
 				</File>
 				<File Id="28676384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -114,9 +111,13 @@
 					<ShortName>Door_Key_Insert\Key_inserted_02.wav</ShortName>
 					<CachePath>SFX/Door_Key_Insert/Key_inserted_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="47659952" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
-					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_walk_013_97BBE5D9.wem</CachePath>
+				<File Id="88112980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle\Bottle_Floor_01 .wav</ShortName>
+					<CachePath>SFX/Bottle/Bottle_Floor_01 _75ECD28B.wem</CachePath>
+				</File>
+				<File Id="104017024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_03.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="111196393" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Key_Grab\Key_Grab_02.wav</ShortName>
@@ -137,6 +138,14 @@
 				<File Id="153189501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_00.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Squeak_00_157014E2.wem</CachePath>
+				</File>
+				<File Id="172642596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magazine\Magazine_00.wav</ShortName>
+					<CachePath>SFX/Magazine/Magazine_00_10C4C929.wem</CachePath>
+				</File>
+				<File Id="194708274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle\Bottle_Grab_02 .wav</ShortName>
+					<CachePath>SFX/Bottle/Bottle_Grab_02 _1DD56117.wem</CachePath>
 				</File>
 				<File Id="197685070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Open\Door_Open_01.wav</ShortName>
@@ -170,6 +179,18 @@
 					<ShortName>Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004.wav</ShortName>
 					<CachePath>SFX/Snow_Field/Bluezone_BC0270_heaven_synth_atmosphere_004_22FDC662.wem</CachePath>
 				</File>
+				<File Id="362115192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Wood_03.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Wood_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399619189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Water_00.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_00_084D6884.wem</CachePath>
+				</File>
+				<File Id="415287806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_02.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="429719201" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Open\Door_Open_02.wav</ShortName>
 					<CachePath>SFX/Door_Open/Door_Open_02_B3EE34D4.wem</CachePath>
@@ -178,25 +199,33 @@
 					<ShortName>Bluezone_BC0264_snow_footsteps_walk_013.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0264_snow_footsteps_walk_013_C59B9111.wem</CachePath>
 				</File>
+				<File Id="479589341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle\Bottle_Grab_00 .wav</ShortName>
+					<CachePath>SFX/Bottle/Bottle_Grab_00 _76D90928.wem</CachePath>
+				</File>
+				<File Id="482662274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Wood_02.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Wood_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="488660192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0264_snow_footsteps_walk_light_008.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0264_snow_footsteps_walk_light_008_440A147D.wem</CachePath>
-				</File>
-				<File Id="494355556" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
-					<CachePath>SFX/Footsteps/PMSFX - STEPS Dry Grass &amp; Shrubs/PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _DF541BB2.wem</CachePath>
 				</File>
 				<File Id="515776116" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Buzz_Lamps\537470__hyperchromatics__electrical-hum.wav</ShortName>
 					<CachePath>SFX/Buzz_Lamps/537470__hyperchromatics__electrical-hum_FCD3AC91.wem</CachePath>
 				</File>
+				<File Id="537944315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle\Bottle_Floor_00 .wav</ShortName>
+					<CachePath>SFX/Bottle/Bottle_Floor_00 _7EF9A086.wem</CachePath>
+				</File>
 				<File Id="548883417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Keys_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ Keys_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="583148062" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_deep_008.wav</ShortName>
-					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_walk_deep_008_FA0D4367.wem</CachePath>
+				<File Id="551274945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_00.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_00_10C4C929.wem</CachePath>
 				</File>
 				<File Id="592505923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tv_Sound\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</ShortName>
@@ -206,21 +235,37 @@
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Bass_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ Bass_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="594111549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Water_01.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_01_49CD608C.wem</CachePath>
+				</File>
+				<File Id="597277170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Water_02.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_02_C6630523.wem</CachePath>
+				</File>
+				<File Id="603807116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle\Bottle_Grab_01 .wav</ShortName>
+					<CachePath>SFX/Bottle/Bottle_Grab_01 _CEA0D2CD.wem</CachePath>
+				</File>
 				<File Id="640303633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Creeking_02.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Creeking_02_5BE7021F.wem</CachePath>
-				</File>
-				<File Id="641101631" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_walk_light_008.wav</ShortName>
-					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_walk_light_008_F4CC1B87.wem</CachePath>
 				</File>
 				<File Id="688274401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ HiHat_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="712764308" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\PMSFX - STEPS Dry Grass &amp; Shrubs\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
-					<CachePath>SFX/Footsteps/PMSFX - STEPS Dry Grass &amp; Shrubs/PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem</CachePath>
+				<File Id="696761433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Wood_00.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Wood_00_10C4C929.wem</CachePath>
+				</File>
+				<File Id="715853023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_01.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="715987644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bottle\Bottle_Floor_02 .wav</ShortName>
+					<CachePath>SFX/Bottle/Bottle_Floor_02 _4A5FFF6C.wem</CachePath>
 				</File>
 				<File Id="719238246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_07.wav</ShortName>
@@ -238,6 +283,14 @@
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Pad_3_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ Pad_3_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="783771166" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magazine\Magazine_02.wav</ShortName>
+					<CachePath>SFX/Magazine/Magazine_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="810024626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Water_03.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_03_3829DEB0.wem</CachePath>
+				</File>
 				<File Id="810706578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_00.wav</ShortName>
 					<CachePath>SFX/Door_Close/Door_Close_00_DF93745B.wem</CachePath>
@@ -249,6 +302,10 @@
 				<File Id="842447794" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Horror\Digital-Horror - AMB - Pulsating breathe.wav</ShortName>
 					<CachePath>SFX/Horror/Digital-Horror - AMB - Pulsating breathe_A5938E4F.wem</CachePath>
+				</File>
+				<File Id="851695672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_\Footsteps_Concrete_Wood_01.wav</ShortName>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Wood_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="856983006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Key_Grab\Key_Grab_01.wav</ShortName>
@@ -282,9 +339,9 @@
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
 					<CachePath>SFX/Landing/PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _E259FDD6.wem</CachePath>
 				</File>
-				<File Id="1028316391" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Footsteps_Snow\Bluezone - Snow Footsteps\Bluezone_BC0264_snow_footsteps_run_004.wav</ShortName>
-					<CachePath>SFX/Footsteps/Footsteps_Snow/Bluezone - Snow Footsteps/Bluezone_BC0264_snow_footsteps_run_004_DD76B241.wem</CachePath>
+				<File Id="1050967210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magazine\Magazine_01.wav</ShortName>
+					<CachePath>SFX/Magazine/Magazine_01_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -294,6 +351,20 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="2172171349" Name="Play_Bottle_Floor" DurationType="OneShot" DurationMin="0.54387754" DurationMax="0.6571655">
+					<MediaRefs>
+						<MediaRef Id="88112980"/>
+						<MediaRef Id="537944315"/>
+						<MediaRef Id="715987644"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="135783587" Name="Play_Bottle_Grab" DurationType="OneShot" DurationMin="0.18420643" DurationMax="0.337676">
+					<MediaRefs>
+						<MediaRef Id="194708274"/>
+						<MediaRef Id="479589341"/>
+						<MediaRef Id="603807116"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2602566986" Name="Play_Buzz_Lamp" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="515776116"/>
@@ -311,23 +382,33 @@
 						<MediaRef Id="842447794"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.16648227" DurationMax="0.6972147">
+				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.21538253" DurationMax="1.1333736">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="362115192"/>
+								<MediaRef Id="482662274"/>
+								<MediaRef Id="696761433"/>
+								<MediaRef Id="851695672"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2195636714" Default="true"/>
 							<MediaRefs>
-								<MediaRef Id="20512023"/>
-								<MediaRef Id="494355556"/>
-								<MediaRef Id="712764308"/>
+								<MediaRef Id="104017024"/>
+								<MediaRef Id="415287806"/>
+								<MediaRef Id="551274945"/>
+								<MediaRef Id="715853023"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="787898836"/>
 							<MediaRefs>
-								<MediaRef Id="47659952"/>
-								<MediaRef Id="583148062"/>
-								<MediaRef Id="641101631"/>
-								<MediaRef Id="1028316391"/>
+								<MediaRef Id="399619189"/>
+								<MediaRef Id="594111549"/>
+								<MediaRef Id="597277170"/>
+								<MediaRef Id="810024626"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -373,6 +454,13 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="3837714376" Name="Play_Magazine" DurationType="OneShot" DurationMin="0.3493651" DurationMax="0.3493651">
+					<MediaRefs>
+						<MediaRef Id="172642596"/>
+						<MediaRef Id="783771166"/>
+						<MediaRef Id="1050967210"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="404396553" Name="Play_Magic_Cube" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
@@ -453,6 +541,7 @@
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
 						<Switch Id="787898836" Name="Snow"/>
+						<Switch Id="2058049674" Name="Wood"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 					</Switches>
 				</SwitchGroup>
@@ -462,5 +551,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AE5B9F20-3A1A-0680-1622-DBC208802C5C}</FileHash>
+	<FileHash>{05DDA049-814A-AD81-BCAC-DD00F4EFA10F}</FileHash>
 </SoundBanksInfo>

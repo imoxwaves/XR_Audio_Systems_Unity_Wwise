@@ -48199,15 +48199,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8575909758062007608, guid: 9d18a71358dd26f408908648eb8563ef,
+        type: 3}
+      propertyPath: GunSounds
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8575909758062007612, guid: 9d18a71358dd26f408908648eb8563ef,
         type: 3}
       propertyPath: m_Name
       value: HVR_pistol
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8575909758062007613, guid: 9d18a71358dd26f408908648eb8563ef,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8575909758062007613, guid: 9d18a71358dd26f408908648eb8563ef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8575909758062007612, guid: 9d18a71358dd26f408908648eb8563ef,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1701225003}
   m_SourcePrefab: {fileID: 100100000, guid: 9d18a71358dd26f408908648eb8563ef, type: 3}
 --- !u!1001 &1585155727
 PrefabInstance:
@@ -53023,6 +53038,51 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &1701224992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8575909758062007612, guid: 9d18a71358dd26f408908648eb8563ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1583237920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1701225003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701224992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228531cb93e382a4e954e5c848ef9dc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fired: {fileID: 0}
+  OutOfAmmo: {fileID: 0}
+  SlideBack: {fileID: 0}
+  SlideForward: {fileID: 0}
+  FiredVariations: []
+  SlideBackVariations: []
+  SlideForwardVariations: []
+  FiredWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 86e52cbb16d9af44c8a067fe2c9294b4,
+      type: 2}
+  OutOfAmmoWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e20af29e54bd854bbb013ac5fc55e70,
+      type: 2}
+  SlideBackWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a3f0eac821d65224e8249359c5d74059,
+      type: 2}
+  SlideForwardWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b97c41aadca354946b74cf4e7727bf8c,
+      type: 2}
 --- !u!1 &1704248242
 GameObject:
   m_ObjectHideFlags: 0

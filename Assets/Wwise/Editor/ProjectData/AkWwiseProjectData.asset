@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584426513990823201
+    m_lastTime: -8584425749633858735
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584426664584734879
+    m_lastTime: -8584425749633944821
     List:
     - name: Bottle
       guid: 85a4390d65176443b0385853f69c0f9b
@@ -477,6 +477,26 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
+    - name: Play_Fired
+      guid: a5dae7b0ff16eb41b3bbbf34c46fa0aa
+      id: 471868430
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Fired
+        ObjectType: 3
+        guid: a5dae7b0ff16eb41b3bbbf34c46fa0aa
+      Path: Events\Default Work Unit\Gun\Play_Fired
+      maxAttenuation: 0
+      maxDuration: 1.6684375
+      minDuration: 1.3170625
     - name: Play_Footsteps
       guid: 1f7566f58abef24faac894bf3feb5655
       id: 3854155799
@@ -617,6 +637,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.9065978
       minDuration: 0.13057092
+    - name: Play_Out_of_Ammo
+      guid: fe1cb9a004819c44a388f8882df1b8ab
+      id: 3727589359
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Out_of_Ammo
+        ObjectType: 3
+        guid: fe1cb9a004819c44a388f8882df1b8ab
+      Path: Events\Default Work Unit\Gun\Play_Out_of_Ammo
+      maxAttenuation: 0
+      maxDuration: 2.7466667
+      minDuration: 2.64
     - name: Play_Playground
       guid: 89ffb4bdc8470240923f742cf4cfa625
       id: 2393638833
@@ -637,6 +677,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 500
       minDuration: 500
+    - name: Play_Slide_Back
+      guid: 4c532045ceb7f0449b61fb9aade2436a
+      id: 199764781
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Slide_Back
+        ObjectType: 3
+        guid: 4c532045ceb7f0449b61fb9aade2436a
+      Path: Events\Default Work Unit\Gun\Play_Slide_Back
+      maxAttenuation: 0
+      maxDuration: 0.21074495
+      minDuration: 0.20746177
+    - name: Play_Slide_Forward
+      guid: c9589be3433894439227dc6732a78baa
+      id: 294887131
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Slide_Forward
+        ObjectType: 3
+        guid: c9589be3433894439227dc6732a78baa
+      Path: Events\Default Work Unit\Gun\Play_Slide_Forward
+      maxAttenuation: 0
+      maxDuration: 0.1991633
+      minDuration: 0.16773579
     - name: Play_SnowField
       guid: b4bb4d5843200f47bd4f9e4c63e5bfd0
       id: 2611174673
@@ -1168,7 +1248,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0400000005000000060000000b0000001500000016000000180000001a0000001e00000000cc0a00ebb01200
+  ExpandedWaapiItemIds: 04000000050000000600000007000000090000000b0000001500000016000000180000001a0000001e00000000cc0a00ebb01200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -2249,6 +2249,319 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Gun" ID="{2626F299-D06A-4311-A7BB-FC9EE8B327F2}" ShortID="1058195032">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Fired" ID="{5C01A6A1-644F-4B4C-AD68-EFC1DE593F4D}" ShortID="16753809">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_1" ID="{2513557B-E25E-4C2C-B980-23CD02F199E7}" ShortID="133286576">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_1" ID="{7FFC4EFC-95AD-4167-BEDE-1F43A75A93F9}">
+											<Language>SFX</Language>
+											<AudioFile>Gun_Fired\handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="597410091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_1" ID="{7FFC4EFC-95AD-4167-BEDE-1F43A75A93F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_2" ID="{FC297006-B2AF-42A0-80B2-3BFA9D2DF319}" ShortID="110421923">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_2" ID="{A9C640A4-EC64-47D8-96A3-D74420EC5B10}">
+											<Language>SFX</Language>
+											<AudioFile>Gun_Fired\handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="495177395"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_2" ID="{A9C640A4-EC64-47D8-96A3-D74420EC5B10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Out_of_Ammo" ID="{A7BA97FE-7C63-4CBF-84AC-914422A95BBC}" ShortID="323476225">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1" ID="{E1BF03A4-0010-4243-B5AE-1FF1D77B8BD3}" ShortID="367483909">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1" ID="{12F3B729-AF9F-4586-9BA4-FB7FCAEBFDFA}">
+											<Language>SFX</Language>
+											<AudioFile>Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1028858155"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1" ID="{12F3B729-AF9F-4586-9BA4-FB7FCAEBFDFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2" ID="{3EC4DE45-2CDC-4ECB-8B53-F5CCA6361575}" ShortID="202009430">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2" ID="{7D7D501D-098A-4A18-B515-586D4B91D8A9}">
+											<Language>SFX</Language>
+											<AudioFile>Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657987056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2" ID="{7D7D501D-098A-4A18-B515-586D4B91D8A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Slide_Back" ID="{BD1E8F1D-4E9C-43C8-9778-4FCF40110672}" ShortID="524372194">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1" ID="{34332519-87BE-48C1-90CD-BA1F90B0CF96}" ShortID="827037105">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1" ID="{CAB0BCAE-4079-40AD-9A9E-6A213F1A802B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0331938837920489"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0124477064220184"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.207461773700305"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321356462"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1" ID="{CAB0BCAE-4079-40AD-9A9E-6A213F1A802B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2" ID="{E4A3EBC5-9BBF-4568-9329-0B50909B4CD3}" ShortID="1061121301">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2" ID="{4AD06DAE-CEB3-42B5-8597-225BDCE3ABE0}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.210744954128441"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="651352107"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2" ID="{4AD06DAE-CEB3-42B5-8597-225BDCE3ABE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Slide_Forward" ID="{F569FF23-2909-416F-AE15-35A43699346C}" ShortID="347272430">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1" ID="{ABA835D4-53FF-4030-B219-C0784D155B1B}" ShortID="858505059">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1" ID="{10C0EEF5-0276-4724-A87F-5872C74612CE}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.236506422018349"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.435669724770643"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="876990380"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1" ID="{10C0EEF5-0276-4724-A87F-5872C74612CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2" ID="{7EE8294E-2022-4D2C-A508-03759FA573A8}" ShortID="630110154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2" ID="{135F9CBA-60F4-4D7C-B688-D840BD3D13A7}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.219346788990826"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.387082568807339"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="322360343"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2" ID="{135F9CBA-60F4-4D7C-B688-D840BD3D13A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1" ID="{B300AF8B-8B22-4AF7-85A7-E43DDB8703F8}" ShortID="682616087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1" ID="{301C21BB-1000-4E63-AB0D-3C76DEFF9ED0}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.847109480122324"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.03102140672783"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="146729047"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1" ID="{301C21BB-1000-4E63-AB0D-3C76DEFF9ED0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Casing" ID="{72F03C17-CF09-4EC9-AF4E-FB701121388E}" ShortID="1058786072">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -303,6 +303,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Fired" ID="{B0E7DAA5-16FF-41EB-B3BB-BF34C46FA0AA}">
+							<ChildrenList>
+								<Action Name="" ID="{2F4A9911-2D09-4935-9EFD-7BB2A5ED9DD4}" ShortID="112857227">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fired" ID="{5C01A6A1-644F-4B4C-AD68-EFC1DE593F4D}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Out_of_Ammo" ID="{A0B91CFE-8104-449C-A388-F8882DF1B8AB}">
+							<ChildrenList>
+								<Action Name="" ID="{389EC271-3E0F-4E03-A065-CAB1A9BE7678}" ShortID="960715788">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Out_of_Ammo" ID="{A7BA97FE-7C63-4CBF-84AC-914422A95BBC}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Slide_Back" ID="{4520534C-B7CE-44F0-9B61-FB9AADE2436A}">
+							<ChildrenList>
+								<Action Name="" ID="{1553ACF8-B8DA-47DF-A9A0-78A8D6441471}" ShortID="40633789">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Slide_Back" ID="{BD1E8F1D-4E9C-43C8-9778-4FCF40110672}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Slide_Forward" ID="{E39B58C9-3843-4394-9227-DC6732A78BAA}">
+							<ChildrenList>
+								<Action Name="" ID="{75A8477B-0C15-4055-95E5-D8799CAC14D6}" ShortID="331247182">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Slide_Forward" ID="{F569FF23-2909-416F-AE15-35A43699346C}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bottle" ID="{0D39A485-1765-4364-B038-5853F69C0F9B}" ShortID="931716075">

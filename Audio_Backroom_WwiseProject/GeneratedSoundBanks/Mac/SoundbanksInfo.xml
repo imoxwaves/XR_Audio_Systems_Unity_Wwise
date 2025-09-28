@@ -95,7 +95,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A3D2B220-7335-6EFB-9126-20C8426E3C38}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0FD1A04B-CCFE-C23F-56CA-1F51E01D3A30}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -113,7 +113,7 @@
 				</File>
 				<File Id="88112980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Floor_01 .wav</ShortName>
-					<CachePath>SFX/Bottle/Bottle_Floor_01 _75ECD28B.wem</CachePath>
+					<CachePath>SFX/Bottle/Bottle_Floor_01 _693A1A64.wem</CachePath>
 				</File>
 				<File Id="104017024" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_03.wav</ShortName>
@@ -135,6 +135,10 @@
 					<ShortName>Door_Close\Door_Close_02.wav</ShortName>
 					<CachePath>SFX/Door_Close/Door_Close_02_80730344.wem</CachePath>
 				</File>
+				<File Id="146729047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1.wav</ShortName>
+					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1_0F6EF99D.wem</CachePath>
+				</File>
 				<File Id="153189501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_00.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Squeak_00_157014E2.wem</CachePath>
@@ -145,7 +149,7 @@
 				</File>
 				<File Id="194708274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Grab_02 .wav</ShortName>
-					<CachePath>SFX/Bottle/Bottle_Grab_02 _1DD56117.wem</CachePath>
+					<CachePath>SFX/Bottle/Bottle_Grab_02 _F1298DF7.wem</CachePath>
 				</File>
 				<File Id="197685070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Open\Door_Open_01.wav</ShortName>
@@ -175,6 +179,14 @@
 					<ShortName>Magic_Cube\Digital-Horror - AMB - Pulsating breathe.wav</ShortName>
 					<CachePath>SFX/Magic_Cube/Digital-Horror - AMB - Pulsating breathe_7C212A8C.wem</CachePath>
 				</File>
+				<File Id="321356462" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1.wav</ShortName>
+					<CachePath>SFX/Gun_Slide_Back/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1_16A19173.wem</CachePath>
+				</File>
+				<File Id="322360343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2.wav</ShortName>
+					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_B3E22EAA.wem</CachePath>
+				</File>
 				<File Id="341862758" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004.wav</ShortName>
 					<CachePath>SFX/Snow_Field/Bluezone_BC0270_heaven_synth_atmosphere_004_22FDC662.wem</CachePath>
@@ -185,7 +197,7 @@
 				</File>
 				<File Id="399619189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Water_00.wav</ShortName>
-					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_00_084D6884.wem</CachePath>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_00_4566372B.wem</CachePath>
 				</File>
 				<File Id="415287806" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_02.wav</ShortName>
@@ -201,7 +213,7 @@
 				</File>
 				<File Id="479589341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Grab_00 .wav</ShortName>
-					<CachePath>SFX/Bottle/Bottle_Grab_00 _76D90928.wem</CachePath>
+					<CachePath>SFX/Bottle/Bottle_Grab_00 _7CEB7E2D.wem</CachePath>
 				</File>
 				<File Id="482662274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Wood_02.wav</ShortName>
@@ -211,13 +223,17 @@
 					<ShortName>Bluezone_BC0264_snow_footsteps_walk_light_008.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0264_snow_footsteps_walk_light_008_440A147D.wem</CachePath>
 				</File>
+				<File Id="495177395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Fired\handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_2.wav</ShortName>
+					<CachePath>SFX/Gun_Fired/handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="515776116" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Buzz_Lamps\537470__hyperchromatics__electrical-hum.wav</ShortName>
 					<CachePath>SFX/Buzz_Lamps/537470__hyperchromatics__electrical-hum_FCD3AC91.wem</CachePath>
 				</File>
 				<File Id="537944315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Floor_00 .wav</ShortName>
-					<CachePath>SFX/Bottle/Bottle_Floor_00 _7EF9A086.wem</CachePath>
+					<CachePath>SFX/Bottle/Bottle_Floor_00 _1BE2F209.wem</CachePath>
 				</File>
 				<File Id="548883417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Keys_120bpm4-4_L4M-P0.wav</ShortName>
@@ -237,19 +253,31 @@
 				</File>
 				<File Id="594111549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Water_01.wav</ShortName>
-					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_01_49CD608C.wem</CachePath>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_01_2F324590.wem</CachePath>
 				</File>
 				<File Id="597277170" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Water_02.wav</ShortName>
-					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_02_C6630523.wem</CachePath>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_02_5A48D852.wem</CachePath>
+				</File>
+				<File Id="597410091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Fired\handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_1.wav</ShortName>
+					<CachePath>SFX/Gun_Fired/handgun_semi-auto_9mm_Taurus_PT92A_firing_close_mono_1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="603807116" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Grab_01 .wav</ShortName>
-					<CachePath>SFX/Bottle/Bottle_Grab_01 _CEA0D2CD.wem</CachePath>
+					<CachePath>SFX/Bottle/Bottle_Grab_01 _B83E1937.wem</CachePath>
 				</File>
 				<File Id="640303633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Creeking_02.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Creeking_02_5BE7021F.wem</CachePath>
+				</File>
+				<File Id="651352107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2.wav</ShortName>
+					<CachePath>SFX/Gun_Slide_Back/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_F4048CAF.wem</CachePath>
+				</File>
+				<File Id="657987056" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2.wav</ShortName>
+					<CachePath>SFX/Gun_Out_Ammo/handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="688274401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0.wav</ShortName>
@@ -265,7 +293,7 @@
 				</File>
 				<File Id="715987644" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Floor_02 .wav</ShortName>
-					<CachePath>SFX/Bottle/Bottle_Floor_02 _4A5FFF6C.wem</CachePath>
+					<CachePath>SFX/Bottle/Bottle_Floor_02 _A01B5C58.wem</CachePath>
 				</File>
 				<File Id="719238246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_07.wav</ShortName>
@@ -289,7 +317,7 @@
 				</File>
 				<File Id="810024626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Water_03.wav</ShortName>
-					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_03_3829DEB0.wem</CachePath>
+					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_03_109D2A47.wem</CachePath>
 				</File>
 				<File Id="810706578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Close\Door_Close_00.wav</ShortName>
@@ -315,6 +343,10 @@
 					<ShortName>Stingers\IMPACT DARK Epic Punch_01.wav</ShortName>
 					<CachePath>SFX/Stingers/IMPACT DARK Epic Punch_01_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="876990380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1.wav</ShortName>
+					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1_5E6E259E.wem</CachePath>
+				</File>
 				<File Id="886946489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Pad_2_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ Pad_2_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
@@ -338,6 +370,10 @@
 				<File Id="1018939908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
 					<CachePath>SFX/Landing/PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _E259FDD6.wem</CachePath>
+				</File>
+				<File Id="1028858155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1.wav</ShortName>
+					<CachePath>SFX/Gun_Out_Ammo/handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1050967210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magazine\Magazine_01.wav</ShortName>
@@ -380,6 +416,12 @@
 				<Event Id="1784581504" Name="Play_Digital_Horror___AMB___Pulsating_breathe" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="842447794"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="471868430" Name="Play_Fired" DurationType="OneShot" DurationMin="1.3170625" DurationMax="1.6684375">
+					<MediaRefs>
+						<MediaRef Id="495177395"/>
+						<MediaRef Id="597410091"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.21538253" DurationMax="1.1333736">
@@ -476,6 +518,12 @@
 						<MediaRef Id="429719201"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3727589359" Name="Play_Out_of_Ammo" DurationType="OneShot" DurationMin="2.64" DurationMax="2.7466667">
+					<MediaRefs>
+						<MediaRef Id="657987056"/>
+						<MediaRef Id="1028858155"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2393638833" Name="Play_Playground" DurationType="OneShot" DurationMin="500" DurationMax="500">
 					<MediaRefs>
 						<MediaRef Id="548883417"/>
@@ -488,6 +536,19 @@
 						<MediaRef Id="870113467"/>
 						<MediaRef Id="886946489"/>
 						<MediaRef Id="913917299"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="199764781" Name="Play_Slide_Back" DurationType="OneShot" DurationMin="0.20746177" DurationMax="0.21074495">
+					<MediaRefs>
+						<MediaRef Id="321356462"/>
+						<MediaRef Id="651352107"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="294887131" Name="Play_Slide_Forward" DurationType="OneShot" DurationMin="0.16773579" DurationMax="0.1991633">
+					<MediaRefs>
+						<MediaRef Id="146729047"/>
+						<MediaRef Id="322360343"/>
+						<MediaRef Id="876990380"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2611174673" Name="Play_SnowField" MaxAttenuation="20" DurationType="Infinite">
@@ -551,5 +612,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{05DDA049-814A-AD81-BCAC-DD00F4EFA10F}</FileHash>
+	<FileHash>{C72DAC51-4D34-B190-3AC2-2EC3C38E4CF4}</FileHash>
 </SoundBanksInfo>

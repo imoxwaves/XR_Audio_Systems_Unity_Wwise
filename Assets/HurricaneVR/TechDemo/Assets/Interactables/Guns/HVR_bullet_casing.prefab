@@ -150,7 +150,7 @@ MonoBehaviour:
   CollisionWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5233d58e08e60d34c8aeafa94d936bd3,
+    WwiseObjectReference: {fileID: 11400000, guid: eedd2fe94f7eabe4984480534e2e41bf,
       type: 2}
   MinCollisionVelocity: 0.5
   Lifetime: 5

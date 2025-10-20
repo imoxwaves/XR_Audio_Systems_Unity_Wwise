@@ -347,6 +347,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Casing" ID="{11C41EB7-F434-4911-99A2-41088E5289C2}">
+							<ChildrenList>
+								<Action Name="" ID="{968665C9-DC3A-45E3-97AC-23065CC04481}" ShortID="1059233387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Casing" ID="{72F03C17-CF09-4EC9-AF4E-FB701121388E}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bottle" ID="{0D39A485-1765-4364-B038-5853F69C0F9B}" ShortID="931716075">
@@ -368,6 +379,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bottle_Grab" ID="{223441FB-B14E-415E-9E68-417DC2964486}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{CD5E2234-B77B-407B-9861-8B2D3D53D4FE}" ShortID="1004610961">
+					<ChildrenList>
+						<Event Name="Play_Inert_Door" ID="{E0497894-5F74-4315-84D9-D18B31197BA5}">
+							<ChildrenList>
+								<Action Name="" ID="{01299D2C-10A8-40EB-B63C-49A28E94A831}" ShortID="225816538">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inert_Door" ID="{C253F78F-A757-4F96-8336-FBAE40B5B1AD}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

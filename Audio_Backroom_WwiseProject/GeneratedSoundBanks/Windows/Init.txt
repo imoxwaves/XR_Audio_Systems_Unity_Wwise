@@ -28,6 +28,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3400062578	Tunnel_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	618178639	Grabador	Wwise Recorder			
 	702543456	Tunnel1	Wwise Matrix Reverb			
 	1904434771	Medium_Room1	Wwise Matrix Reverb			
 	2662085913	Large_Church1	Wwise Matrix Reverb			

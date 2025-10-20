@@ -8,6 +8,9 @@
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{13A55EDF-C694-4F69-8775-55FCE7CE2DA7}" WorkUnitID="{2E0D4111-CA48-487C-974D-5E50D8642596}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+							<ObjectRef Name="Grabador" ID="{7CA0D7A9-6614-4618-B4BD-D6856144B03D}" WorkUnitID="{744DCA84-F76D-48DB-8906-AB1D2815CA09}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Boxes" ID="{F0DA41D8-2287-4EDB-9132-D2D10DAD1F41}"/>

@@ -489,7 +489,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1139,7 +1139,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1303,6 +1303,11 @@
 						<RandomSequenceContainer Name="Squeak_Door" ID="{68C0EF14-DA02-4689-8484-67E1DFA2A15D}" ShortID="334324005">
 							<PropertyList>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2559,6 +2564,196 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="weapons_bullet_casing_01" ID="{490A6EB9-31FA-4BB7-9DBE-BFF9692789F9}" ShortID="53084262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="weapons_bullet_casing_01" ID="{B5F4F5B8-9513-454A-9819-836681DFC299}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0379614304437371"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00632690507395618"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.01863171690695"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Casing\weapons_bullet_casing_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973781905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="weapons_bullet_casing_01" ID="{B5F4F5B8-9513-454A-9819-836681DFC299}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="weapons_bullet_casing_02" ID="{3007F598-DBB2-41EE-8697-CDA8CC5D44CA}" ShortID="3244579">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="weapons_bullet_casing_02" ID="{12119954-F54F-4805-A000-2D24674D0956}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.021565749235474"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Casing\weapons_bullet_casing_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="204756023"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="weapons_bullet_casing_02" ID="{12119954-F54F-4805-A000-2D24674D0956}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="weapons_bullet_casing_03" ID="{F8D10D40-B325-4D03-AED1-497E9086FD13}" ShortID="965199892">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="weapons_bullet_casing_03" ID="{851D28F2-217E-4288-A75C-5117E094069F}">
+											<Language>SFX</Language>
+											<AudioFile>Gun_Casing\weapons_bullet_casing_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350757294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="weapons_bullet_casing_03" ID="{851D28F2-217E-4288-A75C-5117E094069F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="weapons_bullet_casing_04" ID="{2E6D3EE9-4C7B-482A-AAD0-93FE40FE9F51}" ShortID="137410479">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="weapons_bullet_casing_04" ID="{2B516861-6E41-4BA6-AA4A-EB26E5B726E0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00930275229357799"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0292372214941022"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Casing\weapons_bullet_casing_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="192778302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="weapons_bullet_casing_04" ID="{2B516861-6E41-4BA6-AA4A-EB26E5B726E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Inert_Door" ID="{9683509A-29B6-4317-B184-513D7A7E8B37}" ShortID="744589931">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Inert_Door" ID="{C253F78F-A757-4F96-8336-FBAE40B5B1AD}" ShortID="314693390">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoopCount" Type="int32" Value="6"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Inert_Door" ID="{868DC430-8D35-4FE2-B143-F2E91E6F26B4}" WorkUnitID="{DD7741AC-2669-403C-B8E5-045473BA16DA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Carcvass_Door" ID="{80AC499C-F923-4DD2-B441-6D930267C0D6}" ShortID="726353684">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Carcvass_Door" ID="{50656318-B2FF-44D3-BD82-959389D62EF3}">
+											<Language>SFX</Language>
+											<AudioFile>Inert_Room-Sound\Carcvass_Door.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="953112805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Carcvass_Door" ID="{50656318-B2FF-44D3-BD82-959389D62EF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Carcvass_Door_00wav" ID="{1E870807-4662-4A94-BDAF-444DA9D897AD}" ShortID="26480610">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Carcvass_Door_00wav" ID="{9818E8B1-5552-4D39-98B3-7351836F869F}">
+											<Language>SFX</Language>
+											<AudioFile>Inert_Room-Sound\Carcvass_Door_00wav.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="939214571"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Carcvass_Door_00wav" ID="{9818E8B1-5552-4D39-98B3-7351836F869F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>

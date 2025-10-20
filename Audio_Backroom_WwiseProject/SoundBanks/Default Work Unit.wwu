@@ -11,6 +11,7 @@
 						<ObjectRef Name="Slide_Forward" ID="{F569FF23-2909-416F-AE15-35A43699346C}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Open_Door" ID="{FD4CC99C-7218-419D-9959-87340A458990}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fired" ID="{B0E7DAA5-16FF-41EB-B3BB-BF34C46FA0AA}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Inert_Door" ID="{E0497894-5F74-4315-84D9-D18B31197BA5}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Tv_Sound" ID="{7DF13BE1-9F8F-438D-B767-BA23EA7A16EA}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Tv_On" ID="{2EF0D2A8-3A6D-43AF-9445-397D4491E32D}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Slide_Back" ID="{BD1E8F1D-4E9C-43C8-9778-4FCF40110672}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" Origin="Manual" Filter="7"/>
@@ -21,6 +22,7 @@
 						<ObjectRef Name="Stop_Tv_Off" ID="{C1B25AD1-13BB-4591-80C8-09102828B506}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Landing" ID="{34C52711-DF7E-470B-8DAD-F72B42C7E111}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Casing" ID="{11C41EB7-F434-4911-99A2-41088E5289C2}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Magazine" ID="{B8F58311-3C79-4981-8634-6E9416895E30}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Key_Insert" ID="{E01D27F3-E6B1-4C95-8ADE-53BD8C1B1FE7}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Open_Door" ID="{AE6CD883-E935-4CBA-8A84-4AF87F956E0B}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>

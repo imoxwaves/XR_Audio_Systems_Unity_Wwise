@@ -211,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584425749633858735
+    m_lastTime: -8584410327753755292
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -239,8 +239,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584425749633944821
+    m_lastTime: -8584410327753872099
     List:
+    - name: Ambient
+      guid: 34225ecd7bb77b4098618b2d3d53d4fe
+      id: 77978275
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 34225ecd7bb77b4098618b2d3d53d4fe
+      Path: Events\Default Work Unit\Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Bottle
       guid: 85a4390d65176443b0385853f69c0f9b
       id: 3848582449
@@ -437,6 +454,26 @@ MonoBehaviour:
       maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
+    - name: Play_Casing
+      guid: b71ec41134f4114999a241088e5289c2
+      id: 945960111
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Casing
+        ObjectType: 3
+        guid: b71ec41134f4114999a241088e5289c2
+      Path: Events\Default Work Unit\Gun\Play_Casing
+      maxAttenuation: 0
+      maxDuration: 1.0123048
+      minDuration: 0.7242857
     - name: Play_Close_Door
       guid: 4bc532a38b3ce44cbe459cb71736ae00
       id: 3898429045
@@ -517,6 +554,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.1333736
       minDuration: 0.21538253
+    - name: Play_Inert_Door
+      guid: 947849e0745f154384d9d18b31197ba5
+      id: 860451893
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 34225ecd7bb77b4098618b2d3d53d4fe
+      - ElementName: Play_Inert_Door
+        ObjectType: 3
+        guid: 947849e0745f154384d9d18b31197ba5
+      Path: Events\Default Work Unit\Ambient\Play_Inert_Door
+      maxAttenuation: 1
+      maxDuration: 96
+      minDuration: 96
     - name: Play_Key_Insert
       guid: f3271de0b1e6954c8ade53bd8c1b1fe7
       id: 643666237
@@ -1248,7 +1305,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 04000000050000000600000007000000090000000b0000001500000016000000180000001a0000001e00000000cc0a00ebb01200
+  ExpandedWaapiItemIds: 040000000500000006000000070000001500000016000000180000001a0000001e00000000cc0a00ebb01200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

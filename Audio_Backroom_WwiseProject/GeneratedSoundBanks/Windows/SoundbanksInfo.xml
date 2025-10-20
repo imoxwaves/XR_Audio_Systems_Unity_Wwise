@@ -9,11 +9,12 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9E423EE6-1B27-49C9-FC5C-C07035C99EA0}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1D217F03-8A81-DC4E-FF13-25EA2F2FD99A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="618178639" Name="Grabador" LibName="Wwise Recorder" LibId="8650755"/>
 					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="1904434771" Name="Medium_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="2662085913" Name="Large_Church1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
@@ -32,7 +33,13 @@
 					</AuxBusRefs>
 				</Bus>
 				<Bus Id="3545700988" Name="Reverbs"/>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="618178639"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3991942870" Name="Music">
 					<AuxBusRefs>
 						<AuxBusRef Id="3400062578" Name="Tunnel_Reverb"/>
@@ -95,7 +102,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0FD1A04B-CCFE-C23F-56CA-1F51E01D3A30}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{34809029-7A50-7812-DFC3-D64E2E15080A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -137,7 +144,7 @@
 				</File>
 				<File Id="146729047" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1.wav</ShortName>
-					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1_0F6EF99D.wem</CachePath>
+					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_slow_1_DA713887.wem</CachePath>
 				</File>
 				<File Id="153189501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Squeak\Door_Squeak_00.wav</ShortName>
@@ -147,6 +154,10 @@
 					<ShortName>Magazine\Magazine_00.wav</ShortName>
 					<CachePath>SFX/Magazine/Magazine_00_10C4C929.wem</CachePath>
 				</File>
+				<File Id="192778302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Casing\weapons_bullet_casing_04.wav</ShortName>
+					<CachePath>SFX/Gun_Casing/weapons_bullet_casing_04_3E06026D.wem</CachePath>
+				</File>
 				<File Id="194708274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\Bottle_Grab_02 .wav</ShortName>
 					<CachePath>SFX/Bottle/Bottle_Grab_02 _F1298DF7.wem</CachePath>
@@ -154,6 +165,10 @@
 				<File Id="197685070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Open\Door_Open_01.wav</ShortName>
 					<CachePath>SFX/Door_Open/Door_Open_01_9B29AC6F.wem</CachePath>
+				</File>
+				<File Id="204756023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Casing\weapons_bullet_casing_02.wav</ShortName>
+					<CachePath>SFX/Gun_Casing/weapons_bullet_casing_02_7408F6CF.wem</CachePath>
 				</File>
 				<File Id="230218985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</ShortName>
@@ -181,15 +196,19 @@
 				</File>
 				<File Id="321356462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1.wav</ShortName>
-					<CachePath>SFX/Gun_Slide_Back/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1_16A19173.wem</CachePath>
+					<CachePath>SFX/Gun_Slide_Back/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1_AC26F145.wem</CachePath>
 				</File>
 				<File Id="322360343" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2.wav</ShortName>
-					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_B3E22EAA.wem</CachePath>
+					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_C2DD8593.wem</CachePath>
 				</File>
 				<File Id="341862758" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004.wav</ShortName>
 					<CachePath>SFX/Snow_Field/Bluezone_BC0270_heaven_synth_atmosphere_004_22FDC662.wem</CachePath>
+				</File>
+				<File Id="350757294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Casing\weapons_bullet_casing_03.wav</ShortName>
+					<CachePath>SFX/Gun_Casing/weapons_bullet_casing_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="362115192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Wood_03.wav</ShortName>
@@ -273,7 +292,7 @@
 				</File>
 				<File Id="651352107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2.wav</ShortName>
-					<CachePath>SFX/Gun_Slide_Back/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_F4048CAF.wem</CachePath>
+					<CachePath>SFX/Gun_Slide_Back/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_371C8064.wem</CachePath>
 				</File>
 				<File Id="657987056" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2.wav</ShortName>
@@ -345,7 +364,7 @@
 				</File>
 				<File Id="876990380" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Slide_Forward\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1.wav</ShortName>
-					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1_5E6E259E.wem</CachePath>
+					<CachePath>SFX/Gun_Slide_Forward/handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_1_31E17FC4.wem</CachePath>
 				</File>
 				<File Id="886946489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Pad_2_120bpm4-4_L4M-P0.wav</ShortName>
@@ -363,9 +382,21 @@
 					<ShortName>Door_Squeak\Door_Squeak_04.wav</ShortName>
 					<CachePath>SFX/Door_Squeak/Door_Squeak_04_86FF8DC2.wem</CachePath>
 				</File>
+				<File Id="939214571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Inert_Room-Sound\Carcvass_Door_00wav.wav</ShortName>
+					<CachePath>SFX/Inert_Room-Sound/Carcvass_Door_00wav_10C4C929.wem</CachePath>
+				</File>
 				<File Id="946095187" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Key_Insert\Key_inserted_00.wav</ShortName>
 					<CachePath>SFX/Door_Key_Insert/Key_inserted_00_10C4C929.wem</CachePath>
+				</File>
+				<File Id="953112805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Inert_Room-Sound\Carcvass_Door.wav</ShortName>
+					<CachePath>SFX/Inert_Room-Sound/Carcvass_Door_10C4C929.wem</CachePath>
+				</File>
+				<File Id="973781905" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Casing\weapons_bullet_casing_01.wav</ShortName>
+					<CachePath>SFX/Gun_Casing/weapons_bullet_casing_01_9F06D27B.wem</CachePath>
 				</File>
 				<File Id="1018939908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -404,6 +435,14 @@
 				<Event Id="2602566986" Name="Play_Buzz_Lamp" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="515776116"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="945960111" Name="Play_Casing" DurationType="OneShot" DurationMin="0.7242857" DurationMax="1.0123048">
+					<MediaRefs>
+						<MediaRef Id="192778302"/>
+						<MediaRef Id="204756023"/>
+						<MediaRef Id="350757294"/>
+						<MediaRef Id="973781905"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3898429045" Name="Play_Close_Door" DurationType="OneShot" DurationMin="0.18165843" DurationMax="0.47102398">
@@ -454,6 +493,12 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="860451893" Name="Play_Inert_Door" MaxAttenuation="1" DurationType="OneShot" DurationMin="96" DurationMax="96">
+					<MediaRefs>
+						<MediaRef Id="939214571"/>
+						<MediaRef Id="953112805"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="643666237" Name="Play_Key_Insert" DurationType="OneShot" DurationMin="0.3286848" DurationMax="0.6104082">
 					<MediaRefs>
@@ -612,5 +657,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DC45D745-743A-1380-8B31-FCB333ECB2F5}</FileHash>
+	<FileHash>{C40FC86F-11D4-01A0-7001-58D1B2890DA7}</FileHash>
 </SoundBanksInfo>

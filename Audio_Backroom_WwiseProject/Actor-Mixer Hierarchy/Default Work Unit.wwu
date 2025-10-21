@@ -472,7 +472,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Footsteps_Snow" ID="{9867AC2B-6F97-4AD3-ADC0-5936B73EEA30}" ShortID="376411127">
+						<RandomSequenceContainer Name="Footsteps_Wet" ID="{9867AC2B-6F97-4AD3-ADC0-5936B73EEA30}" ShortID="376411127">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -647,7 +647,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Footsteps_Dirt" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}" ShortID="1073481590">
+						<RandomSequenceContainer Name="Footsteps_Concrete" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}" ShortID="1073481590">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -898,10 +898,10 @@
 								<ItemRef Name="Footsteps_Wood" ID="{7657A624-2628-40C4-AD76-BCDE704AF3C0}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Footsteps_Snow" ID="{9867AC2B-6F97-4AD3-ADC0-5936B73EEA30}"/>
+								<ItemRef Name="Footsteps_Wet" ID="{9867AC2B-6F97-4AD3-ADC0-5936B73EEA30}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Footsteps_Dirt" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}"/>
+								<ItemRef Name="Footsteps_Concrete" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
@@ -914,13 +914,13 @@
 							<Grouping>
 								<SwitchRef Name="Dirt" ID="{2B1E2A6A-9AEC-4AEC-834B-D6BE9FB32726}"/>
 								<ItemList>
-									<ItemRef Name="Footsteps_Dirt" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}"/>
+									<ItemRef Name="Footsteps_Concrete" ID="{187FBCC1-52A6-4FD0-AE60-19F22FE4016F}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Snow" ID="{BDA16EA9-6D90-4672-A732-0623B6151FA3}"/>
 								<ItemList>
-									<ItemRef Name="Footsteps_Snow" ID="{9867AC2B-6F97-4AD3-ADC0-5936B73EEA30}"/>
+									<ItemRef Name="Footsteps_Wet" ID="{9867AC2B-6F97-4AD3-ADC0-5936B73EEA30}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>
@@ -1106,7 +1106,7 @@
 					<ChildrenList>
 						<Sound Name="Tv_Sound" ID="{E6F035B7-C462-4F93-835A-552E9005F9B4}" ShortID="902446444">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1137,6 +1137,7 @@
 				<Folder Name="Door" ID="{72E6AA82-2649-4FEA-B1AC-8F4F9BCBD99F}" ShortID="1057862340"/>
 				<SwitchContainer Name="Doors" ID="{BEA1FF6C-C2FE-49DE-AD54-5905D00A3D78}" ShortID="95368430">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
@@ -2005,6 +2006,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Bottle_Grab" ID="{223441FB-B14E-415E-9E68-417DC2964486}" ShortID="172133887">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -2257,6 +2259,9 @@
 				<Folder Name="Gun" ID="{2626F299-D06A-4311-A7BB-FC9EE8B327F2}" ShortID="1058195032">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Fired" ID="{5C01A6A1-644F-4B4C-AD68-EFC1DE593F4D}" ShortID="16753809">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
@@ -2313,6 +2318,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Out_of_Ammo" ID="{A7BA97FE-7C63-4CBF-84AC-914422A95BBC}" ShortID="323476225">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
@@ -2370,6 +2378,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Slide_Back" ID="{BD1E8F1D-4E9C-43C8-9778-4FCF40110672}" ShortID="524372194">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
@@ -2457,6 +2466,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Slide_Forward" ID="{F569FF23-2909-416F-AE15-35A43699346C}" ShortID="347272430">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
@@ -2556,6 +2566,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Casing" ID="{72F03C17-CF09-4EC9-AF4E-FB701121388E}" ShortID="1058786072">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>

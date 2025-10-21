@@ -8,9 +8,6 @@
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{13A55EDF-C694-4F69-8775-55FCE7CE2DA7}" WorkUnitID="{2E0D4111-CA48-487C-974D-5E50D8642596}"/>
 						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
-							<ObjectRef Name="Grabador" ID="{7CA0D7A9-6614-4618-B4BD-D6856144B03D}" WorkUnitID="{744DCA84-F76D-48DB-8906-AB1D2815CA09}"/>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Boxes" ID="{F0DA41D8-2287-4EDB-9132-D2D10DAD1F41}"/>
@@ -70,14 +67,21 @@
 								<AuxBus Name="Room1_Reverb" ID="{357DED2A-29BA-47F3-8114-73614F55F044}">
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-											<ObjectRef Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
 								<AuxBus Name="Room2_Reverb" ID="{A3A78ABB-FA88-4128-8E65-6EA3795F0CF5}">
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											<ObjectRef Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Room3_Reverb" ID="{846D1DA5-9229-4DCA-B1D6-33E0B80A6DA3}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 								</AuxBus>

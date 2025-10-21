@@ -9,15 +9,15 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1D217F03-8A81-DC4E-FF13-25EA2F2FD99A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{97037A01-21DE-8E87-11AF-B18A2AB2BEE1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="618178639" Name="Grabador" LibName="Wwise Recorder" LibId="8650755"/>
 					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="1904434771" Name="Medium_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="2662085913" Name="Large_Church1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="2995775460" Name="Room_Small" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -33,13 +33,7 @@
 					</AuxBusRefs>
 				</Bus>
 				<Bus Id="3545700988" Name="Reverbs"/>
-				<Bus Id="3803692087" Name="Master Audio Bus">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="618178639"/>
-						</ShareSets>
-					</PluginRefs>
-				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music">
 					<AuxBusRefs>
 						<AuxBusRef Id="3400062578" Name="Tunnel_Reverb"/>
@@ -50,14 +44,21 @@
 				<AuxBus Id="2010806857" Name="Room2_Reverb">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="2662085913"/>
+							<PluginRef Id="1904434771"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2028971762" Name="Room3_Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
 				<AuxBus Id="3284497960" Name="Room1_Reverb">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="1904434771"/>
+							<PluginRef Id="2662085913"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -102,7 +103,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{34809029-7A50-7812-DFC3-D64E2E15080A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0EA5732D-CF4A-7B6F-0F9E-FC5B7D2C1E81}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -622,12 +623,12 @@
 						<ActionTriggerEntry Id="282632421" Name="Top_Floor"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="1865976120" Name="Play_Tv_On" MaxAttenuation="3" DurationType="OneShot" DurationMin="63.38237" DurationMax="63.38237">
+				<Event Id="1865976120" Name="Play_Tv_On" MaxAttenuation="10" DurationType="OneShot" DurationMin="63.38237" DurationMax="63.38237">
 					<MediaRefs>
 						<MediaRef Id="592505923"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="587876244" Name="Play_Tv_Sound" MaxAttenuation="3" DurationType="OneShot" DurationMin="66.75737" DurationMax="66.75737">
+				<Event Id="587876244" Name="Play_Tv_Sound" MaxAttenuation="10" DurationType="OneShot" DurationMin="66.75737" DurationMax="66.75737">
 					<MediaRefs>
 						<MediaRef Id="230218985"/>
 					</MediaRefs>
@@ -657,5 +658,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C40FC86F-11D4-01A0-7001-58D1B2890DA7}</FileHash>
+	<FileHash>{F88B70C7-0F6A-28F8-929A-C6B756D9384C}</FileHash>
 </SoundBanksInfo>

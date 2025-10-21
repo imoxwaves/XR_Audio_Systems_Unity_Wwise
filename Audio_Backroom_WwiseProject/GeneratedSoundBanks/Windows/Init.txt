@@ -24,14 +24,15 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2010806857	Room2_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Room2_Reverb	
+	2028971762	Room3_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Room3_Reverb	
 	3284497960	Room1_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Room1_Reverb	
 	3400062578	Tunnel_Reverb			\Default Work Unit\Master Audio Bus\Reverbs\Tunnel_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
-	618178639	Grabador	Wwise Recorder			
 	702543456	Tunnel1	Wwise Matrix Reverb			
 	1904434771	Medium_Room1	Wwise Matrix Reverb			
 	2662085913	Large_Church1	Wwise Matrix Reverb			
+	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

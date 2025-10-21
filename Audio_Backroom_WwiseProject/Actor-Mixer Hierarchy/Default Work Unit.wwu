@@ -1107,6 +1107,7 @@
 						<Sound Name="Tv_Sound" ID="{E6F035B7-C462-4F93-835A-552E9005F9B4}" ShortID="902446444">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1120,16 +1121,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{F8EA391E-636D-4CEA-9B74-B4B1675075F1}">
+								<AudioFileSource Name="Tv_Sound" ID="{DB769070-B0CF-4690-9D46-80232E42AE76}">
 									<Language>SFX</Language>
-									<AudioFile>Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</AudioFile>
+									<AudioFile>Tv_Sound\Tv_Sound.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="230218985"/>
+										<MediaID ID="976756086"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{F8EA391E-636D-4CEA-9B74-B4B1675075F1}" Platform="Linked"/>
+								<ActiveSource Name="Tv_Sound" ID="{DB769070-B0CF-4690-9D46-80232E42AE76}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

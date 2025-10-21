@@ -103,7 +103,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0EA5732D-CF4A-7B6F-0F9E-FC5B7D2C1E81}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C9509B1F-9BAE-00AE-4D43-B01E287194A0}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -170,10 +170,6 @@
 				<File Id="204756023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Casing\weapons_bullet_casing_02.wav</ShortName>
 					<CachePath>SFX/Gun_Casing/weapons_bullet_casing_02_7408F6CF.wem</CachePath>
-				</File>
-				<File Id="230218985" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Tv\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</ShortName>
-					<CachePath>SFX/Tv/The Backrooms - Level 1 (Found Footage) (128kbit_AAC)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="258821559" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Open\Door_Open_00.wav</ShortName>
@@ -398,6 +394,10 @@
 				<File Id="973781905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Casing\weapons_bullet_casing_01.wav</ShortName>
 					<CachePath>SFX/Gun_Casing/weapons_bullet_casing_01_9F06D27B.wem</CachePath>
+				</File>
+				<File Id="976756086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tv_Sound\Tv_Sound.wav</ShortName>
+					<CachePath>SFX/Tv_Sound/Tv_Sound_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1018939908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -628,9 +628,9 @@
 						<MediaRef Id="592505923"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="587876244" Name="Play_Tv_Sound" MaxAttenuation="10" DurationType="OneShot" DurationMin="66.75737" DurationMax="66.75737">
+				<Event Id="587876244" Name="Play_Tv_Sound" MaxAttenuation="10" DurationType="OneShot" DurationMin="63.785942" DurationMax="63.785942">
 					<MediaRefs>
-						<MediaRef Id="230218985"/>
+						<MediaRef Id="976756086"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3109981814" Name="Stop_Digital_Horror___AMB___Pulsating_breathe" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -658,5 +658,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6BC9F67A-EBA7-61ED-A564-76655358D127}</FileHash>
+	<FileHash>{D5FEAE45-E6ED-23F4-157E-42A08A519DE0}</FileHash>
 </SoundBanksInfo>

@@ -20752,7 +20752,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d7d944295c9348349a8fa17cc30c14c7,
+    WwiseObjectReference: {fileID: 11400000, guid: 88b5810967745da49bcf64be0b476db7,
       type: 2}
   useCallbacks: 1
   Callbacks:
@@ -60741,7 +60741,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944003706}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6cbe01c805f817b49b9e27d66e04728b, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: da2a621d1d2c5d14e913fa6aba576d1e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

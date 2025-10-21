@@ -871,7 +871,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a8d2f02e6d3aaf439445397d4491e32d
       Path: Events\Default Work Unit\Music\Play_Tv_On
-      maxAttenuation: 3
+      maxAttenuation: 10
       maxDuration: 63.38237
       minDuration: 63.38237
     - name: Play_Tv_Sound
@@ -891,9 +891,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: e13bf17d8f9f8d43b767ba23ea7a16ea
       Path: Events\Default Work Unit\Tv\Play_Tv_Sound
-      maxAttenuation: 3
-      maxDuration: 66.75737
-      minDuration: 66.75737
+      maxAttenuation: 10
+      maxDuration: 63.785942
+      minDuration: 63.785942
     - name: Snow_Field
       guid: 67136b231bd393448fb0fe34139a711c
       id: 2181731585
@@ -1325,7 +1325,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000001500000016000000180000001a0000001e0000002a00000000cc0a00ebb01200
+  ExpandedWaapiItemIds: 020000000300000004000000050000000600000007000000110000001500000016000000180000001a0000001e0000002a00000000cc0a00ebb01200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

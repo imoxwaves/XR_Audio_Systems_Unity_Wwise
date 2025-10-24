@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1D291561-C391-63B6-5CE7-E0F01E019332}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B56A34D9-D0E2-B320-FD2B-8AB905388CAC}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -72,6 +72,7 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed"/>
+				<GameParameter Id="1223728620" Name="Obstruction_Amount"/>
 				<GameParameter Id="3584521057" Name="Door_Speed"/>
 				<GameParameter Id="4113037199" Name="CorruptionDistance"/>
 			</GameParameters>
@@ -104,7 +105,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{72722153-01DA-B07A-D665-E7998E7153B8}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2EFE4EF0-9413-DD17-D14B-0B5C1EF7F9D8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -212,6 +213,14 @@
 					<ShortName>Footsteps_\Footsteps_Concrete_Wood_03.wav</ShortName>
 					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Wood_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="365336089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Floor\Pistol_Floor_00.wav</ShortName>
+					<CachePath>SFX/Gun_Floor/Pistol_Floor_00_0FA05A41.wem</CachePath>
+				</File>
+				<File Id="379009626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Floor\Pistol_Floor_01.wav</ShortName>
+					<CachePath>SFX/Gun_Floor/Pistol_Floor_01_6FD31447.wem</CachePath>
+				</File>
 				<File Id="399619189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_\Footsteps_Concrete_Water_00.wav</ShortName>
 					<CachePath>SFX/Footsteps_/Footsteps_Concrete_Water_00_4566372B.wem</CachePath>
@@ -291,6 +300,10 @@
 				<File Id="657987056" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2.wav</ShortName>
 					<CachePath>SFX/Gun_Out_Ammo/handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="664113006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Floor\Pistol_Floor_02.wav</ShortName>
+					<CachePath>SFX/Gun_Floor/Pistol_Floor_02_E0D3D66F.wem</CachePath>
 				</File>
 				<File Id="688274401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0.wav</ShortName>
@@ -407,6 +420,10 @@
 				<File Id="1050967210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magazine\Magazine_01.wav</ShortName>
 					<CachePath>SFX/Magazine/Magazine_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1059380494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun_Floor\Pistol_Floor.wav</ShortName>
+					<CachePath>SFX/Gun_Floor/Pistol_Floor_9CB34436.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -572,6 +589,14 @@
 						<MediaRef Id="1028858155"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1747398560" Name="Play_Pistol_Floor" DurationType="OneShot" DurationMin="0.22787069" DurationMax="0.4131134">
+					<MediaRefs>
+						<MediaRef Id="365336089"/>
+						<MediaRef Id="379009626"/>
+						<MediaRef Id="664113006"/>
+						<MediaRef Id="1059380494"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2393638833" Name="Play_Playground" DurationType="OneShot" DurationMin="500" DurationMax="500">
 					<MediaRefs>
 						<MediaRef Id="548883417"/>
@@ -645,6 +670,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed"/>
+				<GameParameter Id="1223728620" Name="Obstruction_Amount"/>
 				<GameParameter Id="3584521057" Name="Door_Speed"/>
 				<GameParameter Id="4113037199" Name="CorruptionDistance"/>
 			</GameParameters>
@@ -665,5 +691,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5C571078-0925-7B46-19B2-54DFB076BDCD}</FileHash>
+	<FileHash>{7731AFC2-DD4B-B605-3074-8700CBAE11D0}</FileHash>
 </SoundBanksInfo>

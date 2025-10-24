@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	945960111	Play_Casing			\Default Work Unit\Gun\Play_Casing	
 	1011724990	Play_Keys			\Default Work Unit\Door\Play_Keys	
 	1130015464	Stop_Tv_Off			\Default Work Unit\Music\Stop_Tv_Off	
+	1747398560	Play_Pistol_Floor			\Default Work Unit\Gun\Play_Pistol_Floor	
 	1784581504	Play_Digital_Horror___AMB___Pulsating_breathe			\Default Work Unit\Box\Play_Digital_Horror___AMB___Pulsating_breathe	
 	1865976120	Play_Tv_On			\Default Work Unit\Music\Play_Tv_On	
 	2172171349	Play_Bottle_Floor			\Default Work Unit\Bottle\Play_Bottle_Floor	
@@ -49,6 +50,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Default Work Unit\Speed	
+	1223728620	Obstruction_Amount			\Default Work Unit\Obstruction_Amount	
 	3584521057	Door_Speed			\Default Work Unit\Door_Speed	
 	4113037199	CorruptionDistance			\Default Work Unit\CorruptionDistance	
 
@@ -89,6 +91,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	341862758	Bluezone_BC0270_heaven_synth_atmosphere_004	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004_22FDC662.wem		\Actor-Mixer Hierarchy\Default Work Unit\Snow_Field\Bluezone_BC0270_heaven_synth_atmosphere_004		9600144
 	350757294	weapons_bullet_casing_03	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Casing\weapons_bullet_casing_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Casing\weapons_bullet_casing_03		73186
 	362115192	Footsteps_Concrete_Wood_03	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Footsteps_\Footsteps_Concrete_Wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Wood\Footsteps_Concrete_Wood_03		128012
+	365336089	Pistol_Floor_00	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Floor\Pistol_Floor_00_0FA05A41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Pistol_Floor\Pistol_Floor_00		53928
+	379009626	Pistol_Floor_01	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Floor\Pistol_Floor_01_6FD31447.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Pistol_Floor\Pistol_Floor_01		62728
 	399619189	Footsteps_Concrete_Water_00	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Footsteps_\Footsteps_Concrete_Water_00_4566372B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Wet\Footsteps_Concrete_Water_00		88628
 	415287806	Footsteps_Concrete_02	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Footsteps_\Footsteps_Concrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Concrete\Footsteps_Concrete_02		58060
 	429719201	Door_Open_02	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Door_Open\Door_Open_02_B3EE34D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Doors\Open_Door\Door_Open_02		160020
@@ -109,6 +113,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	640303633	Door_Squeak_03	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Door_Squeak\Door_Creeking_02_5BE7021F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Doors\Squeak_Door\Door_Squeak_03		266632
 	651352107	handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2_371C8064.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Slide_Back\handgun_semi-auto_9mm_Taurus_PT92A_foley_slide_pull_release_fast_2		20328
 	657987056	handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Out_of_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_2		253536
+	664113006	Pistol_Floor_02	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Floor\Pistol_Floor_02_E0D3D66F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Pistol_Floor\Pistol_Floor_02		40292
 	688274401	Game_Audio_101_ HiHat_120bpm4-4_L4M-P0	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Music_Interactive\Exported files\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Playground\Main\Game_Audio_101_ HiHat_120bpm4-4_L4M-P0		1411296
 	696761433	Footsteps_Concrete_Wood_00	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Footsteps_\Footsteps_Concrete_Wood_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Wood\Footsteps_Concrete_Wood_00		191972
 	715853023	Footsteps_Concrete_01	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Footsteps_\Footsteps_Concrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Concrete\Footsteps_Concrete_01		44068
@@ -138,4 +143,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1018939908	PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _E259FDD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\Step_2\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow		35014
 	1028858155	handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Out_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Out_of_Ammo\handgun_semi-auto_9mm_Taurus_PT92A_foley_dry_fire_1		263776
 	1050967210	Magazine_01	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Magazine\Magazine_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Magazine\Magazine\Magazine_01		61724
+	1059380494	Pistol_Floor	C:\Users\IMOX WIN\Imox-doc\Unity Audio Design\VR_Horror_HDRP\Audio_Backroom_WwiseProject\.cache\Mac\SFX\Gun_Floor\Pistol_Floor_9CB34436.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Pistol_Floor\Pistol_Floor		72968
 

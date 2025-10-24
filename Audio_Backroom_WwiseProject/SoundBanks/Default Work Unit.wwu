@@ -21,8 +21,10 @@
 						<ObjectRef Name="Stop_Tv_Off" ID="{C1B25AD1-13BB-4591-80C8-09102828B506}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Landing" ID="{34C52711-DF7E-470B-8DAD-F72B42C7E111}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Floor" ID="{FA59B0BA-8C38-47EC-A1DA-22D61285F154}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Casing" ID="{11C41EB7-F434-4911-99A2-41088E5289C2}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Magazine" ID="{B8F58311-3C79-4981-8634-6E9416895E30}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pistol_Floor" ID="{C02DC6E0-C4B0-4C8D-9DD4-BDF1A8E768EA}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Key_Insert" ID="{E01D27F3-E6B1-4C95-8ADE-53BD8C1B1FE7}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Open_Door" ID="{AE6CD883-E935-4CBA-8A84-4AF87F956E0B}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Close_Door" ID="{A332C54B-3C8B-4CE4-BE45-9CB71736AE00}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>

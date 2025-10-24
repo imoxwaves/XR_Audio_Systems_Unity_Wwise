@@ -2652,6 +2652,136 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Pistol_Floor" ID="{FA59B0BA-8C38-47EC-A1DA-22D61285F154}" ShortID="676453001">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Reverbs" ID="{A1A9B5C1-3307-452A-B27E-3620095465BC}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Pistol_Floor_02" ID="{AAD27AF2-F03F-449A-AF24-64F3425166C8}" ShortID="135565699">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pistol_Floor_02" ID="{911CF54F-FB0E-428B-8B28-BBDED7325226}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00779042518789108"/>
+												<Property Name="FadeOutShape" Type="int16" Value="7"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0318817011807553"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.259752383855269"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Floor\Pistol_Floor_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="664113006"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pistol_Floor_02" ID="{911CF54F-FB0E-428B-8B28-BBDED7325226}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pistol_Floor_01" ID="{160C928A-78E2-429F-8BD5-85CD96B9C08E}" ShortID="1037468155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pistol_Floor_01" ID="{F0DF227A-181D-4A30-8131-115F915F9109}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0197977663051638"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00527940434804369"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.201937216312671"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.556977158718609"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Floor\Pistol_Floor_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="379009626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pistol_Floor_01" ID="{F0DF227A-181D-4A30-8131-115F915F9109}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pistol_Floor_00" ID="{790E557F-533D-482D-B10E-E7A95CA3F655}" ShortID="254587289">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pistol_Floor_00" ID="{83E62145-4CD4-4475-9B0A-213BD383E86F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0258216201024836"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0575117902282588"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.362676391439428"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Floor\Pistol_Floor_00.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365336089"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pistol_Floor_00" ID="{83E62145-4CD4-4475-9B0A-213BD383E86F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pistol_Floor" ID="{3B634516-D29F-4853-A35B-4FD029BD971D}" ShortID="697511101">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pistol_Floor" ID="{A53E2BA2-4DD5-498B-B995-C46908F14793}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0197977663051638"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0263970217402184"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.192698258703595"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.605811648938013"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun_Floor\Pistol_Floor.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059380494"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pistol_Floor" ID="{A53E2BA2-4DD5-498B-B995-C46908F14793}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Inert_Door" ID="{9683509A-29B6-4317-B184-513D7A7E8B37}" ShortID="744589931">

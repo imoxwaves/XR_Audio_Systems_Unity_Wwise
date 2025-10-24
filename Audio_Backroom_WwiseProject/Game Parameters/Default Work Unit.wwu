@@ -11,6 +11,7 @@
 						<Property Name="Max" Type="Real64" Value="15"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Obstruction_Amount" ID="{2BFD0026-F605-4F73-8BB5-895071582E52}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

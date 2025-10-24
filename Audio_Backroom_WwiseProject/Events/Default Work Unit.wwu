@@ -329,6 +329,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Pistol_Floor" ID="{C02DC6E0-C4B0-4C8D-9DD4-BDF1A8E768EA}">
+							<ChildrenList>
+								<Action Name="" ID="{1F00AFE9-2DD8-4730-9C94-A14707CBEF85}" ShortID="165258628">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pistol_Floor" ID="{FA59B0BA-8C38-47EC-A1DA-22D61285F154}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bottle" ID="{0D39A485-1765-4364-B038-5853F69C0F9B}" ShortID="931716075">

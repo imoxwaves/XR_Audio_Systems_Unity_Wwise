@@ -231,7 +231,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584404280591410763
+    m_lastTime: -8584402729210620578
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -259,7 +259,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584404283448187647
+    m_lastTime: -8584402730743623399
     List:
     - name: Ambient
       guid: 34225ecd7bb77b4098618b2d3d53d4fe
@@ -734,6 +734,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.7466667
       minDuration: 2.64
+    - name: Play_Pistol_Floor
+      guid: e0c62dc0b0c48d4c9dd4bdf1a8e768ea
+      id: 1747398560
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c7babd41235969408cbcdd6a340808cb
+      - ElementName: Gun
+        ObjectType: 4
+        guid: dc2a890485912c40ac248c325c377d31
+      - ElementName: Play_Pistol_Floor
+        ObjectType: 3
+        guid: e0c62dc0b0c48d4c9dd4bdf1a8e768ea
+      Path: Events\Default Work Unit\Gun\Play_Pistol_Floor
+      maxAttenuation: 0
+      maxDuration: 0.4131134
+      minDuration: 0.22787069
     - name: Play_Playground
       guid: 89ffb4bdc8470240923f742cf4cfa625
       id: 2393638833
@@ -983,7 +1003,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4a65c3494adcc2489909266aaf8d1d72
     GuidInternal: 
-    m_lastTime: -8584403473516514737
+    m_lastTime: -8584402661489343542
     List:
     - name: CorruptionDistance
       guid: 4d6e927049d1f84fa848124524134a0b
@@ -1013,6 +1033,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: 651e5513a5d0d54ab015fbacd34f3fcf
       Path: Game Parameters\Default Work Unit\Door_Speed
+    - name: Obstruction_Amount
+      guid: 2600fd2b05f6734f8bb5895071582e52
+      id: 1223728620
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a65c3494adcc2489909266aaf8d1d72
+      - ElementName: Obstruction_Amount
+        ObjectType: 13
+        guid: 2600fd2b05f6734f8bb5895071582e52
+      Path: Game Parameters\Default Work Unit\Obstruction_Amount
     - name: Speed
       guid: 0e7a972dd012024fbf048aa9eabc94e0
       id: 640949982
@@ -1282,7 +1316,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 02000000030000000400000006000000070000000f000000110000001500000016000000180000001a0000001e00000022000000230000002a0000003a0100003b0100004401000000cc0a00ebb01200
+  ExpandedWaapiItemIds: 0300000004000000060000001100000016000000180000001a0000001e0000002100000022000000230000002a0000004600000047000000d7000000d8000000de0000003a0100003b0100004401000000cc0a00ebb01200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

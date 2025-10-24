@@ -5,6 +5,12 @@
 			<ChildrenList>
 				<GameParameter Name="Speed" ID="{2D977A0E-12D0-4F02-BF04-8AA9EABC94E0}"/>
 				<GameParameter Name="Door_Speed" ID="{13551E65-D0A5-4AD5-B015-FBACD34F3FCF}"/>
+				<GameParameter Name="CorruptionDistance" ID="{70926E4D-D149-4FF8-A848-124524134A0B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -188,35 +188,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Tv" ID="{3241D384-46E1-42B3-9A1D-1E6E0FB59E1F}" ShortID="454864053">
-					<ChildrenList>
-						<Event Name="Play_Tv_Sound" ID="{7DF13BE1-9F8F-438D-B767-BA23EA7A16EA}">
-							<ChildrenList>
-								<Action Name="" ID="{9EAC5756-91B6-4999-85AF-0FEEBAD70549}" ShortID="98751252">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Tv_Sound" ID="{E6F035B7-C462-4F93-835A-552E9005F9B4}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Tv_Sound" ID="{84A14CAB-A916-49D9-AC9B-B1C173B6A05E}">
-							<ChildrenList>
-								<Action Name="" ID="{B33466DA-4D51-47B0-A8E6-33EEFAD5FECC}" ShortID="767976602">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Tv_Sound" ID="{E6F035B7-C462-4F93-835A-552E9005F9B4}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Door" ID="{541608B6-9D19-497D-B1C6-24B1F66CF37B}" ShortID="826545391">
 					<ChildrenList>
 						<Event Name="Play_Squeak_Door" ID="{58B83312-8DF9-4E13-8C6B-A442DCEE7574}">

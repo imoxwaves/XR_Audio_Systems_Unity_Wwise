@@ -231,7 +231,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b5dbf933771434abcf12f27678f0c86
     GuidInternal: 
-    m_lastTime: -8584410327753755292
+    m_lastTime: -8584404280591410763
     List:
     - name: Main
       guid: 6eb0139db663c148bda88cab8fa270f7
@@ -259,7 +259,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c7babd41235969408cbcdd6a340808cb
     GuidInternal: 
-    m_lastTime: -8584410327753872099
+    m_lastTime: -8584404283448187647
     List:
     - name: Ambient
       guid: 34225ecd7bb77b4098618b2d3d53d4fe
@@ -872,26 +872,6 @@ MonoBehaviour:
         guid: a8d2f02e6d3aaf439445397d4491e32d
       Path: Events\Default Work Unit\Music\Play_Tv_On
       maxAttenuation: 10
-      maxDuration: 63.38237
-      minDuration: 63.38237
-    - name: Play_Tv_Sound
-      guid: e13bf17d8f9f8d43b767ba23ea7a16ea
-      id: 587876244
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c7babd41235969408cbcdd6a340808cb
-      - ElementName: Tv
-        ObjectType: 4
-        guid: 84d34132e146b3429a1d1e6e0fb59e1f
-      - ElementName: Play_Tv_Sound
-        ObjectType: 3
-        guid: e13bf17d8f9f8d43b767ba23ea7a16ea
-      Path: Events\Default Work Unit\Tv\Play_Tv_Sound
-      maxAttenuation: 10
       maxDuration: 63.785942
       minDuration: 63.785942
     - name: Snow_Field
@@ -991,43 +971,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Stop_Tv_Sound
-      guid: ab4ca18416a9d949ac9bb1c173b6a05e
-      id: 278480718
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c7babd41235969408cbcdd6a340808cb
-      - ElementName: Tv
-        ObjectType: 4
-        guid: 84d34132e146b3429a1d1e6e0fb59e1f
-      - ElementName: Stop_Tv_Sound
-        ObjectType: 3
-        guid: ab4ca18416a9d949ac9bb1c173b6a05e
-      Path: Events\Default Work Unit\Tv\Stop_Tv_Sound
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Tv
-      guid: 84d34132e146b3429a1d1e6e0fb59e1f
-      id: 1568083719
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c7babd41235969408cbcdd6a340808cb
-      - ElementName: Tv
-        ObjectType: 4
-        guid: 84d34132e146b3429a1d1e6e0fb59e1f
-      Path: Events\Default Work Unit\Tv
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1040,8 +983,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4a65c3494adcc2489909266aaf8d1d72
     GuidInternal: 
-    m_lastTime: -8584433696122172470
+    m_lastTime: -8584403473516514737
     List:
+    - name: CorruptionDistance
+      guid: 4d6e927049d1f84fa848124524134a0b
+      id: 4113037199
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a65c3494adcc2489909266aaf8d1d72
+      - ElementName: CorruptionDistance
+        ObjectType: 13
+        guid: 4d6e927049d1f84fa848124524134a0b
+      Path: Game Parameters\Default Work Unit\CorruptionDistance
     - name: Door_Speed
       guid: 651e5513a5d0d54ab015fbacd34f3fcf
       id: 3584521057
@@ -1325,7 +1282,7 @@ MonoBehaviour:
         guid: de114a87991e7f45a118253e4799bd16
       Path: Triggers\Default Work Unit\Top_Floor
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 020000000300000004000000050000000600000007000000110000001500000016000000180000001a0000001e0000002a00000000cc0a00ebb01200
+  ExpandedWaapiItemIds: 02000000030000000400000006000000070000000f000000110000001500000016000000180000001a0000001e00000022000000230000002a0000003a0100003b0100004401000000cc0a00ebb01200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

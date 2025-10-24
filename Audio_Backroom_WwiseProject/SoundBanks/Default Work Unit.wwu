@@ -12,7 +12,6 @@
 						<ObjectRef Name="Play_Open_Door" ID="{FD4CC99C-7218-419D-9959-87340A458990}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fired" ID="{B0E7DAA5-16FF-41EB-B3BB-BF34C46FA0AA}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Inert_Door" ID="{E0497894-5F74-4315-84D9-D18B31197BA5}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Tv_Sound" ID="{7DF13BE1-9F8F-438D-B767-BA23EA7A16EA}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Tv_On" ID="{2EF0D2A8-3A6D-43AF-9445-397D4491E32D}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Slide_Back" ID="{BD1E8F1D-4E9C-43C8-9778-4FCF40110672}" WorkUnitID="{F5595CA2-B646-4FD8-AB76-0F4267A7A0BE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Out_of_Ammo" ID="{A0B91CFE-8104-449C-A388-F8882DF1B8AB}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}" Origin="Manual" Filter="7"/>

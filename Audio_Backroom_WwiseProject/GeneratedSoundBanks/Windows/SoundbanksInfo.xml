@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{97037A01-21DE-8E87-11AF-B18A2AB2BEE1}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A00350BA-3D0F-2B2B-FACA-64764538AC07}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -73,6 +73,7 @@
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed"/>
 				<GameParameter Id="3584521057" Name="Door_Speed"/>
+				<GameParameter Id="4113037199" Name="CorruptionDistance"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1841922800" Name="Tunnel_Revervb">
@@ -103,7 +104,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C9509B1F-9BAE-00AE-4D43-B01E287194A0}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{72722153-01DA-B07A-D665-E7998E7153B8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -259,10 +260,6 @@
 					<ShortName>Footsteps_\Footsteps_Concrete_00.wav</ShortName>
 					<CachePath>SFX/Footsteps_/Footsteps_Concrete_00_10C4C929.wem</CachePath>
 				</File>
-				<File Id="592505923" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Tv_Sound\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</ShortName>
-					<CachePath>SFX/Tv_Sound/The Backrooms - Level 1 (Found Footage) (128kbit_AAC)_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="594111042" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Interactive\Exported files\Game_Audio_101_ Bass_120bpm4-4_L4M-P0.wav</ShortName>
 					<CachePath>SFX/Music_Interactive/Exported files/Game_Audio_101_ Bass_120bpm4-4_L4M-P0_D79FB2B7.wem</CachePath>
@@ -397,7 +394,7 @@
 				</File>
 				<File Id="976756086" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tv_Sound\Tv_Sound.wav</ShortName>
-					<CachePath>SFX/Tv_Sound/Tv_Sound_10C4C929.wem</CachePath>
+					<CachePath>SFX/Tv_Sound/Tv_Sound_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="1018939908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landing\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
@@ -415,8 +412,13 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="22117453" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="168316320" Name="Guitar Distortion (Custom)" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+					<Plugin Id="448205657" Name="Pitch Shifter (Custom)" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 					<Plugin Id="510623063" Name="Pitch Shifter (Custom)" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 				</Custom>
+				<ShareSets>
+					<Plugin Id="4202347640" Name="Repeat_after_me" LibName="Wwise Harmonizer" LibId="9043971"/>
+				</ShareSets>
 			</Plugins>
 			<Events>
 				<Event Id="2172171349" Name="Play_Bottle_Floor" DurationType="OneShot" DurationMin="0.54387754" DurationMax="0.6571655">
@@ -623,15 +625,19 @@
 						<ActionTriggerEntry Id="282632421" Name="Top_Floor"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="1865976120" Name="Play_Tv_On" MaxAttenuation="10" DurationType="OneShot" DurationMin="63.38237" DurationMax="63.38237">
-					<MediaRefs>
-						<MediaRef Id="592505923"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="587876244" Name="Play_Tv_Sound" MaxAttenuation="10" DurationType="OneShot" DurationMin="63.785942" DurationMax="63.785942">
+				<Event Id="1865976120" Name="Play_Tv_On" MaxAttenuation="10" DurationType="OneShot" DurationMin="63.785942" DurationMax="63.785942">
 					<MediaRefs>
 						<MediaRef Id="976756086"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="168316320"/>
+							<PluginRef Id="448205657"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="4202347640"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3109981814" Name="Stop_Digital_Horror___AMB___Pulsating_breathe" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3281358779" Name="Stop_Open_Door" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -640,6 +646,7 @@
 			<GameParameters>
 				<GameParameter Id="640949982" Name="Speed"/>
 				<GameParameter Id="3584521057" Name="Door_Speed"/>
+				<GameParameter Id="4113037199" Name="CorruptionDistance"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2150196036" Name="Doors">
@@ -658,5 +665,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{08F9874D-9AFD-D484-B702-76D31E7B7445}</FileHash>
+	<FileHash>{D319BD6E-D975-A1C1-3A5A-4DF123D23FE8}</FileHash>
 </SoundBanksInfo>

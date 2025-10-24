@@ -20698,6 +20698,7 @@ GameObject:
   - component: {fileID: 691887670}
   - component: {fileID: 691887666}
   - component: {fileID: 691887671}
+  - component: {fileID: 691887672}
   m_Layer: 0
   m_Name: TV_Sound
   m_TagString: Untagged
@@ -20752,7 +20753,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 88b5810967745da49bcf64be0b476db7,
+    WwiseObjectReference: {fileID: 11400000, guid: d7d944295c9348349a8fa17cc30c14c7,
       type: 2}
   useCallbacks: 1
   Callbacks:
@@ -20845,6 +20846,21 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &691887672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691887665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f8eddb4b26b9a4fae80c2916451ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rtpcName: CorruptionDistance
+  maxRTPCDistance: 6
+  updateFrequency: 0.2
 --- !u!1 &696326741
 GameObject:
   m_ObjectHideFlags: 0
@@ -60750,11 +60766,11 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
-  m_AspectRatio: 4
+  m_AspectRatio: 5
   m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 1
+  m_AudioOutputMode: 0
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:

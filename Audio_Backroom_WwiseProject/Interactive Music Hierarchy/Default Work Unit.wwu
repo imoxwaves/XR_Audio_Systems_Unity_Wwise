@@ -2520,7 +2520,7 @@
 				<MusicSegment Name="Tv_On" ID="{7D42E216-6FAC-4656-A6A0-F07BA299EFA5}" ShortID="603982418">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="EndPosition" Type="Real64" Value="63382.3696145125"/>
+						<Property Name="EndPosition" Type="Real64" Value="63785.9410430839"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -2529,28 +2529,123 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF84A421-52C0-430C-8CA8-3AF68B140671}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Guitar Distortion (Custom)" ID="{F0C57C42-E990-41DA-A260-22843B5C2DFF}" ShortID="168316320" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{03CBAFFC-BEB8-4010-BABF-07D8494A625B}" ShortID="31229971">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Rectification"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CorruptionDistance" ID="{70926E4D-D149-4FF8-A848-124524134A0B}" WorkUnitID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{C8B46B55-BF05-441A-B22D-77A491519191}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>15</XPos>
+																				<YPos>53.96826</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Pitch Shifter (Custom)" ID="{FA22D912-9D83-4194-B931-5920000CED8E}" ShortID="448205657" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{A323A48D-F936-43FB-B968-487938771602}" ShortID="411877216">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="CorruptionDistance" ID="{70926E4D-D149-4FF8-A848-124524134A0B}" WorkUnitID="{49C3654A-DC4A-48C2-9909-266AAF8D1D72}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{2640072F-69B8-4EFE-8BEC-A33A4B3C1AF5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>15</XPos>
+																				<YPos>-3054.54546</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect2" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+							<ObjectRef Name="Repeat_after_me" ID="{7A0568D0-BE8B-4233-B3E8-200344DB7AE0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music" ID="{41B03E0F-9B03-482A-A2A8-D47C3B9FE5D9}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
+							<ObjectRef Name="Reverbs" ID="{A1A9B5C1-3307-452A-B27E-3620095465BC}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="Sample_Tv_ (128kbit_AAC)" ID="{C1738472-5A66-40A4-A3B6-DF5AE1CF6553}" ShortID="474315211">
+						<MusicTrack Name="Tv_Sound" ID="{A1BC143A-FC5F-493B-9BC5-86BD8C43FFD7}" ShortID="130621327">
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F8B22C-CD9A-4FF2-9093-C2AF04F3AAF8}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{F28B2FED-593A-423D-8D71-83152222E3BA}">
+								<AudioFileSource Name="Tv_Sound" ID="{37846B68-0917-4AE7-A152-555162FB9903}">
 									<Language>SFX</Language>
-									<AudioFile>Tv_Sound\The Backrooms - Level 1 (Found Footage) (128kbit_AAC).wav</AudioFile>
+									<AudioFile>Tv_Sound\Tv_Sound.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="592505923"/>
+										<MediaID ID="976756086"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<TransitionList>
-								<MusicTransition Name="Root" ID="{420DF89E-B5E9-48CA-A78A-4702EF414F7A}">
+								<MusicTransition Name="Root" ID="{89611967-F899-44AE-AF8D-DDC9E3833444}">
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
@@ -2561,79 +2656,18 @@
 								<ObjectList Name="Sequences">
 									<Reference>
 										<Local>
-											<MusicTrackSequence Name="" ID="{71C858F1-6E07-4E0A-933C-5B65C1101F69}">
+											<MusicTrackSequence Name="" ID="{F3D353EF-E5BD-4E53-B6E2-60BD49355C71}">
 												<ObjectLists>
 													<ObjectList Name="Clips">
 														<Reference>
 															<Local>
-																<MusicClip Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{00C442B9-1459-4DD6-BCBB-5E5D06A28C0B}">
+																<MusicClip Name="Tv_Sound" ID="{1A3DDB97-C19C-4329-B550-519CF378A61C}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="3375"/>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="66757.3696145125"/>
-																		<Property Name="FadeInDuration" Type="Real64" Value="133.928571428571"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="699.404761904763"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-3375"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="63785.9410430839"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="The Backrooms - Level 1 (Found Footage) (128kbit_AAC)" ID="{F28B2FED-593A-423D-8D71-83152222E3BA}"/>
-																	<PropertyCurveList>
-																		<PropertyCurve PropertyName="Highpass">
-																			<Curve Name="" ID="{54E724F7-AD44-4150-9575-3C6738B69D6E}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="1"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>3.375</XPos>
-																						<YPos>0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>66.7573696145125</XPos>
-																						<YPos>0</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</PropertyCurve>
-																		<PropertyCurve PropertyName="Lowpass">
-																			<Curve Name="" ID="{D60C27C9-C911-45CC-9534-6184781C1209}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="1"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>3.375</XPos>
-																						<YPos>0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>66.7573696145125</XPos>
-																						<YPos>0</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</PropertyCurve>
-																		<PropertyCurve PropertyName="Volume">
-																			<Curve Name="" ID="{AACBD339-03F3-49FA-ACC0-E33297AFE6BF}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="3"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>3.375</XPos>
-																						<YPos>0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>66.7573696145125</XPos>
-																						<YPos>0</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</PropertyCurve>
-																	</PropertyCurveList>
+																	<AudioSourceRef Name="Tv_Sound" ID="{37846B68-0917-4AE7-A152-555162FB9903}"/>
 																</MusicClip>
 															</Local>
 														</Reference>

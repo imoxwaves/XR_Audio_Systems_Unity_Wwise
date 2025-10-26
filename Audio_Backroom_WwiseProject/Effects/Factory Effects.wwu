@@ -1745,6 +1745,12 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>-120</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
 																		<XPos>15</XPos>
 																		<YPos>15.61645</YPos>
 																		<Flags>37</Flags>

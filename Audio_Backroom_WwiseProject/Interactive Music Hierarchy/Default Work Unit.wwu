@@ -2553,8 +2553,14 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>0.79365</YPos>
 																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>0</Flags>
 																				<SegmentShape>Exp1</SegmentShape>
 																			</Point>
 																			<Point>
@@ -2604,8 +2610,14 @@
 																				<SegmentShape>Exp1</SegmentShape>
 																			</Point>
 																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
 																				<XPos>15</XPos>
-																				<YPos>-3054.54546</YPos>
+																				<YPos>-1626.44629</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -2720,10 +2732,11 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>80</YPos>
+																<YPos>85</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -2755,10 +2768,11 @@
 																<XPos>0</XPos>
 																<YPos>-0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-3.24038</YPos>
+																<YPos>-8</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>

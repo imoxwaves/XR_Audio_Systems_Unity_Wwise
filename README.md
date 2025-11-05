@@ -1,4 +1,18 @@
-# XR_Audio_Systems_Unity_Wwise
-This project demonstrates high-performance procedural audio systems built for an Extended Reality (XR) environment. We implemented a Dynamic Occlusion/Obstruction System (C# Raycasting) featuring a triple-state logic (Clear, Obstructed, Occluded) optimized with CPU throttling, alongside an RTPC Proximity System for modular audio corruption. The entire pipeline is Git-versioned, ensuring stability and technical rigor within the Unity/Wwise engine structure.
-Este proyecto simula un entorno de alto rendimiento en Realidad Extendida (XR), implementando sistemas de audio procedurales basados en código. Se desarrolló un sistema de Oclusión/Obstrucción Dinámica (C# Raycasting) con triple estado (Claro, Obstrucción, Oclusión), optimizado con throttling de CPU, y un RTPC por Proximidad para la corrupción modular del audio. Todo el pipeline está versionado en Git y construido para la estabilidad en el motor Unity con Wwise.
- 
+# XR_Audio_Systems_Unity_Wwise: Technical Sound Design Demo
+
+This repository demonstrates high-performance procedural audio systems built for an Extended Reality (XR) environment, showcasing C# logic and Wwise integration.
+
+ CORE TECHNICAL SYSTEMS
+
+Dynamic Occlusion/Obstruction (C# Raycasting):Implemented a robust C# system using dual Raycasting to differentiate between Obstructed and Occluded states. Optimized with CPU throttling to ensure stability in VR, the system sends a 3-state RTPC (0, 50, 100) to Wwise for dynamic LPF filtering.
+RTPC Proximity & Corruption: Uses C# scripting to calculate distance, feeding an RTPC to modulate the sound source's **Pitch and Distortion**, creating a smooth, tension-building corruption effect as the player moves away.
+
+ WWISE & ARCHITECTURE IMPLEMENTATION
+
+Spatialization & Environment Management: Utilizes Unity Triggers to control Wwise **Auxiliary Sends**, enabling seamless transition between distinct acoustic environments (Reverbs) for maximal immersion.
+Animation Synchronization & Foley Sequencing:** Audio events for player interaction (door open/close, keys) are precisely timed using **Animation Notifications**, ensuring high-quality *foley* synchronization managed by Wwise "Sequence Containers*".
+Performance & Memory Budgeting: Project architecture is optimized using segmented **SoundBanks** and event randomization to maintain a low memory footprint and stable CPU usage, a necessity for the target VR platform.
+
+Project Links
+[Link to your Video Reel]
+[Link to your LinkedIn Profile]

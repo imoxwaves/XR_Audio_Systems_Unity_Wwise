@@ -1,2 +1,4 @@
-# VR_Horror_HDRP
+# XR_Audio_Systems_Unity_Wwise
+This project demonstrates high-performance procedural audio systems built for an Extended Reality (XR) environment. We implemented a Dynamic Occlusion/Obstruction System (C# Raycasting) featuring a triple-state logic (Clear, Obstructed, Occluded) optimized with CPU throttling, alongside an RTPC Proximity System for modular audio corruption. The entire pipeline is Git-versioned, ensuring stability and technical rigor within the Unity/Wwise engine structure.
+Este proyecto simula un entorno de alto rendimiento en Realidad Extendida (XR), implementando sistemas de audio procedurales basados en código. Se desarrolló un sistema de Oclusión/Obstrucción Dinámica (C# Raycasting) con triple estado (Claro, Obstrucción, Oclusión), optimizado con throttling de CPU, y un RTPC por Proximidad para la corrupción modular del audio. Todo el pipeline está versionado en Git y construido para la estabilidad en el motor Unity con Wwise.
  

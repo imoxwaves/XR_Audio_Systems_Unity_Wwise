@@ -55,7 +55,7 @@ public class HVRWwiseGrabbable : MonoBehaviour
     {
         // Evita que el sonido se active constantemente por pequeños rebotes.
         // La magnitud de la velocidad del objeto es una buena medida.
-        if (collisionWwiseEvent != null && collision.relativeVelocity.magnitude > 0.5f)
+        if (collisionWwiseEvent != null && collision.relativeVelocity.magnitude > 2.0f)
         {
             collisionWwiseEvent.Post(gameObject);
         }

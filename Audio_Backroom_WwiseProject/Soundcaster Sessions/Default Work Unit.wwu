@@ -4,32 +4,18 @@
 		<WorkUnit Name="Default Work Unit" ID="{F51E2DBF-F470-45E5-A302-052D6BAD2156}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Main_Souncaster_Session" ID="{B4DAC90A-0F03-4E46-85BC-09D001806847}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_Footsteps" ID="{F566751F-BE8A-4FF2-AAC8-94BF3FEB5655}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Top_Floor" ID="{6C9A3AA4-9852-40B6-9F4A-DD82E1E20508}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_SnowField" ID="{584DBBB4-2043-470F-BD4F-9E4C63E5BFD0}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Playground" ID="{BDB4FF89-47C8-4002-923F-742CF4CFA625}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Magic_Cube" ID="{170AF22C-A3B1-44DA-BA75-468EA5E40129}" WorkUnitID="{41BDBAC7-5923-4069-8CBC-DD6A340808CB}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{2D977A0E-12D0-4F02-BF04-8AA9EABC94E0}"/>
 							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Obstruction_Amount" ID="{2BFD0026-F605-4F73-8BB5-895071582E52}"/>
+							<Value>72</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CorruptionDistance" ID="{70926E4D-D149-4FF8-A848-124524134A0B}"/>
+							<Value>4.5</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

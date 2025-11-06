@@ -1,4 +1,9 @@
 # XR_Audio_Systems_Unity_Wwise: Technical Sound Design Demo
+PROJECT CONTEXT & BASE FRAMEWORK
+
+This repository contains the C# scripting and Wwise integration required to implement a robust audio system for a VR environment.
+
+The project is built upon the **Hurricane VR Framework** for basic character movement and interactions. The primary focus of this repository is the **extension, adaptation, and optimization** of this base code to integrate advanced Wwise audio features, rather than core game logic development. All custom audio features are designed to be modular and decoupled from the base framework’s core mechanics.
 
 This repository demonstrates high-performance procedural audio systems built for an Extended Reality (XR) environment, showcasing C# logic and Wwise integration.
 

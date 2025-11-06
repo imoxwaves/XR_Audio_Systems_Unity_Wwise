@@ -36,6 +36,21 @@ Script Focus: VRPlayerFootsteps.cs
 
 This C# script implements a robust Timing-Based Footstep System, utilizing the Unity CharacterController for real-time velocity calculation. It dynamically adjusts the footstep cadence (interval) via Mathf.Lerp based on player speed, providing smooth transitions between walking and running sounds. Furthermore, it sends the player's velocity to a Wwise Global RTPC, proving integration expertise and an understanding of speed-dependent audio effects.
 
+## TECHNICAL APPROACH: EFFICIENCY AND TSD LOGIC
+
+This project emphasizes a performance-first approach, prioritizing robust C# logic and Wwise architecture over simple event posting.
+
+### Use of Productivity Tools
+
+Initial adaptation of the base Hurricane VR C# classes for Wwise event posting utilized AI assistance to enhance development efficiency and speed up the initial integration phase.
+
+all advanced audio logic and core TSD systems are original code written by the developer. This includes:
+-The Dual-Raycast Occlusion system (`AkObstruction_Raycast.cs`).
+-The speed/cadence logic (`VRPlayerFootsteps.cs`) utilizing `Mathf.Lerp`.
+-All CPU throttling and performance optimization logic.
+
+The goal was to demonstrate proficiency in extending existing codebases and creating high-value TSD features using modern development workflows.
+
 
 Project Links
 [Link to your Video Reel]

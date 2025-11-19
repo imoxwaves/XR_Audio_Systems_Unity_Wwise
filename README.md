@@ -23,7 +23,7 @@ Performance & Memory Budgeting: Project architecture is optimized using segmente
 
 -Procedural Audio Corruption System (RTPC Proximity)
 Script Focus: TvRTPC_Proximity.cs
-https://github.com/imoxwaves/XR_Audio_Systems_Unity_Wwise/blob/645ae1d34b09b2586e91482888c49e44831ceeae/Assets/Custom_Scripts/TvRTPC_Proximity.cs
+[TvRTPC_Proximity.cs](https://github.com/imoxwaves/XR_Audio_Systems_Unity_Wwise/blob/645ae1d34b09b2586e91482888c49e44831ceeae/Assets/Custom_Scripts/TvRTPC_Proximity.cs)
 
 This C# script dynamically calculates the distance between the VR player's head (listener) and a critical sound source. It implements CPU Throttling (updateFrequency = 0.2f) to optimize performance and sends a normalized value (0-100) to a Wwise RTPC. This system drives modular effects, allowing sound corruption (Pitch, Distortion) to scale smoothly with distance, proving an understanding of both Wwise API calls and VR performance consciousness.
 

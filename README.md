@@ -22,7 +22,7 @@ Performance & Memory Budgeting: Project architecture is optimized using segmente
 
 
 -Procedural Audio Corruption System (RTPC Proximity)
-Script Focus: TvRTPC_Proximity.cs
+Script Focus:
 [TvRTPC_Proximity.cs](https://github.com/imoxwaves/XR_Audio_Systems_Unity_Wwise/blob/645ae1d34b09b2586e91482888c49e44831ceeae/Assets/Custom_Scripts/TvRTPC_Proximity.cs)
 
 This C# script dynamically calculates the distance between the VR player's head (listener) and a critical sound source. It implements CPU Throttling (updateFrequency = 0.2f) to optimize performance and sends a normalized value (0-100) to a Wwise RTPC. This system drives modular effects, allowing sound corruption (Pitch, Distortion) to scale smoothly with distance, proving an understanding of both Wwise API calls and VR performance consciousness.
@@ -30,7 +30,7 @@ This C# script dynamically calculates the distance between the VR player's head 
 
 
 -Dynamic Occlusion/Obstruction System (C# Raycasting)
-Script Focus: AkObstruction_Raycast.cs
+Script Focus:
 [AkObstruction_Raycast.cs](https://github.com/imoxwaves/XR_Audio_Systems_Unity_Wwise/blob/645ae1d34b09b2586e91482888c49e44831ceeae/Assets/Custom_Scripts/Ak_Obstruction_Raycast.cs)
 
 This C# script implements a high-performance Dual-Raycast system to simulate realistic sound filtering in 3D space. It calculates three distinct states (Clear, Obstructed [50], Occluded [100]) and sends the result to the Wwise RTPC. The system features essential VR optimization via CPU Throttling and utilizes Unity's LayerMasks for precise obstruction detection, demonstrating expertise in physics-based audio engineering.
@@ -39,7 +39,7 @@ This C# script implements a high-performance Dual-Raycast system to simulate rea
 System Focus: Dynamic acoustic environment management using Wwise Auxiliary Busses and engine logic. Unity Triggers dynamically route sound emitters to specific Aux Busses. This architecture ensures seamless, CPU-efficient transitions between distinct acoustic spaces, proving control over spatialization and advanced Wwise routing practices.
 
 -Procedural Footstep Cadence System
-Script Focus: VRPlayerFootsteps.cs
+Script Focus:
 [VRPlayerFootsteps.cs](https://github.com/imoxwaves/XR_Audio_Systems_Unity_Wwise/blob/645ae1d34b09b2586e91482888c49e44831ceeae/Assets/VRPlayerFootsteps.cs)
 
 This C# script implements a Timing-Based Footstep System, utilizing the Unity CharacterController for real-time velocity calculation. It dynamically adjusts the footstep cadence (interval) via Mathf.Lerp based on player speed, providing smooth transitions between walking and running sounds. Furthermore, it sends the player's velocity to a Wwise Global RTPC, proving integration expertise and an understanding of speed-dependent audio effects.

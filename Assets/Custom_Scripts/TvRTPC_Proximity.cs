@@ -1,27 +1,37 @@
 using UnityEngine;
 
+// TSD Script: Controls an AkRTPC (Wwise Game Parameter) based on player proximity.
+// Purpose: To drive audio modulation (pitch, distortion, LPF) for the 'corruption' effect.
 public class TvRTPC_Proximity : MonoBehaviour
 {
-    // VARIABLES PÚBLICAS
-    // ---
-    public string rtpcName = "CorruptionDistance"; // Nombre del RTPC de Wwise
-    public float maxRTPCDistance = 15f;          // Rango máximo del RTPC (debe coincidir con tu Trigger)
-    public float updateFrequency = 0.2f;         // Optimización: Chequear 5 veces por segundo
+    // --- PUBLIC VARIABLES (Exposed in the Unity Inspector) ---
+    [Header("Wwise RTPC Settings")]
+    [Tooltip("The name of the Wwise Game Parameter (RTPC) to control. E.g., 'CorruptionDistance'")]
+    public string rtpcName = "CorruptionDistance";
 
-    // VARIABLES PRIVADAS
-    // ---
+    [Tooltip("The maximum distance for the RTPC range (0-100). Should match the attenuation or trigger range.")]
+    public float maxRTPCDistance = 15f;
+
+    [Header("Performance Optimization")]
+    [Tooltip("Frequency (in seconds) to check distance. 0.2f = 5 checks per second.")]
+    public float updateFrequency = 0.2f;
+
+    // --- PRIVATE VARIABLES (Internal Logic) ---
     private Transform playerCamera;
     private float nextUpdateTime;
 
     void Start()
     {
-        // Esto asume que la cámara principal es la "cabeza" del jugador VR
+        // Cache the main camera transform, which serves as the player's head (listener) in VR.
         playerCamera = Camera.main.transform;
+
+        // Ensure initial RTPC value is set to avoid audio glitches on scene load.
+        CalculateAndSendRTPC();
     }
 
     void Update()
     {
-        // Optimización: Solo calcula si ha pasado el tiempo necesario
+        // PERFORMANCE OPTIMIZATION: Implements throttling to save CPU cycles, critical for VR.
         if (Time.time >= nextUpdateTime)
         {
             CalculateAndSendRTPC();
@@ -31,18 +41,19 @@ public class TvRTPC_Proximity : MonoBehaviour
 
     void CalculateAndSendRTPC()
     {
+        // 1. Calculate the raw distance between the sound source (this GameObject) and the player's head.
         float distance = Vector3.Distance(transform.position, playerCamera.position);
 
-        // *******************************************************************
-    // LÍNEA MODIFICADA PARA INVERTIR LA LÓGICA:
-    // Ya NO restamos 1.0f - (...). Esto hace que:
-    // Cerca (distance=0)      -> distanceNormalized=0   -> RTPC=0 (NORMAL)
-    // Lejos (distance=Max)   -> distanceNormalized=1.0 -> RTPC=100 (CORRUPCIÓN)
-    // *******************************************************************
-        // Clamp01 asegura que el valor esté entre 0 y 1, independientemente de la distancia
+        // 2. Normalize the distance (converts range 0 to maxRTPCDistance into a 0.0 to 1.0 value).
+        // The closer the player is (distance=0), the lower the normalized value.
+        // The further the player is (distance=Max), the higher the normalized value (approaching 1.0).
         float distanceNormalized = Mathf.Clamp01(distance / maxRTPCDistance);
 
-        // Envía el valor al RTPC (0-100) en el GameObject del TV
-        AkSoundEngine.SetRTPCValue(rtpcName, distanceNormalized * 15f, gameObject);
+        // 3. Scale to Wwise range (0-100) and send to Wwise API.
+        // RTPC range is intentionally set to max 15. Standard Wwise is 0-100.
+        float rtpcValue = distanceNormalized * 15f;
+
+        // Send the final RTPC value to the Wwise Game Parameter, tied to this GameObject.
+        AkSoundEngine.SetRTPCValue(rtpcName, rtpcValue, gameObject);
     }
 }

@@ -1,34 +1,36 @@
 using UnityEngine;
-using AK.Wwise;
-
-// No se necesita un 'using' adicional para AkSoundEngine en la mayoría de las integraciones
-// modernas de Wwise/Unity, ya que la clase es globalmente accesible.
-
+// TSD Script: Implements dynamic sound occlusion and obstruction using dual Raycasting.
+// This is critical for realistic spatial audio filtering in large 3D environments.
 public class AkObstruction_Raycast : MonoBehaviour
 {
-    // VARIABLES PÚBLICAS (Aparecen en el Inspector)
-    // ---
+    // --- PUBLIC VARIABLES (Exposed for Designer Tuning in Inspector) ---
+    [Header("Wwise & System Settings")]
+    [Tooltip("The Wwise Game Parameter (RTPC) used to control filtering/volume.")]
     public string obstructionRTPCName = "ObstructionAmount";
-    public float maxDistance = 30f;
-    public float updateFrequency = 0.2f;
 
-    // ESTO GENERA el selector de capas en el Inspector
+    [Tooltip("Maximum distance for Raycast detection. Beyond this, audio is treated as Clear (0).")]
+    public float maxDistance = 30f;
+
+    [Tooltip("Layers that will obstruct or occlude the sound (e.g., Walls, Doors).")]
     public LayerMask obstructionMask;
 
-    // VARIABLES PRIVADAS
-    // ---
+    [Header("Performance Optimization")]
+    [Tooltip("Frequency (in seconds) to run the Raycast logic. Lower value = more CPU use.")]
+    public float updateFrequency = 0.2f;
+
+    // --- PRIVATE VARIABLES (Internal Logic) ---
     private Transform audioListener;
     private float nextUpdateTime;
 
     void Start()
     {
-        // En VR, la cámara principal es el listener (oyente)
+        // Cache the listener's transform (typically the Main Camera/Player Head in VR).
         audioListener = Camera.main.transform;
     }
 
     void Update()
     {
-        // Optimizacion: Solo corre la lógica del Raycast cada 0.2 segundos
+        // PERFORMANCE THREOTTLE: Only runs the expensive Physics.Raycast check at the defined frequency.
         if (Time.time >= nextUpdateTime)
         {
             CalculateObstruction();
@@ -37,65 +39,64 @@ public class AkObstruction_Raycast : MonoBehaviour
     }
 
     /// <summary>
-    /// Utiliza doble Raycast para detectar Obstrucción (bloqueo parcial) u Oclusión (bloqueo total).
-    /// Envía 0, 50 o 100 al RTPC de Wwise.
+    /// Uses a dual Raycast strategy to determine one of three states: Clear (0), Obstructed (50), or Occluded (100).
+    /// Sends the corresponding value to the designated Wwise RTPC.
     /// </summary>
     void CalculateObstruction()
     {
-        // 1. CÁLCULO DE VECTORES
+        // 1. DEFINE VECTORS
         Vector3 sourcePosition = transform.position;
         Vector3 listenerPosition = audioListener.position;
-
-        // Rayo del TV hacia el jugador
         Vector3 directionToListener = listenerPosition - sourcePosition;
         float distanceToListener = directionToListener.magnitude;
 
-        // Si el jugador está fuera del rango de detección, envía 0 RTPC y termina.
+        // Exit early if the listener is outside the detection range to save CPU.
         if (distanceToListener > maxDistance)
         {
             AkSoundEngine.SetRTPCValue(obstructionRTPCName, 0f, gameObject);
             return;
         }
 
-        float obstructionValue = 0f;
-        float occlusionValue = 0f;
+        // Initialize state variables (RTPC values for Wwise).
+        float obstructionRTPCValue = 0f; // 0 = Clear
+        float occlusionRTPCValue = 0f; // 0 = Clear
 
-        // 2. PRIMER RAYCAST: DETECCIÓN DE OBSTRUCCIÓN (Fuente -> Oyente)
-        // Detecta cualquier bloqueo entre el TV y el Player.
         RaycastHit hit;
 
+        // 2. FIRST RAYCAST: OBSTRUCTION CHECK (Source -> Listener)
+        // Detects any blockage between the sound emitter and the player.
         if (Physics.Raycast(sourcePosition, directionToListener, out hit, distanceToListener, obstructionMask))
         {
-            // Hay al menos un objeto bloqueando el sonido. Esto es Obstrucción (valor intermedio).
-            obstructionValue = 50f;
+            // If the ray hits, the sound is at least Obstructed (partial filtering).
+            obstructionRTPCValue = 50f;
         }
 
-        // 3. SEGUNDO RAYCAST: DETECCIÓN DE OCLUSIÓN (Oyente -> Fuente)
-        // Solo verificamos la Oclusión si ya detectamos Obstrucción para ahorrar CPU.
-        if (obstructionValue > 0f)
+        // 3. SECOND RAYCAST: OCCLUSION CHECK (Listener -> Source)
+        // Only check for full Occlusion if Obstrucion was already detected to save CPU cycles.
+        if (obstructionRTPCValue > 0f)
         {
-            // Rayo del jugador hacia el TV (dirección inversa)
             Vector3 directionToSource = sourcePosition - listenerPosition;
 
+            // Note: The second Raycast checks the inverse direction, ensuring line-of-sight is blocked both ways.
             if (Physics.Raycast(listenerPosition, directionToSource, out hit, distanceToListener, obstructionMask))
             {
-                // Si el sonido está bloqueado en ambos extremos (ida y vuelta), lo consideramos OCLUSIÓN TOTAL.
-                occlusionValue = 100f;
+                // If the ray hits from both ends, it's considered FULL OCCLUSION.
+                occlusionRTPCValue = 100f;
             }
         }
 
-        // 4. DECISIÓN FINAL Y ENVÍO A WWISE
-        // Prioriza el valor más alto: 100 > 50 > 0
-        float finalRTPCValue = Mathf.Max(obstructionValue, occlusionValue);
+        // 4. FINAL DECISION AND WWISE SEND
+        // Prioritize the highest value: 100 (Occlusion) > 50 (Obstruction) > 0 (Clear).
+        float finalRTPCValue = Mathf.Max(obstructionRTPCValue, occlusionRTPCValue);
 
+        // Sends the final RTPC value to the Wwise Game Parameter, tied to the emitter GameObject.
         AkSoundEngine.SetRTPCValue(obstructionRTPCName, finalRTPCValue, gameObject);
 
-        // 5. DEBUGGING (Colores para el Rayo)
-        Color rayColor = Color.green; // 0
-        if (occlusionValue > 0) rayColor = Color.red; // 100
-        else if (obstructionValue > 0) rayColor = Color.yellow; // 50
+        // 5. DEBUGGING: Visualizing the Raycast in the Editor (TSD best practice)
+        Color rayColor = Color.green; // Clear
+        if (occlusionRTPCValue > 0) rayColor = Color.red; // Occlusion
+        else if (obstructionRTPCValue > 0) rayColor = Color.yellow; // Obstruction
 
         Debug.DrawRay(sourcePosition, directionToListener, rayColor);
     }
-
-} // <--- ¡ESTE CORCHETE CIERRA LA CLASE Y EVITA EL ERROR CS1513!
+}

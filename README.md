@@ -62,4 +62,4 @@ The goal was to demonstrate proficiency in extending existing codebases and crea
 
 Project Links
 [https//:www.oscarperla.com]
-[[Link to your LinkedIn Profile](https://www.linkedin.com/in/oscarperlarojas/)]
+

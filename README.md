@@ -61,5 +61,5 @@ The goal was to demonstrate proficiency in extending existing codebases and crea
 
 
 Project Links
-[Link to your Video Reel]
-[Link to your LinkedIn Profile]
+[https//:www.oscarperla.com]
+[[Link to your LinkedIn Profile](https://www.linkedin.com/in/oscarperlarojas/)]
